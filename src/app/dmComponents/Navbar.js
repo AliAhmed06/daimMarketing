@@ -10,7 +10,7 @@ import { AiFillCaretDown } from "react-icons/ai";
 
 function NavBar({videoBg}) {
   const [navbar, setNavbar] = useState(false);
-  const [projectCaret, setProjectCaret] = useState(true);
+  const [projectCaret, setProjectCaret] = useState(false);
   {/* Get the current route */}
   const pathname = usePathname();
 
@@ -80,8 +80,8 @@ function NavBar({videoBg}) {
                   </div>
                   <div className={`
                       ${projectCaret == true ? 'block' : 'hidden'}
-                       top-10 left-5 bg-white text-black w-[250px] min-h-[50px] text-start flex flex-col rounded-md overflow-hidden
-                       md:absolute md:top-20
+                       top-10 left-5 bg-white text-black w-[250px] min-h-[50px] text-start flex flex-col rounded-md overflow-hidden border border-second
+                       md:absolute 
                   `}>
                     <Link href="/dayim-signature-apartments" className='text-xs  bg-white w-full h-[50px] flex items-center px-2 hover:bg-second hover:text-white border-b border-gray'>Dayim Signature Apartments</Link>                    
                   </div>
