@@ -160,7 +160,7 @@ const page = () => {
                             md:grid-cols-2 lg:grid-cols-3'>
                 <div className='bg-white shadow-md py-5 px-10 hover:bg-second group'>
                     <h3 className='font-semibold text-xl group-hover:text-white'>Excellence</h3>
-                    <p className='text-gray group-hover:text-white'>We are committed to excellence in everything we do. We strive to provide the highest quality services and exceed our client's expectations.</p>
+                    <p className='text-gray group-hover:text-white'>We are committed to excellence in everything we do. We strive to provide the highest quality services and exceed our client&apos;s expectations.</p>
                 </div>
                 <div className='bg-white shadow-md py-5 px-10 hover:bg-second group'>
                     <h3 className='font-semibold text-xl group-hover:text-white'>Integrity</h3>
@@ -195,7 +195,7 @@ const page = () => {
       >
        <div className='w-[80%] mx-auto py-20 space-y-5'>
           <h2 className='font-semibold text-4xl'>Meet Our Agents</h2>
-          <p className=' text-lg lg:w-[45%]'>Our team has handpicked a selection of Dubai's best residential and commercial real estate properties for you to buy or rent. Start exploring now!</p>
+          <p className=' text-lg lg:w-[45%]'>Our team has handpicked a selection of Pakistan&apos;s best residential and commercial real estate properties for you to buy. Start exploring now!</p>
           <HomeSlider2 />
        </div>
 

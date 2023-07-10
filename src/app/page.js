@@ -123,7 +123,7 @@ const page = () => {
               <img src="/images/dayimMarketing/logos/donut-chart-1.png" alt="" className='w-[40px] h-[40px] mx-auto mt-5' />
               <div className='flex flex-col items-start'>
                 <h3 className='text-center  font-bold text-xl mt-2'>Detailed Pricing Strategy</h3>
-                <p className='text-[#9e9e9e] mt-2'>The traditional market norm of “Average Pricing” consistently results in overpriced units remaining vacant while underpriced ones are unable to generate their optimum ROI.</p>
+                <p className='text-[#9e9e9e] mt-2'>The traditional market norm of Average Pricing consistently results in overpriced units remaining vacant while underpriced ones are unable to generate their optimum ROI.</p>
               </div>
             </div>            
           </div>
@@ -141,7 +141,7 @@ const page = () => {
       >
        <div className='w-[80%] mx-auto py-20 space-y-5'>
           <h2 className='font-semibold text-4xl'>Meet Our Agents</h2>
-          <p className=' text-lg lg:w-[45%]'>Our team has handpicked a selection of Dubai's best residential and commercial real estate properties for you to buy or rent. Start exploring now!</p>
+          <p className=' text-lg lg:w-[45%]'>Our team has handpicked a selection of Pakistan&apos;s best residential and commercial real estate properties for you to buy. Start exploring now!</p>
           <HomeSlider2 />
        </div>
 
