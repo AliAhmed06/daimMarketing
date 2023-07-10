@@ -4,10 +4,13 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 import { usePathname } from "next/navigation";
+import { BiSolidChevronDown } from "react-icons/bi";
+import { AiFillCaretDown } from "react-icons/ai";
+
 
 function NavBar({videoBg}) {
   const [navbar, setNavbar] = useState(false);
-  
+  const [projectCaret, setProjectCaret] = useState(true);
   {/* Get the current route */}
   const pathname = usePathname();
 
@@ -67,11 +70,23 @@ function NavBar({videoBg}) {
                     About Us
                   </Link>
                 </li>
-                {/* <li className={`${navbar ? 'text-black' : isScroll ? 'text-black' : videoBg == false ? 'text-black' : 'text-white' } pb-6 uppercase text-md font-semibold hover:underline ${pathname == "/residences" && "underline"} py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent`}>
-                  <Link href="/dayim-signature-apartments/residences" onClick={() => setNavbar(!navbar)}>
-                    Projects
-                  </Link>
-                </li> */}
+                <li className={`relative ${navbar ? 'text-black' : isScroll ? 'text-black' : videoBg == false ? 'text-black' : 'text-white' } pb-6 uppercase text-md font-semibold hover:underline ${pathname == "/residences" && "underline"} py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent`}>
+                  <div 
+                    onClick={(e)=> setProjectCaret(!projectCaret) }
+                    className={`flex items-center justify-center gap-2 cursor-pointer`}
+                  >
+                    <span>Projects</span>
+                    <AiFillCaretDown className={`transition duration-150 ${projectCaret == true ? "rotate-180" : 'rotate-0'}`} />
+                  </div>
+                  <div className={`
+                      ${projectCaret == true ? 'block' : 'hidden'}
+                       top-10 left-5 bg-white text-black w-[250px] min-h-[50px] text-start flex flex-col rounded-md overflow-hidden
+                       md:absolute md:top-20
+                  `}>
+                    <Link href="/dayim-signature-apartments" className='text-xs  bg-white w-full h-[50px] flex items-center px-2 hover:bg-second hover:text-white border-b border-gray'>Dayim Signature Apartments</Link>                    
+                  </div>
+
+                </li>
                 <li className={`${navbar ? 'text-black' : isScroll ? 'text-black' : videoBg == false ? 'text-black' : 'text-white' } pb-6 uppercase text-md font-semibold hover:underline ${pathname == "/contact" && "underline"} py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent`}>
                   <Link href="/contact" onClick={() => setNavbar(!navbar)}>
                     Contact Us
