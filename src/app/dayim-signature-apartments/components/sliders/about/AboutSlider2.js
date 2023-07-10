@@ -1,0 +1,100 @@
+"use client";
+import React, { useEffect, useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+
+// import icons
+import { IoIosArrowRoundBack, IoIosArrowRoundForward } from "react-icons/io";
+
+
+// Import Swiper styles
+import "swiper/swiper.min.css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+// import required modules
+import { Pagination } from "swiper";
+import Link from "next/link";
+
+export default function AboutSlider2() {
+    const [myIndex, setMyIndex] = useState(0);
+    const sliderRef = useRef();
+  
+    useEffect(() => {
+      sliderRef.current.swiper.slideTo(myIndex);
+    }, [myIndex]);
+    
+    function prevSlide(){
+        if(myIndex > 0){
+            setMyIndex(myIndex - 1);
+        }
+    }
+
+    function nextSlide(){
+        if(myIndex < 1){
+            setMyIndex(myIndex + 1);
+        }
+    }
+
+    return (
+    <div>        
+        <div className="h-[300px] w-[100%] mt-[-100px]
+                        md:h-[500px] md:mt-[0px]">
+            <Swiper
+                ref={sliderRef}  
+                breakpoints={{
+                    1024: { slidesPerView: 2},
+                }}
+                slidesPerView={1}
+                spaceBetween={40}
+                className="h-full w-full bg-transparent"
+            >        
+                <SwiperSlide >
+                    <div className="w-[100%] h-full">
+                        <img 
+                            src="/images/dsa/slider4_1.jpg" 
+                            alt="" 
+                            className="w-[100%] h-full object-cover" 
+                        />                        
+                    </div>
+                </SwiperSlide>
+
+                <SwiperSlide >
+                    <div className="w-[100%] h-full">
+                        <img 
+                            src="/images/dsa/slider4_2.jpg" 
+                            alt="" 
+                            className="w-[100%] h-[100%] object-cover" 
+                        />                        
+                    </div>
+                </SwiperSlide>
+
+                <SwiperSlide >
+                    <div className="w-[100%] h-full">
+                        <img 
+                            src="/images/dsa/slider4_3.jpg" 
+                            alt="" 
+                            className="w-[100%] h-[100%] object-cover" 
+                        />                        
+                    </div>
+                </SwiperSlide>
+
+               
+            </Swiper>
+        </div>
+
+        <div className="flex 
+                        md:gap-5">
+            <IoIosArrowRoundBack 
+                className={`text-6xl cursor-pointer ${myIndex == 0 ? 'text-gray' : 'text-second'}`} 
+                onClick={prevSlide}
+            />
+            <IoIosArrowRoundForward 
+                className={`text-6xl cursor-pointer ${myIndex == 1 ? 'text-gray' : 'text-second'}`} 
+                onClick={nextSlide}
+            />
+        </div>
+    </div>
+  );
+}
