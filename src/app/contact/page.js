@@ -87,9 +87,6 @@ function Contact() {
             <h3 className='font-bold text-lg mt-5'>Al-Kabir Office:</h3>
             <p className='text-sm'>9-A, 1st/F Main Commercial, Al-Kabir Town Phase 2, Lahore.</p>
 
-            <h3 className='font-bold text-lg mt-5'>Project Site:</h3>
-            <p className='text-sm'>46-47, A Side Broadway Commercial Opposite Lake City, Lahore.</p>
-
             <h3 className='font-bold text-lg mt-5'>US Office:</h3>
             <p className='text-sm'>Suite # 368, 30 Lake Avenue Riverhead, NY, 11901.</p>
 

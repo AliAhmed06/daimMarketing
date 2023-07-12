@@ -6,6 +6,7 @@ import Link from 'next/link';
 import HomeSlider1 from './dmComponents/sliders/HomeSlider1';
 import HomeSlider2 from './dmComponents/sliders/HomeSlider2';
 import MainFooter from './dmComponents/footer/MainFooter';
+import DiscoverSection from './dmComponents/home/DiscoverSection';
 
 
 const page = () => {
@@ -69,8 +70,14 @@ const page = () => {
         initial="hide"
         whileInView="show"
         variants={b_t_animation}        
-      >
-        <HomeSlider1 />
+      >        
+        <DiscoverSection 
+          heading={"Discover Our New Selection Properties"}
+          subHeading={"CHOOSE FROM DIFFERENT LISTING TYPE, SIZE AND VIEW."}
+          link={"/dayim-signature-apartments"}
+          bgImage={"/images/dsa/building_bg3.jpg"}
+          linkTitle={"Explore"}
+        />
       </motion.section>
 
       <motion.section 

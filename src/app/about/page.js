@@ -29,13 +29,11 @@ const page = () => {
 
       <div className='h-[400px] w-full bg-[url("/images/dayimMarketing/about/about-bg.jpg")] bg-no-repeat bg-cover bg-center 
                       md:h-[500px] '>        
-        {/* <div className='flex items-center top-0 h-full w-full px-[5%] '> */}
           <div className='mx-auto flex flex-col items-center justify-center gap-5 h-full w-full'>
             <h2 className='text-white font-bold  w-full text-2xl text-center  
                             lg:text-4xl md:text-3xl '>About Us</h2>
             <p className='text-white text-2xl text-center'>Welcome to Dayim Marketing</p>            
-          </div>
-        {/* </div> */}
+          </div>        
       </div>
 
       <motion.section 
@@ -46,7 +44,8 @@ const page = () => {
                   lg:w-[80%] lg:mt-[-200px]'
       >
        <div className='bg-white z-20 shadow-md p-5'>
-          <div className='grid grid-cols-1 gap-10 mt-5 px-[20px]
+          <h2 className='text-center font-bold text-3xl'>Services</h2>
+          <div className='grid grid-cols-1 gap-10 mt-5 px-[20px] 
                           md:grid-cols-2 lg:grid-cols-3 '>
             <div className='py-3 px-5 flex gap-5'>              
               <img src="/images/dayimMarketing/logos/balance.png" alt="" className='w-[40px] h-[40px] mx-auto mt-5' />

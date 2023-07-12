@@ -11,6 +11,7 @@ import { AiFillCaretDown } from "react-icons/ai";
 function NavBar({videoBg}) {
   const [navbar, setNavbar] = useState(false);
   const [projectCaret, setProjectCaret] = useState(false);
+  const [societiesCaret, setSocietiesCaret] = useState(false);
   {/* Get the current route */}
   const pathname = usePathname();
 
@@ -72,7 +73,7 @@ function NavBar({videoBg}) {
                 </li>
                 <li className={`relative ${navbar ? 'text-black' : isScroll ? 'text-black' : videoBg == false ? 'text-black' : 'text-white' } pb-6 uppercase text-md font-semibold hover:underline ${pathname == "/residences" && "underline"} py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent`}>
                   <div 
-                    onClick={(e)=> setProjectCaret(!projectCaret) }
+                    onClick={(e)=> {setProjectCaret(!projectCaret); setSocietiesCaret(false) } }
                     className={`flex items-center justify-center gap-2 cursor-pointer`}
                   >
                     <span>Projects</span>
@@ -80,13 +81,34 @@ function NavBar({videoBg}) {
                   </div>
                   <div className={`
                       ${projectCaret == true ? 'block' : 'hidden'}
-                       top-10 left-5 bg-white text-black w-[250px] min-h-[50px] text-start flex flex-col rounded-md overflow-hidden border border-second
+                       top-10 left-5 bg-white text-black w-[250px] min-h-[50px] text-start flex flex-col rounded-md overflow-hidden md:border md:border-second
                        md:absolute 
                   `}>
                     <Link href="/dayim-signature-apartments" className='text-xs  bg-white w-full h-[50px] flex items-center px-2 hover:bg-second hover:text-white border-b border-gray'>Dayim Signature Apartments</Link>                    
                   </div>
 
                 </li>
+
+                <li className={`relative ${navbar ? 'text-black' : isScroll ? 'text-black' : videoBg == false ? 'text-black' : 'text-white' } pb-6 uppercase text-md font-semibold hover:underline ${pathname == "/residences" && "underline"} py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent`}>
+                  <div 
+                    onClick={(e)=> {setSocietiesCaret(!societiesCaret); setProjectCaret(false) } }
+                    className={`flex items-center justify-center gap-2 cursor-pointer`}
+                  >
+                    <span>Societies</span>
+                    <AiFillCaretDown className={`transition duration-150 ${societiesCaret == true ? "rotate-180" : 'rotate-0'}`} />
+                  </div>
+                  <div className={`
+                      ${societiesCaret == true ? 'block' : 'hidden'}
+                       top-10 left-5 bg-white text-black w-[250px] min-h-[50px] text-start flex flex-col rounded-md overflow-hidden md:border md:border-second
+                       md:absolute 
+                  `}>
+                    <Link href="/societies/bahria-town" className='text-xs  bg-white w-full h-[50px] flex items-center px-2 hover:bg-second hover:text-white border-b border-gray'>Bahria Town</Link>                    
+                    <Link href="/societies/park-view-city" className='text-xs  bg-white w-full h-[50px] flex items-center px-2 hover:bg-second hover:text-white border-b border-gray'>Park View City</Link>                    
+                    <Link href="/societies/al-kabir-town" className='text-xs  bg-white w-full h-[50px] flex items-center px-2 hover:bg-second hover:text-white border-b border-gray'>Al-Kabir Town</Link>                    
+                  </div>
+
+                </li>
+
                 <li className={`${navbar ? 'text-black' : isScroll ? 'text-black' : videoBg == false ? 'text-black' : 'text-white' } pb-6 uppercase text-md font-semibold hover:underline ${pathname == "/contact" && "underline"} py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent`}>
                   <Link href="/contact" onClick={() => setNavbar(!navbar)}>
                     Contact Us

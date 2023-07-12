@@ -1,0 +1,33 @@
+import Link from 'next/link'
+import React from 'react'
+
+const DiscoverSection = ({heading, subHeading, link, linkTitle, bgImage}) => {
+  return (
+    <div className="h-[400px] w-full relative
+                      md:h-[500px] lg:h-[700px]">
+        <div className="absolute h-full w-[95%] flex items-center justify-start z-10
+                md:w-[40%]">
+            <div className="h-full w-[65%] bg-white bg-opacity-70">
+
+            </div>
+            <div className="h-[400px] w-[400px] bg-black ml-[-200px] p-16 text-white">
+                <h2 className="text-4xl font-semibold">{heading}</h2>
+                <p className="text-md mt-5 mb-10">{subHeading} </p>
+                { link && (
+                    <Link href={link} className=" py-3 px-8 rounded-md border border-white hover:scale-110 hover:bg-white hover:text-black transition">{linkTitle}</Link>
+                )}
+            </div>
+
+        </div>
+        <div className="w-full h-full flex flex-col items-center justify-center">                        
+            <img 
+                src={bgImage} 
+                alt="" 
+                className="w-full h-full object-cover object-center hidden md:block" 
+            />                        
+        </div>
+    </div>
+  )
+}
+
+export default DiscoverSection
