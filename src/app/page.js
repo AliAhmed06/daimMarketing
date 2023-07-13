@@ -3,7 +3,6 @@ import React from 'react'
 import NavBar from './dmComponents/Navbar'
 import {motion} from 'framer-motion'
 import Link from 'next/link';
-import HomeSlider1 from './dmComponents/sliders/HomeSlider1';
 import HomeSlider2 from './dmComponents/sliders/HomeSlider2';
 import MainFooter from './dmComponents/footer/MainFooter';
 import DiscoverSection from './dmComponents/home/DiscoverSection';
