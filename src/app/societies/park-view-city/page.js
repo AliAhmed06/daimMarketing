@@ -151,7 +151,7 @@ function Contact() {
         whileInView="show"
         variants={b_t_animation}
         className='w-full p-5 mb-10'>
-          <h3 className='text-5xl text-second font-bold text-center my-10 '>Available Amenities for Each Block</h3>
+          <h3 className='text-4xl text-second font-bold text-center my-10 '>Available Amenities for Each Block</h3>
           
           <div className='p-5'>
             <div className='grid grid-cols-1 items-center 
