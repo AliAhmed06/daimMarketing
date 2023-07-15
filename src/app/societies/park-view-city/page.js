@@ -6,8 +6,8 @@ import DiscoverSection from '@/app/dmComponents/home/DiscoverSection';
 import {motion} from 'framer-motion'
 
 import Link from 'next/link'
-import ParkViewSlider1 from './Slider1';
 import AmenitiesItem from './AmenitiesItem';
+import TextSlider from '@/app/dmComponents/sliders/TextSlider';
 
 
 
@@ -128,7 +128,27 @@ function Contact() {
         className='w-[90%] mx-auto'      
       >        
         <h3 className='font-bold text-4xl text-center text-second'>Developed Blocks </h3>
-        <ParkViewSlider1 />
+        <TextSlider data={[
+              {'title':'Tulip Block'},
+              {'title':'Jade Block'},
+              {'title':'Rose Block'},
+              {'title':'Topaz Block'},
+              {'title':'Orchard Block'},
+              {'title':'Jasmine Block'},
+              {'title':'Platinum Block'},
+              {'title':'Diamond Block'},
+              {'title':'Executive Block'},
+              {'title':'Overseas Block'},
+              {'title':'Tulip Overseas Block'},
+              {'title':'Golf Estate Block'},
+              {'title':'Sapphire Block'},
+              {'title':'Pearl Block '},
+              {'title':'Silver Block'},
+              {'title':'Crystal Block'},
+              {'title':'Broadway Commercial'},
+              {'title':'Signature Apartments'},
+              {'title':'The Walk'},              
+            ]} />
       </motion.section>
 
       <motion.section

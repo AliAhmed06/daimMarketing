@@ -6,7 +6,7 @@ import {motion} from 'framer-motion'
 
 import Link from 'next/link'
 import AmenitiesItem from '../../park-view-city/AmenitiesItem';
-import AlKabirPhase1Slider1 from './Slider1';
+import TextSlider from '@/app/dmComponents/sliders/TextSlider';
 
 
 
@@ -130,7 +130,15 @@ function Contact() {
       >        
         <div className='w-[90%] mx-auto'>
             <h3 className='font-bold text-4xl text-center text-second'>Key Transport</h3>
-            <AlKabirPhase1Slider1 />    
+            <TextSlider data={[
+              {'title':'Bahria Town'},
+              {'title':'Supermarket'},
+              {'title':'Airport'},
+              {'title':'Hospital'},
+              {'title':'Bank'},
+              {'title':'University'},
+              {'title':'Bus Station'},
+            ]} />
         </div>        
       </motion.section>
       
