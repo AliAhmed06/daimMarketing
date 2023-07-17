@@ -7,7 +7,8 @@ import {motion} from 'framer-motion'
 import Link from 'next/link'
 import AmenitiesItem from '../../park-view-city/AmenitiesItem';
 import TextSlider from '@/app/dmComponents/sliders/TextSlider';
-import BoxItem from './BoxItem';
+import BoxItem from '@/app/dmComponents/BoxItem';
+
 
 
 
