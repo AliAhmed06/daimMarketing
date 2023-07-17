@@ -66,7 +66,7 @@ function Page() {
                           Kings Town, a residential estate in Lahore developed by Al-Kabir Developers. It appears to be a well-planned and economically viable housing scheme, offering 3 & 5 Marla Residential Plots, fully constructed houses, and various commercial plots.<br />
                           The success of previous projects by Al-Kabir Developers, such as Al-Kabir Town Phase-I and Phase-II, adds to the credibility of Kings Town, which is considered Phase-III of Al-Kabir Town. The developers have recently launched Kings Town sector B, indicating further expansion of the project. They have also introduced a new payment plan specifically for the 3 Marla commercial plots in Sector B.<br />
                           One significant aspect of Kings Town is its authenticity, as it is approved by the Lahore Development Authority (LDA). This approval ensures that the project meets the necessary standards and regulations. Furthermore, Al-Kabir Developers guarantee timely delivery of the project, instilling confidence in potential buyers and investors.<br />
-                          The town's design focuses on the convenience of residents, with ongoing construction work assigning plots and constructing quality houses equipped with essential amenities.<br />
+                          The towns design focuses on the convenience of residents, with ongoing construction work assigning plots and constructing quality houses equipped with essential amenities.<br />
                           The location of Kings Town is highly accessible, featuring wide roads, well-managed streets, and aesthetically pleasing architecture. Al-Kabir Developers have launched this project with the aim of providing comprehensive facilities and a comfortable living experience for their customers. 
                         </p>
       </motion.section> 
@@ -142,7 +142,7 @@ function Page() {
         <h3 className='text-4xl font-semibold text-center'>A Project of Al Kabir Developers </h3>
         <p className=' text-xl text-gray text-justify w-[80%]
                         lg:w-[60%]'>
-                            It's great to hear that Al-Kabir Developers have successfully delivered Phase-I and Phase-II of Al-Kabir Town before the allotted time, and Phase-III (Kings Town) was also delivered on schedule. The development of Sector B is progressing at a fast pace, indicating the commitment of the developers to timely completion. <br />
+                            It is great to hear that Al-Kabir Developers have successfully delivered Phase-I and Phase-II of Al-Kabir Town before the allotted time, and Phase-III (Kings Town) was also delivered on schedule. The development of Sector B is progressing at a fast pace, indicating the commitment of the developers to timely completion. <br />
                             The location feasibility, safe premises, and the reputation of the developers contribute to the authenticity and appeal of these projects. The trust and confidence of prestigious customers are enhanced by the renowned name of the developers. Al-Kabir Developers have established themselves as skilled professionals in the real estate industry in Pakistan. Their understanding of the market and customer preferences enables them to deliver what their customers desire.<br />
                             The combination of location, offerings, and residential experience provided by Al-Kabir Developers makes their projects some of the best property deals available in Lahore. The team of architects, engineers, and workers employed by the developers is dedicated to building and redefining the residential infrastructure of the city.<br />
                             In addition to Al-Kabir Town and Kings Town, Al-Kabir Developers have another esteemed project called Maryam Town, located on main Raiwind Road in Lahore. This further showcases their presence and commitment to transforming the real estate landscape in Pakistan. They strive to be innovators in the industry, bringing new ideas and approaches to their projects.<br />
@@ -160,7 +160,7 @@ function Page() {
                         lg:w-[60%]'>
           <h3 className='font-bold text-4xl '>Kings Town Lahore Accessibility</h3>
           <p className='text-gray'>
-            People nowadays opt-out for such housing societies that are accessible and are present in a mainstream area of the city. King's town Lahore has kicked the ball out of the park in the context of location. It is located in close proximity to Bahria Orchard as well as Maryam Town. In addition to all this housing society is equipped with all the amenities that are needed.
+            People nowadays opt-out for such housing societies that are accessible and are present in a mainstream area of the city. Kings town Lahore has kicked the ball out of the park in the context of location. It is located in close proximity to Bahria Orchard as well as Maryam Town. In addition to all this housing society is equipped with all the amenities that are needed.
             Furthermore, Al Kabir town is located at a 2 min drive away from Raiwind City. Some other key landmarks that are available in the same area are:             
           </p>          
           <ul className='ml-[50px] list-disc text-gray'>
