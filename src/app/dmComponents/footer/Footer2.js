@@ -26,7 +26,7 @@ function Footer2() {
       whileInView="show"
       variants={b_t_animation}
     >
-        <div className='bg-white grid grid-cols-1 p-10 text-second
+        <div className='bg-white grid grid-cols-1 p-10 text-black
                     md:p-32 md:grid-cols-2 lg:grid-cols-4'>
           <div>
             <img src="/images/dayimMarketing/dayim_logo_golden.png" alt="" className='h-[150px] ' />
@@ -57,7 +57,7 @@ function Footer2() {
 
 
         <div>
-          <p className='text-center p-10 bg-second text-white font-bold'>© 2023. All Rights Reserved</p>
+          <p className='text-center p-10 bg-black text-white font-bold'>© 2023. All Rights Reserved</p>
         </div>
     </motion.div>
   )

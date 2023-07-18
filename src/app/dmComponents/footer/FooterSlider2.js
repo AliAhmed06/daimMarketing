@@ -62,7 +62,10 @@ export default function FooterSlider2() {
                             <h3 className=" mt-10 text-xl ">As a young real estate CEO, I have a positive and optimistic vision when it comes to the young generation joining the real estate industry. I believe that their participation can bring fresh perspectives, innovative ideas, and a dynamic energy that can drive the industry forward.</h3>
                             <h3 className="mt-20 text-xl font-bold text-second">Waleed Ahmad</h3>
                             <p className="text-xl font-bold text-second mt-5">CEO</p>                            
-                            <p className="text-xl font-bold text-second">Dayim Marketing</p>
+                            <p className="text-xl font-bold text-second mb-2">Dayim Marketing</p>
+                            <Link href="https://www.linkedin.com/in/ceo-dayimmarketing/" target='_blank' >
+                                <img src="/images/dsa/icons/linkedin.svg" alt="" className='w-[30px] h-[30px] hover:scale-110' />
+                            </Link> 
                         </div>                     
                     </div>
                 </SwiperSlide>
@@ -84,7 +87,10 @@ export default function FooterSlider2() {
                             <h3 className="text-xl mt-10 ">At Dayim Marketing, we believe in the power of collaboration and building long-term relationships based on trust and integrity. Our experienced agents and staff are here to guide you through every step of your real estate journey, offering valuable insights, personalized advice, and a deep understanding of the local market.</h3>
                             <h3 className="mt-14 text-xl font-bold text-second">Ubaid Ullah</h3>
                             <p className="text-xl font-bold text-second mt-5">Director</p>                   
-                            <p className="text-xl font-bold text-second">Dayim Marketing</p>         
+                            <p className="text-xl font-bold text-second mb-2">Dayim Marketing</p>         
+                            <Link href="https://www.linkedin.com/in/sheikh-ubaid-36364a254/" target='_blank' >
+                                <img src="/images/dsa/icons/linkedin.svg" alt="" className='w-[30px] h-[30px] hover:scale-110' />
+                            </Link>
                         </div>                     
                     </div>
                 </SwiperSlide>

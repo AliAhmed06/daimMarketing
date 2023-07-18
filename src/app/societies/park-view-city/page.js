@@ -162,6 +162,7 @@ function Contact() {
           link={"/contact"}
           bgImage={"/images/dayimMarketing/societies/parkView/img4.png"}
           linkTitle={"Contact Us"}
+          mapLink={"https://goo.gl/maps/R1S6NpfHsvM5bAcG9"}
         />
       </motion.section>
 
@@ -229,7 +230,7 @@ function Contact() {
       </motion.section>
 
 
-      <motion.section 
+      {/* <motion.section 
         initial="hide"
         whileInView="show"
         variants={b_t_animation}
@@ -270,7 +271,7 @@ function Contact() {
                 </div>                
             </div>
         </div>
-      </motion.section>
+      </motion.section> */}
 
       {/* Footer starts */}
       <footer className=''>

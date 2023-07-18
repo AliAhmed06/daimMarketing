@@ -122,7 +122,7 @@ const page = () => {
               <img src="/images/dayimMarketing/logos/bar-chart-board.png" alt="" className='w-[40px] h-[40px] mx-auto mt-5' />
               <div className='flex flex-col items-start'>
                 <h3 className='text-center  font-bold text-xl mt-2'>Property Market Research</h3>
-                <p className='text-[#9e9e9e] mt-2'>The Market Research Department of Seven Stones Real Estate is closely monitoring the property market, keeping in touch with the prevailing conditions and identifying trends.</p>
+                <p className='text-[#9e9e9e] mt-2'>The Market Research Department of Dayim Marketing Real Estate is closely monitoring the property market, keeping in touch with the prevailing conditions and identifying trends.</p>
               </div>
             </div>
             <div className='py-3 px-5 flex gap-5'>              
@@ -146,7 +146,7 @@ const page = () => {
         className='bg-[#f7f7f7]'
       >
        <div className='w-[80%] mx-auto py-20 space-y-5'>
-          <h2 className='font-semibold text-4xl'>Meet Our Agents</h2>
+          <h2 className='font-semibold text-4xl text-second hover:text-black'>Meet Our Agents</h2>
           <p className=' text-lg lg:w-[45%]'>Our team has handpicked a selection of Pakistan&apos;s best residential and commercial real estate properties for you to buy. Start exploring now!</p>
           <HomeSlider2 />
        </div>

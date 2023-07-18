@@ -121,6 +121,7 @@ function Contact() {
           link={"/contact"}
           bgImage={"/images/dayimMarketing/societies/bahriaTown/masjid.jpg"}
           linkTitle={"Contact Us"}
+          mapLink={"https://goo.gl/maps/6iLdRNcQfPePhNSy5"}
         />
       </motion.section>
 
@@ -316,7 +317,7 @@ function Contact() {
           <img 
             src="/images/dayimMarketing/societies/bahriaTown/sectorF.jpg" 
             alt="" 
-            className='w-full h-full object-cover'
+            className='h-full object-cover'
           />
         </div>
         <div className='flex flex-col   

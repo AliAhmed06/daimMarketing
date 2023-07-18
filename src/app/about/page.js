@@ -77,7 +77,7 @@ const page = () => {
               <img src="/images/dayimMarketing/logos/bar-chart-board.png" alt="" className='w-[40px] h-[40px] mx-auto mt-5' />
               <div className='flex flex-col items-start'>
                 <h3 className='text-center  font-bold text-xl mt-2'>Property Market Research</h3>
-                <p className='text-[#9e9e9e] mt-2'>The Market Research Department of Seven Stones Real Estate is closely monitoring the property market, keeping in touch with the prevailing conditions and identifying trends.</p>
+                <p className='text-[#9e9e9e] mt-2'>The Market Research Department of Dayim Marketing Real Estate is closely monitoring the property market, keeping in touch with the prevailing conditions and identifying trends.</p>
               </div>
             </div>
             <div className='py-3 px-5 flex gap-5'>              
@@ -101,7 +101,7 @@ const page = () => {
         className='bg-white h-[400px] flex flex-col gap-5 items-center justify-center
                     lg:h-[500px]'       
       >
-        <h3 className='text-4xl font-semibold text-center'>Our Story</h3>
+        <h3 className='text-4xl font-semibold text-center text-second hover:text-black'>Our Story</h3>
         <p className=' text-xl text-gray text-center
                         md:w-[60%]'>With a passion for innovation and a commitment to excellence, Waleed Ahmad founded Dayim Marketing to revolutionize the real estate industry in Pakistan. Today, Dayim Marketing is the pioneer of sales and marketing services in the real estate sector, setting new standards for professionalism, transparency, and customer service.</p>
       </motion.section>
@@ -116,7 +116,7 @@ const page = () => {
                           lg:px-[200px] md:flex-row md:h-[500px] lg:h-[700px] '>
         <div className='w-full h-full flex flex-col items-start justify-center gap-5
                         md:w-[60%]'>
-          <h3 className='font-bold text-4xl '>Our Vision</h3>
+          <h3 className='font-bold text-4xl text-second hover:text-black '>Our Vision</h3>
           <p>Dayim Marketing has built its reputation in the real estate market by serving its clients with integrity and loyalty. We are on the right track to provide the best services in the market and we are fully dedicated to inculcating the same style and positivity in the market. Additionally, we are bringing luxury as well as mid-range societies and projects to entertain each of our clients on one platform of Dayim marketing.</p>          
         </div>
         <div className='w-full  h-full flex items-center justify-center
@@ -138,7 +138,7 @@ const page = () => {
         </div>
         <div className='w-full h-full flex flex-col items-start justify-center gap-5
                         md:w-[60%]'>
-          <h3 className='font-bold text-4xl '>Our Mission</h3>
+          <h3 className='font-bold text-4xl text-second hover:text-black'>Our Mission</h3>
           <p>Our mission is to become the premier real estate company in Pakistan by providing exceptional service and value to our clients. We are committed to delivering the best possible outcomes for our customers, and we look forward to working with them to achieve their real estate goals.</p>          
         </div>
       </motion.section>
@@ -151,7 +151,7 @@ const page = () => {
         variants={b_t_animation}
         className='py-20'>        
         <div className='w-[80%] mx-auto text-center '>
-            <h3 className='font-bold text-4xl'>Our Values</h3>
+            <h3 className='font-bold text-4xl text-second hover:text-black'>Our Values</h3>
             <p className='md:w-[60%] text-center mx-auto mt-5'>Our core values are the foundation of our business and guide everything we do. These values represent the principles we uphold and the beliefs we share as a team:</p>
             <div className='grid grid-cols-1 mt-10 gap-5
                             md:grid-cols-2 lg:grid-cols-3'>
@@ -191,7 +191,7 @@ const page = () => {
         className='bg-white'
       >
        <div className='w-[80%] mx-auto py-20 space-y-5'>
-          <h2 className='font-semibold text-4xl'>Meet Our Agents</h2>
+          <h2 className='font-semibold text-4xl text-second hover:text-black'>Meet Our Agents</h2>
           <p className=' text-lg lg:w-[45%]'>Our team has handpicked a selection of Pakistan&apos;s best residential and commercial real estate properties for you to buy. Start exploring now!</p>
           <HomeSlider2 />
        </div>

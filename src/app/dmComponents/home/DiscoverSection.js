@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 
-const DiscoverSection = ({heading, subHeading, link, linkTitle, bgImage}) => {
+const DiscoverSection = ({heading, subHeading, link, linkTitle, bgImage, mapLink}) => {
   return (
     <div className="h-[400px] w-full relative
                       md:h-[500px] lg:h-[700px]">
@@ -13,9 +13,14 @@ const DiscoverSection = ({heading, subHeading, link, linkTitle, bgImage}) => {
             <div className="h-[400px] w-[400px] bg-black ml-[-200px] p-16 text-white">
                 <h2 className="text-4xl font-semibold">{heading}</h2>
                 <p className="text-md mt-5 mb-10">{subHeading} </p>
-                { link && (
-                    <Link href={link} className=" py-3 px-8 rounded-md border border-white hover:scale-110 hover:bg-white hover:text-black transition">{linkTitle}</Link>
-                )}
+                <div className='flex flex-col items-center justify-center gap-3'>
+                    { link && (
+                        <Link href={link} target='_blank' className=" py-3 w-full text-center px-8 rounded-md border border-white hover:scale-110 hover:bg-white hover:text-black transition">{linkTitle}</Link>
+                    )}
+                    { mapLink && (
+                        <Link href={mapLink} target='_blank' className=" py-3 w-full text-center px-8 rounded-md border border-white hover:scale-110 hover:bg-white hover:text-black transition">View Map</Link>
+                    )}
+                </div>
             </div>
 
         </div>

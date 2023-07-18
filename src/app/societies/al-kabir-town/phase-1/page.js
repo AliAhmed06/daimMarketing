@@ -78,7 +78,7 @@ function Contact() {
                           lg:px-[200px] lg:flex-row md:min-h-[500px] lg:min-h-[700px] '>
         <div className='w-[90%] h-full flex flex-col items-start justify-center gap-5
                         lg:w-[60%]'>
-          <h3 className='font-bold text-4xl '>Kabir Town Location</h3>
+          <h3 className='font-bold text-4xl '>Al Kabir Town phase 1 Location </h3>
           <p className='text-gray'>
             Al Kabir Town is located in the prime location of Lahore, Al Kabir Town Phase I Near BeaconHouse National University, 1 km off Raiwind Road, Lahore. Moreover, it is easy to access society in the following ways:
           </p>          
