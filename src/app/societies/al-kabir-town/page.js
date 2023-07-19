@@ -80,7 +80,7 @@ function Contact() {
                 <NocItem title={'King' + String.fromCharCode(39) + 's Town Phase 2'} link={"/societies/al-kabir-town/kings-town-phase2"} imageUrl={"/images/dayimMarketing/societies/al-kabir/logos/kings-town.png"} />
                 <NocItem title={"Maryum Town"} link={"/societies/al-kabir-town/maryum-town"} imageUrl={"/images/dayimMarketing/societies/al-kabir/logos/maryam-town.png"} />
                 <NocItem title={"Golf Enclave"} link={"/societies/al-kabir-town/golf-enclave"} imageUrl={"/images/dayimMarketing/societies/al-kabir/logos/golf-enclave.png"} />
-                <NocItem title={"Al Kabir Orchard "} link={"/societies/al-kabir-town/al-kabir-orchard"} imageUrl={"/images/dayimMarketing/societies/al-kabir/logos/al-kabir-phase1.png"} />
+                <NocItem title={"Al Kabir Orchard "} link={"/societies/al-kabir-town/al-kabir-orchard"} imageUrl={"/images/dayimMarketing/societies/al-kabir/logos/al-kabir-orchard.png"} />
             </div>
         </div>
       </motion.section>

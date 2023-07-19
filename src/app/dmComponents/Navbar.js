@@ -12,6 +12,8 @@ function NavBar({videoBg}) {
   const [navbar, setNavbar] = useState(false);
   const [projectCaret, setProjectCaret] = useState(false);
   const [societiesCaret, setSocietiesCaret] = useState(false);
+  const [aboutCaret, setAboutCaret] = useState(false);
+
   {/* Get the current route */}
   const pathname = usePathname();
 
@@ -39,7 +41,7 @@ function NavBar({videoBg}) {
                 <img src="/images/dayimMarketing/dayim_logo_golden.png" alt='' className='h-[100px] '  />
               </Link>
               {/* HAMBURGER BUTTON FOR MOBILE */}
-              <div className="md:hidden">
+              <div className="lg:hidden">
                 <button
                   className="p-2 text-gray-700 rounded-md outline-none "
                   onClick={() => setNavbar(!navbar)}
@@ -66,14 +68,33 @@ function NavBar({videoBg}) {
               }`}
             >
               <ul className="h-screen md:h-auto items-center justify-center md:flex  pt-2 ">
-                <li className={`${navbar ? 'text-black' : isScroll ? 'text-black' : videoBg == false ? 'text-black' : 'text-white' } pb-6  uppercase text-md font-semibold hover:underline ${pathname == "/about" && "underline"} py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent`}>
+                {/* <li className={`${navbar ? 'text-black' : isScroll ? 'text-black' : videoBg == false ? 'text-black' : 'text-white' } pb-6  uppercase text-md font-semibold hover:underline ${pathname == "/about" && "underline"} py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent`}>
                   <Link href="/about" onClick={() => setNavbar(!navbar)}>
                     About Us
                   </Link>
+                </li> */}
+                 <li className={`relative ${navbar ? 'text-black' : isScroll ? 'text-black' : videoBg == false ? 'text-black' : 'text-white' } pb-6 uppercase text-md font-semibold hover:underline  py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent`}>
+                  <div 
+                    onClick={(e)=> {setAboutCaret(!aboutCaret); setProjectCaret(false); setSocietiesCaret(false); } }
+                    className={`flex items-center justify-center gap-2 cursor-pointer`}
+                  >
+                    <span>About Us</span>
+                    <AiFillCaretDown className={`transition duration-150 ${aboutCaret == true ? "rotate-180" : 'rotate-0'}`} />
+                  </div>
+                  <div className={`
+                      ${aboutCaret == true ? 'block' : 'hidden'}
+                       top-10 left-5 bg-white text-black w-[250px] min-h-[50px] text-start flex flex-col rounded-md overflow-hidden md:border md:border-second
+                       md:absolute 
+                  `}>
+                    <Link href="/about" className='text-xs  bg-white w-full h-[50px] flex items-center px-2 hover:bg-second hover:text-white border-b border-gray'>Our Details</Link>                    
+                    <Link href="/team" className='text-xs  bg-white w-full h-[50px] flex items-center px-2 hover:bg-second hover:text-white border-b border-gray'>Our Team</Link>                    
+                    <Link href="/contact" className='text-xs  bg-white w-full h-[50px] flex items-center px-2 hover:bg-second hover:text-white border-b border-gray'>Contact Us</Link>                    
+                  </div>
                 </li>
+                
                 <li className={`relative ${navbar ? 'text-black' : isScroll ? 'text-black' : videoBg == false ? 'text-black' : 'text-white' } pb-6 uppercase text-md font-semibold hover:underline ${pathname == "/residences" && "underline"} py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent`}>
                   <div 
-                    onClick={(e)=> {setProjectCaret(!projectCaret); setSocietiesCaret(false) } }
+                    onClick={(e)=> {setProjectCaret(!projectCaret); setSocietiesCaret(false); setAboutCaret(false); } }
                     className={`flex items-center justify-center gap-2 cursor-pointer`}
                   >
                     <span>Projects</span>
@@ -91,7 +112,7 @@ function NavBar({videoBg}) {
 
                 <li className={`relative ${navbar ? 'text-black' : isScroll ? 'text-black' : videoBg == false ? 'text-black' : 'text-white' } pb-6 uppercase text-md font-semibold hover:underline ${pathname == "/residences" && "underline"} py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent`}>
                   <div 
-                    onClick={(e)=> {setSocietiesCaret(!societiesCaret); setProjectCaret(false) } }
+                    onClick={(e)=> {setSocietiesCaret(!societiesCaret); setProjectCaret(false); setAboutCaret(false); } }
                     className={`flex items-center justify-center gap-2 cursor-pointer`}
                   >
                     <span>Societies</span>
@@ -109,11 +130,6 @@ function NavBar({videoBg}) {
 
                 </li>
 
-                <li className={`${navbar ? 'text-black' : isScroll ? 'text-black' : videoBg == false ? 'text-black' : 'text-white' } pb-6 uppercase text-md font-semibold hover:underline ${pathname == "/contact" && "underline"} py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent`}>
-                  <Link href="/contact" onClick={() => setNavbar(!navbar)}>
-                    Contact Us
-                  </Link>
-                </li>
               </ul>
             </div>
           </div>

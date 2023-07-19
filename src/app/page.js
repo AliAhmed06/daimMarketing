@@ -6,6 +6,7 @@ import Link from 'next/link';
 import HomeSlider2 from './dmComponents/sliders/HomeSlider2';
 import MainFooter from './dmComponents/footer/MainFooter';
 import DiscoverSection from './dmComponents/home/DiscoverSection';
+import HomeProducts from './dmComponents/home/HomeProducts';
 
 
 const page = () => {
@@ -70,6 +71,16 @@ const page = () => {
                         md:w-[40%]'>
           <img src="/images/dayimMarketing/home/illustration1.svg" alt="" className='h-full w-full' />
         </div>
+      </motion.section>
+
+
+      <motion.section 
+        initial="hide"
+        whileInView="show"
+        variants={b_t_animation}
+        className='flex items-center justify-center'>
+        
+        <HomeProducts />
       </motion.section>
 
       <motion.section
@@ -152,9 +163,9 @@ const page = () => {
         variants={b_t_animation} 
         className='bg-[#f7f7f7]'
       >
-       <div className='w-[80%] mx-auto py-20 space-y-5'>
+       <div className='w-[80%] mx-auto py-20 space-y-5 text-center'>
           <h2 className='font-semibold text-4xl text-second hover:text-black'>Meet Our Agents</h2>
-          <p className=' text-lg lg:w-[45%]'>Our team has handpicked a selection of Pakistan&apos;s best residential and commercial real estate properties for you to buy. Start exploring now!</p>
+          <p className=' text-lg lg:w-[45%] mx-auto text-center'>Our team has handpicked a selection of Pakistan&apos;s best residential and commercial real estate properties for you to buy. Start exploring now!</p>
           <HomeSlider2 />
        </div>
 

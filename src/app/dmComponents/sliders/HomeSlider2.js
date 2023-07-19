@@ -8,6 +8,7 @@ import {Autoplay, Navigation } from "swiper";
 import "swiper/swiper.min.css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import HomeSlider2Item from "./HomeSlider2Item";
 
 
 export default function HomeSlider2() {
@@ -21,7 +22,7 @@ export default function HomeSlider2() {
     return (
     <div>       
         <div className="h-[400px] w-full relative
-                        md:h-[500px] lg:h-[500px]">           
+                        md:h-[500px] lg:h-[600px]">           
             <Swiper
                 ref={sliderRef}
                 breakpoints={{
@@ -30,54 +31,27 @@ export default function HomeSlider2() {
                 slidesPerView={1}                
                 spaceBetween={10}                
                 navigation={true} 
-                modules={[Navigation]}
+                modules={[Navigation]} 
                 className="h-full w-full bg-transparent"                
             >        
                
                 <SwiperSlide >
-                    <div className="w-full h-full flex flex-col items-center justify-center">                        
-                        <img 
-                            src="/images/dayimMarketing/agents/team1.png" 
-                            alt="" 
-                            className="w-full h-full object-cover object-top " 
-                        /> 
-                        <h3 className="text-xl text-gray mb-5">Name</h3>                       
-                    </div>
+                    <HomeSlider2Item image={"/images/dayimMarketing/agents/FarahHafeez.jpg"} name={"Farah Hafeez"} designation={"Business Development Manager"} />
                 </SwiperSlide>
 
                 <SwiperSlide >
-                    <div className="w-full h-full flex flex-col items-center justify-center">                        
-                        <img 
-                            src="/images/dayimMarketing/agents/team2.png" 
-                            alt="" 
-                            className="w-full h-full object-cover object-top " 
-                        />                        
-                        <h3 className="text-xl text-gray mb-5">Name</h3>                       
-                    </div>
+                    <HomeSlider2Item image={"/images/dayimMarketing/agents/UsmanIjaz.jpg"} name={"Usman Ijaz"} designation={"Investment Advisor"} />
                 </SwiperSlide>
 
                 <SwiperSlide >
-                    <div className="w-full h-full flex flex-col items-center justify-center">                        
-                        <img 
-                            src="/images/dayimMarketing/agents/team3.png" 
-                            alt="" 
-                            className="w-full h-full object-cover object-top " 
-                        />                        
-                        <h3 className="text-xl text-gray mb-5">Name</h3>                       
-                    </div>
+                    <HomeSlider2Item image={"/images/dayimMarketing/agents/AghaUsmanAhmed.jpg"} name={"Agha Usman Ahmed"} designation={"Social Media Head/Host"} />
                 </SwiperSlide>
 
                 <SwiperSlide >
-                    <div className="w-full h-full flex flex-col items-center justify-center">                        
-                        <img 
-                            src="/images/dayimMarketing/agents/team4.png" 
-                            alt="" 
-                            className="w-full h-full object-cover object-top " 
-                        />                        
-                        <h3 className="text-xl text-gray mb-5">Name</h3>                       
-                    </div>
+                    <HomeSlider2Item image={"/images/dayimMarketing/agents/team4.png"} name={"Ali Zark Jahangir"} designation={"Team Leader"} />
                 </SwiperSlide>
 
+                
 
             </Swiper>
         </div>

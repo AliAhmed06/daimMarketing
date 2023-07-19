@@ -38,11 +38,11 @@ function Page() {
         /> 
         <div className='absolute flex items-center top-0 h-full w-full px-[5%] z-10'>
           <div className=' w-[60%]  mx-auto flex flex-col items-center justify-center gap-5'>
-            {/* <img 
-                src="/images/dayimMarketing/societies/al-kabir/logos/maryam-town.png" 
+            <img 
+                src="/images/dayimMarketing/societies/al-kabir/logos/al-kabir-orchard.png" 
                 className='h-[150px] hidden md:block' 
                 alt="" 
-            /> */}
+            />
             <h2 className='text-white font-bold  w-full text-3xl text-center  
                             lg:text-4xl md:text-4xl  md:mt-0'>Al Kabir Orchard  </h2>
             <h3 className='text-white font-bold  w-full text-xl text-center '>( Kala Shah Kaku ) </h3>            
