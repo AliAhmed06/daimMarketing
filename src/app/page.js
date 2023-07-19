@@ -29,9 +29,16 @@ const page = () => {
 
       <div className='h-[400px] w-full relative overflow-hidden
                       md:h-[500px] lg:h-screen'>
-        <div className='absolute top-0 h-full w-full bg-[rgba(0,0,0,0.5)]'></div>        
-        <img 
+        <div className='absolute top-0 h-full w-full bg-[rgba(0,0,0,0.7)]'></div>        
+        {/* <img 
           src='/images/dayimMarketing/home/home-bg.jpg'           
+          className='h-full w-full object-cover' 
+        />  */}
+        <video 
+          src='/videos/dm/dm-cover.mp4' 
+          autoPlay 
+          loop 
+          muted 
           className='h-full w-full object-cover' 
         /> 
 

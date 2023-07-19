@@ -11,7 +11,7 @@ function VRSingleItemPage({params}) {
   }
   else{
     // url = "/images/vr/one_bed/5.jpg";
-    url = "/videos/dsa/studio.mp4";
+    url = "/videos/dsa/one-bed.mp4";
   }
   return (
     <div>
