@@ -63,7 +63,7 @@ function Page() {
         <h3 className='text-4xl font-semibold text-center'>Overview</h3>
         <p className=' text-xl text-gray text-justify w-[80%]
                         lg:w-[60%]'>
-                          It is a residential and commercial development that includes a variety of plot sizes and types of properties. The development includes 3 marla, 5 marla, 10 marla, and 1 kanal residential plots, as well as commercial spaces, apartments, and villas. <br /><br />
+                          It is a residential and commercial development that includes a variety of plot sizes and types of properties. The development includes 3 marla, 5 marla, 8 marla, and 1 kanal residential plots, as well as commercial spaces, apartments, and villas. <br /><br />
                           Each block offers a unique selection of properties, catering to different needs and preferences of residents and investors. It is a well-planned and well-built community that offers a comfortable and convenient living experience to its residents.
 
         </p>
@@ -85,11 +85,9 @@ function Page() {
           <ul className='ml-[50px] list-disc text-gray'>
             <li>Al Kabir Town Phase 1</li>
             <li>Al Kabir Town Phase 2</li>
-            <li>Lake View Residencia</li>
-            <li>Kings Town</li>
-            <li>Kings Town Phase 2</li>
+            <li>King&apos;s Town Phase 1</li>
+            <li>King&apos;s Town Phase 2</li>
             <li>Maryam Town</li>
-            <li>Platinum Homes</li>
             <li>Al Kabir Orchard</li>            
           </ul>          
         </div>
@@ -100,7 +98,7 @@ function Page() {
       </motion.section>
             
       
-       <motion.section
+       {/* <motion.section
         initial="hide"
         whileInView="show"
         variants={b_t_animation}  
@@ -116,7 +114,7 @@ function Page() {
               {'title':'Shalimar Block'},
             ]} />
         </div>        
-      </motion.section>      
+      </motion.section>       */}
             {/* done above */}
 
 
@@ -131,28 +129,20 @@ function Page() {
               <h3 className='font-bold text-4xl text-center text-second'>Payment Plan</h3>            
               {/* <h4>A - Block </h4>               */}
             </div>
-            <Link href={"/contact"}>
-              <img src="/images/dayimMarketing/societies/al-kabir/al-kabir-orchard/al-kabir1-orchard1.jpg" alt="" className='lg:w-[1000px] object-cover' />
-            </Link>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-7'>
+              <Link href={"/contact"}>
+                <img src="/images/dayimMarketing/societies/al-kabir/al-kabir-orchard/al-kabir1-orchard1.jpg" alt="" className='h-full w-full' />
+              </Link>
+              <Link href={"/contact"}>
+                <img src="/images/dayimMarketing/societies/al-kabir/al-kabir-orchard/al-kabir1-orchard2.jpg" alt="" className='h-full w-full' />
+              </Link>
+              <Link href={"/contact"}>
+                <img src="/images/dayimMarketing/societies/al-kabir/al-kabir-orchard/al-kabir1-orchard3.jpg" alt="" className='h-full w-full' />
+              </Link>
+            </div>              
         </div>        
       </motion.section>
 
-      <motion.section
-        initial="hide"
-        whileInView="show"
-        variants={b_t_animation}  
-        className=' bg-white py-10'      
-      >        
-        <div className='w-[90%] mx-auto flex flex-col items-center justify-center'>
-            <div className='text-center text-xl text-second py-10'>
-              <h3 className='font-bold text-4xl text-center text-second'>Payment Plan</h3>            
-              {/* <h4>A - Block </h4>               */}
-            </div>
-            <Link href={"/contact"}>
-              <img src="/images/dayimMarketing/societies/al-kabir/al-kabir-orchard/al-kabir1-orchard2.jpg" alt="" className='lg:w-[1000px] object-cover' />
-            </Link>
-        </div>        
-      </motion.section>
 
       {/* Footer starts */}
       <footer className=''>

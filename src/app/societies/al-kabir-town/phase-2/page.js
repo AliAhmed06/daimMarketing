@@ -114,12 +114,12 @@ function Contact() {
             <div className='grid grid-cols-1 items-center 
                             md:grid-cols-2 lg:grid-cols-4'>
               <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/quality-assurance.png"} title={"Surveillance System"} />
-              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/security.png"} title={"24/7 security"} />
+              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/security.png"} title={"24/7 Security"} />
               <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/mosque.png"} title={"Community Mosque"} />
-              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/house.png"} title={"Gated community"} />
+              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/house.png"} title={"Gated Community"} />
               <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/school.png"} title={"Apartment Home"} />
               <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/park.png"} title={"Landscape Parks"} />
-              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/arena.png"} title={"Sports complex"} />              
+              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/arena.png"} title={"Sports Complex"} />              
             </div>
         </div>
         
@@ -153,7 +153,7 @@ function Contact() {
         variants={b_t_animation}
         className='py-20 bg-white'>        
         <div className='w-[80%] mx-auto text-center  '>
-            <h3 className='font-bold text-4xl'>Al Kabir Town Lahore Features</h3>
+            <h3 className='font-bold text-4xl'>Al Kabir Town Phase 2 Features</h3>
             <p className='md:w-[60%] text-center mx-auto mt-5 text-gray'>Al Kabir Town is the most affordable society in Lahore that offers a wide range of life necessities. Some of the top necessities are as follows:</p>
             <div className='grid grid-cols-1 mt-10 gap-5
                             md:grid-cols-2 lg:grid-cols-3'>
@@ -246,76 +246,20 @@ function Contact() {
                 <BoxItem 
                   heading={"Document Verification"}
                   text={"It is important for customers to make sure that the property that they are going to invest in is approved and also has a NOC. This not only raises the value of the property but is also important to provide overall customer expectations."} 
-                  type={"two"}
+                  type={"one"}
                 />
                 <BoxItem 
                   heading={"Financial Security"}
                   text={"Another important tip is that the line of purchase should be parallel with the transaction that you have decided to comply with. This way the customer can enjoy the process of sale or purchase."} 
-                  type={"two"}
+                  type={"one"}
                 />
                 <BoxItem 
                   heading={"Property Visits"}
                   text={"Visiting the property before making a financial transaction is one of the most important things that should not be ignored under any condition. Make sure to visit the site and see what you are purchasing for yourself."} 
-                  type={"two"}
+                  type={"one"}
                 />
 
             </div>
-        </div>
-      </motion.section>
-
-      
-      <motion.section 
-        initial="hide"
-        whileInView="show"
-        variants={b_t_animation}        
-        className='flex flex-col items-center gap-14 px-5 w-full
-                          lg:flex-row lg:gap-32 md:px-28'>
-        <div className='lg:w-[50%] md:w-[100%] md:h-[400px] '>
-          <img 
-            src="/images/dayimMarketing/societies/al-kabir/booking1.jpg" 
-            alt="" 
-            className='w-full h-full object-cover'
-          />
-        </div>
-        <div className='flex flex-col   
-                        lg:w-[50%] md:w-[100%]'>
-          <h2 className='text-4xl font-bold text-second '>Booking Procedure</h2>
-          <p className='text-gray text-lg mt-10 '>The booking process of this scheme is easy to comprehend. Just follow the given below steps:</p>          
-          <ul className='list-disc ml-5 mt-5 text-gray'>
-            <li>Pay attention to the form filling</li>            
-            <li>Make sure to attach the copies of the national identity card</li>
-            <li>Pay the down payment via check or through pay order in favor of Al Kabir Town.</li>
-            <li>Remember to check with the management whether they have made any recent changes or not.</li>
-            <li>You can also pay in cash after checking with the management.</li>
-            <li>Submit all the above-mentioned documents and get your receipt.</li>
-          </ul>
-        </div>
-      </motion.section>
-
-
-      <motion.section 
-        initial="hide"
-        whileInView="show"
-        variants={b_t_animation}        
-        className='flex flex-col items-center gap-14 px-5 w-full mt-20
-                          lg:flex-row-reverse lg:gap-32 md:px-28'>
-        <div className='lg:w-[50%] md:w-[100%] md:h-[400px] '>
-          <img 
-            src="/images/dayimMarketing/societies/al-kabir/booking2.jpg" 
-            alt="" 
-            className='w-full h-full object-cover'
-          />
-        </div>
-        <div className='flex flex-col   
-                        lg:w-[50%] md:w-[100%]'>
-          <h2 className='text-4xl font-bold text-second '>Documentation Requirement for Booking</h2>
-          <p className='text-gray text-lg mt-10 '>Following documentation is required to buy property Al Kabir Town:</p>          
-          <ul className='list-disc ml-5 mt-5 text-gray'>
-            <li>Passport Size Pictures (2)</li>
-            <li>National Identity Card Copies (2)</li>
-            <li>ID card of your Next of Kin (2)</li>
-            <li>NICOP for overseas clients</li>
-          </ul>
         </div>
       </motion.section>
 

@@ -136,15 +136,15 @@ function Page() {
           <div className='p-5 mt-10'>
             <div className='grid grid-cols-1 items-center gap-5 
                             md:grid-cols-2 lg:grid-cols-4'>
-              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/school.png"} title={"Educational opportunities"} />
-              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/sewerage.png"} title={"sewerage system"} />
-              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/quality-assurance.png"} title={"Availability of utilities 24/7"} />
-              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/biodegradable.png"} title={"Recreational activities"} />
+              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/school.png"} title={"Educational Opportunities"} />
+              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/sewerage.png"} title={"Sewerage System"} />
+              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/quality-assurance.png"} title={"Availability of Utilities 24/7"} />
+              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/biodegradable.png"} title={"Recreational Activities"} />
               <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/security.png"} title={"Security System"} />
-              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/road.png"} title={"Planned roads infrastructure"} />
-              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/cooperation.png"} title={"Fully equipped maintenance systems"} />
-              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/wall.png"} title={"Full of colors commercial area"} />
-              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/emergency.png"} title={"Healthcare facilities"} />
+              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/road.png"} title={"Planned Roads Infrastructure"} />
+              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/cooperation.png"} title={"Fully Equipped Maintenance Systems"} />
+              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/wall.png"} title={"Full of Colors Commercial Area"} />
+              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/emergency.png"} title={"Healthcare Facilities"} />
               <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/electricity.png"} title={"Commercial Investment"} />
             </div>
         </div>
@@ -152,22 +152,6 @@ function Page() {
       </motion.section>
 
 
-      {/* <motion.section
-        initial="hide"
-        whileInView="show"
-        variants={b_t_animation}  
-        className=' bg-[#f7f7f7] py-10'      
-      >        
-        <div className='w-[90%] mx-auto'>
-            <h3 className='font-bold text-4xl text-center text-second'>Blocks</h3>            
-            <TextSlider data={[
-              {'title':'A - Block '},
-              {'title':'B - Block '},              
-            ]} />
-        </div>        
-      </motion.section> */}
-      {/* done above */}
-
       <motion.section
         initial="hide"
         whileInView="show"
@@ -176,30 +160,16 @@ function Page() {
       >        
         <div className='w-[90%] mx-auto flex flex-col items-center justify-center'>
             <div className='text-center text-xl text-second py-10'>
-              <h3 className='font-bold text-4xl text-center text-second'>Payment Plan</h3>            
-              {/* <h4>A - Block </h4>               */}
+              <h3 className='font-bold text-4xl text-center text-second'>Payment Plan</h3>                          
             </div>
-            <Link href={"/contact"}>
-              <img src="/images/dayimMarketing/societies/al-kabir/maryam-town/maryam-town1.jpg" alt="" className='lg:w-[1000px] object-cover' />
-            </Link>
-        </div>        
-      </motion.section>
-
-
-      <motion.section
-        initial="hide"
-        whileInView="show"
-        variants={b_t_animation}  
-        className=' bg-white py-10'      
-      >        
-        <div className='w-[90%] mx-auto flex flex-col items-center justify-center'>
-            <div className='text-center text-xl text-second py-10'>
-              <h3 className='font-bold text-4xl text-center text-second'>Payment Plan</h3>            
-              {/* <h4>A - Block </h4>               */}
-            </div>
-            <Link href={"/contact"}>
-              <img src="/images/dayimMarketing/societies/al-kabir/maryam-town/maryam-town2.jpg" alt="" className='lg:w-[1000px] object-cover' />
-            </Link>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-7'>
+              <Link href={"/contact"}>
+                <img src="/images/dayimMarketing/societies/al-kabir/maryam-town/maryam-town1.jpg" alt="" className='h-full w-full' />
+              </Link>
+              <Link href={"/contact"}>
+                <img src="/images/dayimMarketing/societies/al-kabir/maryam-town/maryam-town2.jpg" alt="" className='h-full w-full' />
+              </Link>              
+            </div>              
         </div>        
       </motion.section>
 

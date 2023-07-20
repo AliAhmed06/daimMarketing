@@ -78,16 +78,16 @@ function Contact() {
                           lg:px-[200px] lg:flex-row md:min-h-[500px] lg:min-h-[700px] '>
         <div className='w-[90%] h-full flex flex-col items-start justify-center gap-5
                         lg:w-[60%]'>
-          <h3 className='font-bold text-4xl '>Al Kabir Town phase 1 Location </h3>
+          <h3 className='font-bold text-4xl '>Al Kabir Town Phase 1 Location </h3>
           <p className='text-gray'>
             Al Kabir Town is located in the prime location of Lahore, Al Kabir Town Phase I Near BeaconHouse National University, 1 km off Raiwind Road, Lahore. Moreover, it is easy to access society in the following ways:
           </p>          
           <ul className='ml-[50px] list-disc text-gray'>
             <li>5 min Drive from Lahore Ring Road</li>
-            <li>3 min drive from Sharif Medical City Road</li>
-            <li>19 min drive from Multan Road</li>
-            <li>14 min drive from Canal Road</li>
-            <li>9 min Drive from Defense Road</li>
+            <li>3 min Drive from Sharif Medical City Road</li>
+            <li>19 min Drive from Multan Road</li>
+            <li>14 min Drive from Canal Road</li>
+            <li>9 min Drive from Defence Road</li>
           </ul>
         </div>
         <div className='w-[90%] h-full flex items-center justify-center
@@ -110,12 +110,12 @@ function Contact() {
             <div className='grid grid-cols-1 items-center 
                             md:grid-cols-2 lg:grid-cols-4'>
               <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/quality-assurance.png"} title={"Surveillance System"} />
-              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/security.png"} title={"24/7 security"} />
+              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/security.png"} title={"24/7 Security"} />
               <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/mosque.png"} title={"Community Mosque"} />
-              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/house.png"} title={"Gated community"} />
+              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/house.png"} title={"Gated Community"} />
               <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/school.png"} title={"Apartment Home"} />
               <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/park.png"} title={"Landscape Parks"} />
-              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/arena.png"} title={"Sports complex"} />              
+              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/arena.png"} title={"Sports Complex"} />              
             </div>
         </div>
         

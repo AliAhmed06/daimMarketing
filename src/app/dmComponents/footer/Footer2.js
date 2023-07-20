@@ -35,7 +35,7 @@ function Footer2() {
           <div>
             <h3 className='text-4xl font-bold'>Contact Us</h3>
             <p className='mt-10 text-lg font-bold'>+92-423-597-617-4</p>
-            <p className='mt-5 text-lg font-bold'>+92-309-511-117-6</p>
+            <p className='mt-5 text-lg font-bold'>+92-308-511-117-6</p>
             <p className='mt-5 text-lg font-bold'>+1(718)715-8208</p>
           </div>
 

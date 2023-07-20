@@ -68,20 +68,18 @@ function Contact() {
         initial="hide"
         whileInView="show"
         variants={b_t_animation}
-        className='py-20 bg-[#f7f7f7]'>        
+        className='py-20 bg-black bg-opacity-70'>        
         <div className='w-[80%] mx-auto text-center  '>
-            <h3 className='font-bold text-4xl'>Al Kabir Town Phases</h3>
+            <h3 className='font-bold text-4xl text-white'>Al Kabir Developers Projects</h3>
             {/* <p className='md:w-[60%] text-center mx-auto mt-5 text-gray'>The No Objection Certificate (NOC) of Al Kabir Town is approved by Lahore Development Authority. Moreover, all the other necessary documents are approved too. So, as an investor, stay sure that all the developments in the 3 phases are as per requirements.</p> */}
-            <div className='grid grid-cols-1 mt-10 gap-7
-                            md:grid-cols-2 lg:grid-cols-3'>
+            <div className='flex'>
                 <NocItem title={"Al Kabir Town Phase 1"} link={"/societies/al-kabir-town/phase-1"} imageUrl={"/images/dayimMarketing/societies/al-kabir/logos/al-kabir-phase1.png"} />
                 <NocItem title={"Al Kabir Town Phase 2"} link={"/societies/al-kabir-town/phase-2"} imageUrl={"/images/dayimMarketing/societies/al-kabir/logos/al-kabir-phase2.png"} />
-                <NocItem title={'King' + String.fromCharCode(39) + 's Town'} link={"/societies/al-kabir-town/kings-town"} imageUrl={"/images/dayimMarketing/societies/al-kabir/logos/kings-town.png"} />
+                <NocItem title={'King' + String.fromCharCode(39) + 's Town Phase 1'} link={"/societies/al-kabir-town/kings-town"} imageUrl={"/images/dayimMarketing/societies/al-kabir/logos/kings-town.png"} />
                 <NocItem title={'King' + String.fromCharCode(39) + 's Town Phase 2'} link={"/societies/al-kabir-town/kings-town-phase2"} imageUrl={"/images/dayimMarketing/societies/al-kabir/logos/kings-town.png"} />
-                <NocItem title={"Maryum Town"} link={"/societies/al-kabir-town/maryum-town"} imageUrl={"/images/dayimMarketing/societies/al-kabir/logos/maryam-town.png"} />
-                <NocItem title={"Golf Enclave"} link={"/societies/al-kabir-town/golf-enclave"} imageUrl={"/images/dayimMarketing/societies/al-kabir/logos/golf-enclave.png"} />
+                <NocItem title={"Maryam Town"} link={"/societies/al-kabir-town/maryum-town"} imageUrl={"/images/dayimMarketing/societies/al-kabir/logos/maryam-town.png"} />                
                 <NocItem title={"Al Kabir Orchard "} link={"/societies/al-kabir-town/al-kabir-orchard"} imageUrl={"/images/dayimMarketing/societies/al-kabir/logos/al-kabir-orchard.png"} />
-            </div>
+            </div>            
         </div>
       </motion.section>
 

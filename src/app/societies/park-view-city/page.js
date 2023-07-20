@@ -180,22 +180,22 @@ function Contact() {
               <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/school.png"} title={"School"} />
               <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/park.png"} title={"Parks"} />
               <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/mosque.png"} title={"Mosque"} />
-              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/emergency.png"} title={"Medical center"} />
+              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/emergency.png"} title={"Medical Center"} />
               <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/cinema.png"} title={"Cinema"} />
               <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/market.png"} title={"Commercial Market"} />
-              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/sewerage.png"} title={"Fully-functioning sewerage system"} />
-              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/electricity.png"} title={"Water/electricity/gas supply"} />
-              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/security.png"} title={"24/7 security"} />
+              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/sewerage.png"} title={"Fully-Functioning Sewerage System"} />
+              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/electricity.png"} title={"Water/Electricity/Gas Supply"} />
+              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/security.png"} title={"24/7 Security"} />
 
               <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/biodegradable.png"} title={"Eco Friendly"} />
               <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/cemetery.png"} title={"Graveyard"} />
               <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/cooperation.png"} title={"Business Hub"} />
               <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/road.png"} title={"High-Quality Roads Infrastructure"} />
               <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/wall.png"} title={"Boundary Wall"} />
-              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/house.png"} title={"Gated community"} />
+              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/house.png"} title={"Gated Community"} />
               <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/quality-assurance.png"} title={"Quality Development"} />
-              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/lightning.png"} title={"Underground electrification"} />
-              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/arena.png"} title={"Sports complex with indoor and outdoor facilities"} />
+              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/lightning.png"} title={"Underground Electrification"} />
+              <AmenitiesItem logo={"/images/dayimMarketing/societies/parkView/logos/arena.png"} title={"Sports Complex with Indoor and Outdoor facilities"} />
 
             </div>
         </div>
