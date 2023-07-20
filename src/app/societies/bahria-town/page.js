@@ -42,8 +42,8 @@ function Contact() {
             <h2 className='text-white font-bold  w-full text-3xl text-center mt-10 
                             lg:text-5xl md:text-4xl  md:mt-0'>Bahria Town Lahore</h2>
             <p className='text-white text-2xl font-bold text-center'>Get started in few clicks</p>
-            <Link href="/contact" className='border-2 border-white py-3 px-8 text-white font-bold text-xl hover:scale-110 transition'>              
-              Contact Us
+            <Link href="/images/dayimMarketing/societies/maps/bahria-map.pdf" target='_blank' className='border-2 border-white py-3 px-8 text-white font-bold text-xl hover:scale-110 transition'>              
+              Download Map
             </Link>
           </div>
         </div>
