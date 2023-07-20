@@ -41,7 +41,7 @@ function NavBar({videoBg}) {
                 <img src="/images/dayimMarketing/dayim_logo_golden.png" alt='' className='h-[100px] '  />
               </Link>
               {/* HAMBURGER BUTTON FOR MOBILE */}
-              <div className="lg:hidden">
+              <div className="md:hidden">
                 <button
                   className="p-2 text-gray-700 rounded-md outline-none "
                   onClick={() => setNavbar(!navbar)}
