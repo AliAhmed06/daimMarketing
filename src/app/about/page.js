@@ -102,7 +102,7 @@ const page = () => {
                     lg:h-[500px]'       
       >
         <h3 className='text-4xl font-semibold text-center text-second hover:text-black'>Our Story</h3>
-        <p className=' text-xl text-gray text-center
+        <p className=' text-xl text-black text-center
                         md:w-[60%]'>With a passion for innovation and a commitment to excellence, Waleed Ahmad founded Dayim Marketing to revolutionize the real estate industry in Pakistan. Today, Dayim Marketing is the pioneer of sales and marketing services in the real estate sector, setting new standards for professionalism, transparency, and customer service.</p>
       </motion.section>
 
@@ -191,8 +191,8 @@ const page = () => {
         className='bg-white'
       >
        <div className='w-[80%] mx-auto py-20 space-y-5'>
-          <h2 className='font-semibold text-4xl text-second hover:text-black'>Meet Our Agents</h2>
-          <p className=' text-lg lg:w-[45%]'>Our team has handpicked a selection of Pakistan&apos;s best residential and commercial real estate properties for you to buy. Start exploring now!</p>
+          <h2 className='font-semibold text-4xl text-second hover:text-black text-center'>Meet Our Agents</h2>
+          <p className=' text-lg lg:w-[45%] text-center mx-auto'>Our team has handpicked a selection of Pakistan&apos;s best residential and commercial real estate properties for you to buy. Start exploring now!</p>
           <HomeSlider2 />
        </div>
 

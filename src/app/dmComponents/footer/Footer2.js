@@ -29,7 +29,7 @@ function Footer2() {
         <div className='bg-white grid grid-cols-1 p-10 text-black
                     md:p-32 md:grid-cols-2 lg:grid-cols-4'>
           <div>
-            <img src="/images/dayimMarketing/dayim_logo_golden.png" alt="" className='h-[150px] ' />
+            <img src="/images/dayimMarketing/DayimSlogan.png" alt="" className='h-[150px] ' />
           </div>
 
           <div>
@@ -42,9 +42,9 @@ function Footer2() {
           <div className='flex flex-col 
                           lg:py-3 lg:pl-32'>
             <Link href="/about" className=' text-lg font-bold hover:underline'>About Us</Link>
-            {/* <Link href="/dayim-signature-apartments/residences" className='mt-5 text-lg font-bold hover:underline'>Residences</Link> */}
-            {/* <Link href="/dayim-signature-apartments/vr" className='mt-5 text-lg font-bold hover:underline'>VR</Link> */}
-            {/* <Link href="/dayim-signature-apartments/experiences" className='mt-5 text-lg font-bold hover:underline'>Experiences</Link> */}
+            <Link href="/team" className='mt-5 text-lg font-bold hover:underline'>Our Team</Link>
+            <Link href="/dayim-signature-apartments" className='mt-5 text-lg font-bold hover:underline'>Projects</Link>
+            <Link href="/societies/bahria-town" className='mt-5 text-lg font-bold hover:underline'>Societies</Link>
             <Link href="/contact" className='mt-5 text-lg font-bold hover:underline'>Contact Us</Link>
           </div>
 

@@ -128,7 +128,7 @@ function Page() {
         whileInView="show"
         variants={b_t_animation}
         className='w-full p-5 mb-10'>
-          <h3 className='text-4xl text-second font-bold text-center my-10 '>Facilities, Necessities, Amenities</h3>     
+          <h3 className='text-4xl text-black font-bold text-center my-10 '>Facilities, Necessities, Amenities</h3>     
           <p className='text-gray w-[90%] md:w-[80%] lg:w-[70%] mx-auto text-xl text-center'>
             It is one of the key features of any residential society to provide its residents with all the needed life necessities. Maryam Town Lahore hits the ball out of the park in this context as it makes sure that it provides all that is demanded by the customers. <br /><br />
             Some of the basic amenities that are provided by this one-of-a-kind housing society are:<br />
@@ -159,7 +159,7 @@ function Page() {
         className=' bg-white py-10'      
       >        
         <div className='w-[90%] mx-auto flex flex-col items-center justify-center'>
-            <div className='text-center text-xl text-second py-10'>
+            <div className='text-center text-xl text-black py-10'>
               <h3 className='font-bold text-4xl text-center text-second'>Payment Plan</h3>                          
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-7'>

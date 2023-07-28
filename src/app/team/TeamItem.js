@@ -7,23 +7,16 @@ const TeamItem = ({name, designation, mobile, email, listingsLink, image}) => {
                     md:flex-row md:items-start '>
         <img src={image} alt="" className='h-[300px] object-contain ' />
         <div className='w-full p-7 '>
-        <h3 className='font-semibold text-lg'>{name}</h3>
-        <p className='text-sm text-gray'>{designation}</p>
-        <div className='mt-5 flex items-center justify-between w-full border-b-2 border-white py-1'>
-            <h3 className='font-semibold'>Mobile</h3>
-            <p>{mobile}</p>
-        </div>
-        <div className='mt-2 flex items-center justify-between w-full border-b-2 border-white py-1'>
-            <h3 className='font-semibold'>Email</h3>
-            <p>{email}</p>
-        </div>
-        <div className='mt-5'>
-            <Link 
-            href={listingsLink}
-            className='font-bold hover:underline'
-            
-            >View Listings</Link>                    
-        </div>
+          <h3 className='font-semibold text-lg'>{name}</h3>
+          <p className='text-sm text-gray'>{designation}</p>
+          <div className='mt-5 flex items-center justify-between w-full border-b-2 border-white py-1'>
+              <h3 className='font-semibold'>Mobile</h3>
+              <p>{mobile}</p>
+          </div>
+          <div className='mt-2 flex items-center justify-between w-full border-b-2 border-white py-1'>
+              <h3 className='font-semibold'>Email</h3>
+              <p>{email}</p>
+          </div>          
         </div>
     </div>
   )

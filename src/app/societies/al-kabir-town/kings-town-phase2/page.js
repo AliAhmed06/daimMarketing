@@ -129,7 +129,7 @@ function Page() {
         className=' bg-[#f7f7f7] py-10'      
       >        
         <div className='w-[90%] mx-auto'>
-            <h3 className='font-bold text-4xl text-center text-second'>Blocks</h3>            
+            <h3 className='font-bold text-4xl text-center text-black'>Blocks</h3>            
             <TextSlider data={[
               {'title':'A - Block '},
               {'title':'B - Block '},

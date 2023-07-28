@@ -10,7 +10,7 @@ const HomeProducts = () => {
             
         <div className='w-full grid grid-cols-1 gap-7
                         md:grid-cols-2 lg:grid-cols-3  '>
-            <HomeProductsItem houseImg="/images/dayimMarketing/home/houses/house1.jpeg" />
+            {/* <HomeProductsItem houseImg="/images/dayimMarketing/home/houses/house1.jpeg" /> */}
             <HomeProductsItem houseImg="/images/dayimMarketing/home/houses/house2.jpeg" />
             <HomeProductsItem houseImg="/images/dayimMarketing/home/houses/house3.jpeg" />
             <HomeProductsItem houseImg="/images/dayimMarketing/home/houses/house4.jpeg" />

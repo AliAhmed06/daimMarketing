@@ -126,7 +126,7 @@ function Page() {
       >        
         <div className='w-[90%] mx-auto flex flex-col items-center justify-center'>
             <div className='text-center text-xl text-second py-10'>
-              <h3 className='font-bold text-4xl text-center text-second'>Payment Plan</h3>            
+              <h3 className='font-bold text-4xl text-center text-black'>Payment Plan</h3>            
               {/* <h4>A - Block </h4>               */}
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-7'>

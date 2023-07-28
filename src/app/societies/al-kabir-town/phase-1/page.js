@@ -104,7 +104,7 @@ function Contact() {
         whileInView="show"
         variants={b_t_animation}
         className='w-full p-5 mb-10'>
-          <h3 className='text-4xl text-second font-bold text-center my-10 '>Available Amenities</h3>
+          <h3 className='text-4xl text-black font-bold text-center my-10 '>Available Amenities</h3>
           
           <div className=''>
             <div className='grid grid-cols-1 items-center 
@@ -129,7 +129,7 @@ function Contact() {
         className=' bg-[#f7f7f7] py-10'      
       >        
         <div className='w-[90%] mx-auto'>
-            <h3 className='font-bold text-4xl text-center text-second'>Key Transport</h3>
+            <h3 className='font-bold text-4xl text-center text-black'>Key Transport</h3>
             <TextSlider data={[
               {'title':'Bahria Town'},
               {'title':'Supermarket'},

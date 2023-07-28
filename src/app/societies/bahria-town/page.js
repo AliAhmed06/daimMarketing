@@ -56,7 +56,7 @@ function Contact() {
         className='bg-white min-h-[400px] flex flex-col gap-5 items-center justify-center mt-[30px]
                     lg:min-h-[500px] lg:mt-0'       
       >
-        <h3 className='text-4xl font-semibold text-center'>Overview</h3>
+        <h3 className='text-4xl font-bold text-center'>Overview</h3>
         <p className=' text-xl text-gray text-justify w-[80%]
                         lg:w-[60%]'>Bahria Town is indeed one of the largest and well-known real estate and housing societies in Pakistan. It was established in the late 1990s and is headquartered in Islamabad. Over the years, Bahria Town has expanded its operations to other cities in Pakistan, including Lahore.
                         Bahria Town is renowned for its gated community concept, offering 24/7 high-level security to its residents. The society has implemented robust security measures to ensure the safety and well-being of its inhabitants. Given the security challenges that Pakistan has faced in recent years, Bahria Town strives to provide a secure living environment for its residents.
@@ -101,7 +101,7 @@ function Contact() {
                         lg:w-[60%]'>
           <h3 className='font-bold text-4xl '>Bahria Town Lahore Lifestyle</h3>
           <p className='text-gray'>Bahria Town Lahore is located in the Iqbal Tehsil of Lahore and is divided into sectors A to F. Each sector is further divided into more than 30 blocks, offering a wide range of residential options to residents.
-            Bahria Town Lahore is often described as an innovative and modern development within the city. It is often referred to as a <span className='font-bold'>city within a city</span> due to its comprehensive infrastructure, facilities, and services that aim to provide an international standard of living to its residents.
+            Bahria Town Lahore is often described as an innovative and modern development within the city. It is often referred to as a <span className='font-bold text-black'>city within a city</span> due to its comprehensive infrastructure, facilities, and services that aim to provide an international standard of living to its residents.
             The society encompasses all aspects of the Lahori lifestyle and strives to maintain global standards in various spheres of life, including recreation, commerce, infrastructure, and residential living. It offers residents access to high-quality commercial centers, entertainment venues, and leisure activities.
             Commercial centers within Bahria Town Lahore provide a wide range of business and retail opportunities, catering to the needs of residents and visitors. Entertainment venues offer diverse options for leisure and recreation, ensuring that residents have access to a variety of activities and experiences.
             Furthermore, Bahria Town Lahore emphasizes the importance of providing top-notch residential facilities to its residents. The society focuses on creating well-planned and well-designed residential areas that meet international standards of comfort and livability.
@@ -190,12 +190,12 @@ function Contact() {
           <img 
             src="/images/dayimMarketing/societies/bahriaTown/sectorB.jpg" 
             alt="" 
-            className='w-full h-full object-cover'
+            className='w-full h-full object-cover object-bottom'
           />
         </div>
         <div className='flex flex-col   
                         lg:w-[50%] md:w-[100%]'>
-          <h2 className='text-4xl font-bold text-second '>Sector B</h2>
+          <h2 className='text-4xl font-bold text-black '>Sector B</h2>
           <p className='text-gray text-lg mt-10 '>Bahria Town Lahore Sector B is next to Executive Lodges. It benefits from its location as it is placed in the Heart of Bahria Town. All modern facilities in Bahria Town are located just a few minutes drive away from Sector B. It is dotted with green parks and playgrounds. A complete infrastructure of underground cables and utilities make it the first of its kind in Pakistan.</p>          
           <p className='text-gray mt-5'> It has nine blocks which are:</p>
           <ul className='list-disc ml-5 mt-5 text-gray'>
@@ -228,7 +228,7 @@ function Contact() {
         </div>
         <div className='flex flex-col   
                         lg:w-[50%] md:w-[100%]'>
-          <h2 className='text-4xl font-bold text-second '>Sector C</h2>
+          <h2 className='text-4xl font-bold text-black '>Sector C</h2>
           <p className='text-gray text-lg mt-10 '>After the success of Sector A & B, Bahria Town Lahore launched Sector C. It pledges to be the future commercial hub for the <span className='font-bold'>New Lahore</span> a term now popularly correlated with the recent new developments happening apace with the famous Lahore Canal. A part of 4 K named <span className='font-bold'>Independence Drive</span> is designated to high buildings on both sides of the 210 feet avenue giving it the much-deserved facelift. It is very popular for the business class for opportunities for investment. It brings more innovative and extra appearances to the regulated Bahria Town Developments.</p>          
           <p className='text-gray mt-5'> It has ten blocks which are:</p>
           <ul className='list-disc ml-5 mt-5 text-gray'>
@@ -262,7 +262,7 @@ function Contact() {
         </div>
         <div className='flex flex-col   
                         lg:w-[50%] md:w-[100%]'>
-          <h2 className='text-4xl font-bold text-second '>Sector D</h2>
+          <h2 className='text-4xl font-bold text-black '>Sector D</h2>
           <p className='text-gray text-lg mt-10 '>It launched July 2011 and is bordered to Sector C, where thousands of families are enjoying facilities of a complete lifestyle community. There are some unique Community Centres, food courts, Gold Class Cinema, Children Care Centre and Landscape Parks which makes the lifestyle different from all over Pakistan.</p>          
           <p className='text-gray mt-5'> It has seven blocks which are:</p>
           <ul className='list-disc ml-5 mt-5 text-gray'>
@@ -293,7 +293,7 @@ function Contact() {
         </div>
         <div className='flex flex-col   
                         lg:w-[50%] md:w-[100%]'>
-          <h2 className='text-4xl font-bold text-second '>Sector E</h2>
+          <h2 className='text-4xl font-bold text-black '>Sector E</h2>
           <p className='text-gray text-lg mt-10 '>After the wonderful success of Sector D, the administration took the step to launch a new sector in Lahore, Sector E. It launched February 2012 and situated adjacent to Sector C & D. Pakistan&apos;s First International Theme Park is located in E sector of Bahria Town Lahore. This sector will encompass various magnitude housing with complete lifestyle facilities. The Grand Jamiah Mosque and Bahria Country Club exist just next to this sector.</p>          
           <p className='text-gray mt-5'> It has five blocks which are:</p>
           <ul className='list-disc ml-5 mt-5 text-gray'>
@@ -322,7 +322,7 @@ function Contact() {
         </div>
         <div className='flex flex-col   
                         lg:w-[50%] md:w-[100%]'>
-          <h2 className='text-4xl font-bold text-second '>Sector F</h2>
+          <h2 className='text-4xl font-bold text-black '>Sector F</h2>
           <p className='text-gray text-lg mt-10 '>The community features of Sector F include International Standard Schools & Hospitals, Commercial Areas, Bahria Grand Hotel, Food Courts, Gold Class Cinema, Taj Banquets, and Sports Complex. The famous Grand Jamia Mosque and Bahria Country Club both have existed in Sector F of Bahria Town Lahore.</p>          
           <p className='text-gray mt-5'> It has ten blocks which are:</p>
           <ul className='list-disc ml-5 mt-5 text-gray'>

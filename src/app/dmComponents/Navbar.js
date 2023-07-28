@@ -38,7 +38,7 @@ function NavBar({videoBg}) {
             <div className="flex items-center justify-between  md:block">
               {/* LOGO */}
               <Link href="/">
-                <img src="/images/dayimMarketing/dayim_logo_golden.png" alt='' className='h-[100px] '  />
+                <img src="/images/dayimMarketing/DayimSlogan.png" alt='' className='h-[100px] '  />
               </Link>
               {/* HAMBURGER BUTTON FOR MOBILE */}
               <div className="md:hidden">

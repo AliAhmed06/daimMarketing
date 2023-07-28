@@ -105,7 +105,7 @@ function Contact() {
                           lg:px-[200px] lg:flex-row md:min-h-[500px] lg:min-h-[700px] '>        
         <div className='w-[90%]  h-full flex items-center justify-center 
                         lg:w-[40%]'>
-          <img src="/images/dayimMarketing/societies/parkView/img2.webp" alt="" className='h-full w-full object-cover rounded-md lg:h-[400px]' />
+          <img src="/images/dayimMarketing/societies/parkView/img2.jpg" alt="" className='h-full w-full object-cover rounded-md lg:h-[400px]' />
         </div>
         <div className='w-[90%] h-full flex flex-col items-start justify-center gap-5
                         lg:w-[60%]'>
@@ -127,7 +127,7 @@ function Contact() {
         variants={b_t_animation}  
         className='w-[90%] mx-auto'      
       >        
-        <h3 className='font-bold text-4xl text-center text-second'>Developed Blocks </h3>
+        <h3 className='font-bold text-4xl text-center text-black'>Developed Blocks </h3>
         <TextSlider data={[
               {'title':'Tulip Block'},
               {'title':'Jade Block'},
