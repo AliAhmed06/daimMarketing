@@ -33,8 +33,15 @@ function Contact() {
       <div className='h-[400px] w-full relative overflow-hidden
                       md:h-[500px] lg:h-screen'>
         <div className='absolute top-0 h-full w-full bg-black bg-opacity-80'></div>        
-        <img 
+        {/* <img 
           src='/images/dayimMarketing/societies/al-kabir//img1.jpg'           
+          className='h-full w-full object-cover' 
+        />  */}
+        <video 
+          src='/videos/dm/al-kabir-town-phase1-cover.mp4' 
+          autoPlay 
+          loop 
+          muted 
           className='h-full w-full object-cover' 
         /> 
         <div className='absolute flex items-center top-0 h-full w-full px-[5%] z-10'>

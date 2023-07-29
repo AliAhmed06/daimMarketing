@@ -8,6 +8,7 @@ import Link from 'next/link'
 import AmenitiesItem from '../../park-view-city/AmenitiesItem';
 import TextSlider from '@/app/dmComponents/sliders/TextSlider';
 import BoxItem from '@/app/dmComponents/BoxItem';
+import ImageGallery from '@/app/dmComponents/ImageGallery';
 
 
 function Page() {
@@ -32,10 +33,13 @@ function Page() {
       <div className='h-[400px] w-full relative overflow-hidden
                       md:h-[500px] lg:h-screen'>
         <div className='absolute top-0 h-full w-full bg-black bg-opacity-70'></div>        
-        <img 
-          src='/images/dayimMarketing/societies/al-kabir/phase1.png'           
+        <video 
+          src='/videos/dm/kings-town-phase2-cover.mp4' 
+          autoPlay 
+          loop 
+          muted 
           className='h-full w-full object-cover' 
-        /> 
+        />  
         <div className='absolute flex items-center top-0 h-full w-full px-[5%] z-10'>
           <div className=' w-[60%]  mx-auto flex flex-col items-center justify-center gap-5'>
             <img 
@@ -90,7 +94,7 @@ function Page() {
         </div>
         <div className='w-[90%] h-full flex items-center justify-center
                         lg:w-[40%]'>
-          <img src="/images/dayimMarketing/societies/al-kabir/Al-Kabir-Town-Ph-1-img2.jpg" alt="" className='h-full w-full lg:h-[400px]  rounded-md object-cover' />
+          <img src="/images/dayimMarketing/societies/al-kabir/kings-town2/gallery-1.jpg" alt="" className='h-full w-full lg:h-[400px]  rounded-md object-cotain' />
         </div>
       </motion.section>
      
@@ -103,7 +107,7 @@ function Page() {
                           lg:px-[200px] lg:flex-row md:min-h-[500px] lg:min-h-[700px] '>
         <div className='w-[90%] h-full flex items-center justify-center
                         lg:w-[40%]'>
-          <img src="/images/dayimMarketing/societies/al-kabir/Al-Kabir-Town-Ph-1-img2.jpg" alt="" className='h-full w-full lg:h-[400px]  rounded-md object-cover' />
+          <img src="/images/dayimMarketing/societies/al-kabir/kings-town2/gallery-6.jpg" alt="" className='h-full w-full lg:h-[400px]  rounded-md object-contain' />
         </div>
         <div className='w-[90%] h-full flex flex-col items-start justify-center gap-5
                         lg:w-[60%]'>
@@ -173,6 +177,24 @@ function Page() {
 
 
 
+      {/* Gallery section */}
+      <motion.section 
+        initial="hide"
+        whileInView="show"
+        variants={b_t_animation}
+        className='text-black mb-20'>        
+        <ImageGallery  
+          images={[
+            "/images/dayimMarketing/societies/al-kabir/kings-town2/gallery-1.jpg",
+            "/images/dayimMarketing/societies/al-kabir/kings-town2/gallery-2.jpg",
+            "/images/dayimMarketing/societies/al-kabir/kings-town2/gallery-3.jpg",
+            "/images/dayimMarketing/societies/al-kabir/kings-town2/gallery-4.jpg",
+            "/images/dayimMarketing/societies/al-kabir/kings-town2/gallery-5.jpg",
+            "/images/dayimMarketing/societies/al-kabir/kings-town2/gallery-6.jpg",
+            "/images/dayimMarketing/societies/al-kabir/kings-town2/gallery-7.jpg",
+          ]}
+        />
+      </motion.section>
 
       {/* Footer starts */}
       <footer className=''>

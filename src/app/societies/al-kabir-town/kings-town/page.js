@@ -8,6 +8,7 @@ import Link from 'next/link'
 import AmenitiesItem from '../../park-view-city/AmenitiesItem';
 import TextSlider from '@/app/dmComponents/sliders/TextSlider';
 import BoxItem from '@/app/dmComponents/BoxItem';
+import ImageGallery from '@/app/dmComponents/ImageGallery';
 
 
 function Page() {
@@ -32,8 +33,11 @@ function Page() {
       <div className='h-[400px] w-full relative overflow-hidden
                       md:h-[500px] lg:h-screen'>
         <div className='absolute top-0 h-full w-full bg-black bg-opacity-70'></div>        
-        <img 
-          src='/images/dayimMarketing/societies/al-kabir/phase1.png'           
+        <video 
+          src='/videos/dm/kings-town-phase1-cover.mp4' 
+          autoPlay 
+          loop 
+          muted 
           className='h-full w-full object-cover' 
         /> 
         <div className='absolute flex items-center top-0 h-full w-full px-[5%] z-10'>
@@ -98,7 +102,7 @@ function Page() {
         </div>
         <div className='w-[90%] h-full flex items-center justify-center
                         lg:w-[40%]'>
-          <img src="/images/dayimMarketing/societies/al-kabir/Al-Kabir-Town-Ph-1-img2.jpg" alt="" className='h-full w-full lg:h-[400px]  rounded-md object-cover' />
+          <img src="/images/dayimMarketing/societies/al-kabir/kings-town/gallery-3.png" alt="" className='h-full w-full lg:h-[400px]  rounded-md object-contain' />
         </div>
       </motion.section>
      
@@ -143,7 +147,7 @@ function Page() {
         </div>
         <div className='w-[90%] h-full flex items-center justify-center
                         lg:w-[40%]'>
-          <img src="/images/dayimMarketing/societies/al-kabir/Al-Kabir-Town-Ph-1-img2.jpg" alt="" className='h-full w-full lg:h-[400px]  rounded-md object-cover' />
+          <img src="/images/dayimMarketing/societies/al-kabir/kings-town/gallery-8.png" alt="" className='h-full w-full lg:h-[400px]  rounded-md object-contain' />
         </div>
       </motion.section>
 
@@ -195,6 +199,26 @@ function Page() {
         </div>        
       </motion.section>
       
+      {/* Gallery section */}
+      <motion.section 
+        initial="hide"
+        whileInView="show"
+        variants={b_t_animation}
+        className='text-black mb-20'>        
+        <ImageGallery  
+          images={[
+            "/images/dayimMarketing/societies/al-kabir/kings-town/gallery-1.png",
+            "/images/dayimMarketing/societies/al-kabir/kings-town/gallery-2.png",
+            "/images/dayimMarketing/societies/al-kabir/kings-town/gallery-3.png",
+            "/images/dayimMarketing/societies/al-kabir/kings-town/gallery-4.png",
+            "/images/dayimMarketing/societies/al-kabir/kings-town/gallery-5.png",
+            "/images/dayimMarketing/societies/al-kabir/kings-town/gallery-6.png",
+            "/images/dayimMarketing/societies/al-kabir/kings-town/gallery-7.png",
+            "/images/dayimMarketing/societies/al-kabir/kings-town/gallery-8.png",
+          ]}
+        />
+      </motion.section>
+
       {/* Footer starts */}
       <footer className=''>
         <MainFooter />

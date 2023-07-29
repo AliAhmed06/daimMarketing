@@ -45,7 +45,7 @@ function Contact() {
                 />
 
                 <TeamItem 
-                  // image={"/images/dayimMarketing/agents/AghaUsmanAhmed.jpg"}
+                  image={"/images/dayimMarketing/agents/AliZark.jpg"}
                   name={"Mr. Ali Zark Jahangir"} 
                   designation={"Team Leader"}
                   mobile={"+923164956464"}
@@ -90,7 +90,7 @@ function Contact() {
                 />
 
                 <TeamItem 
-                  // image={"/images/dayimMarketing/agents/UsmanIjaz.jpg"}
+                  image={"/images/dayimMarketing/agents/FarazmaHaroon.jpg"}
                   name={"Ms. Farazma Haroon Toor"} 
                   designation={"Creative Manager"}
                   mobile={"+923055111504"}

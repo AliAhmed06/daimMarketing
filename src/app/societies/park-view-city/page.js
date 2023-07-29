@@ -8,6 +8,7 @@ import {motion} from 'framer-motion'
 import Link from 'next/link'
 import AmenitiesItem from './AmenitiesItem';
 import TextSlider from '@/app/dmComponents/sliders/TextSlider';
+import ImageGallery from '@/app/dmComponents/ImageGallery';
 
 
 
@@ -34,10 +35,13 @@ function Contact() {
       <div className='h-[400px] w-full relative overflow-hidden
                       md:h-[500px] lg:h-screen'>
         <div className='absolute top-0 h-full w-full bg-black bg-opacity-50'></div>        
-        <img 
-          src='/images/dayimMarketing/societies/parkView/bg.jpg'           
+        <video 
+          src='/videos/dm/park-view-city-cover.mp4' 
+          autoPlay 
+          loop 
+          muted 
           className='h-full w-full object-cover' 
-        /> 
+        />  
 
         <div className='absolute flex items-center top-0 h-full w-full px-[5%] z-10'>
           <div className=' w-[60%]  mx-auto flex flex-col items-center justify-center gap-5'>
@@ -229,49 +233,20 @@ function Contact() {
         </div>
       </motion.section>
 
-
-      {/* <motion.section 
+      {/* Gallery section */}
+      <motion.section 
         initial="hide"
         whileInView="show"
         variants={b_t_animation}
-        className='py-20 bg-[#f7f7f7]'>        
-        <div className='w-[80%] mx-auto text-center  '>
-            <h3 className='font-bold text-4xl'>Booking Procedure for Park View Lahore</h3>
-            <p className='md:w-[60%] text-center mx-auto mt-5 text-gray'>If you are interested in booking your plot in Park View City Lahore you can simply follow the steps given below to get yourself registered:</p>
-            <div className='grid grid-cols-1 mt-10 gap-5
-                            md:grid-cols-2 lg:grid-cols-3'>
-                <div className='bg-white shadow-md py-5 px-10 hover:bg-second group'>
-                    <h3 className='font-semibold text-xl group-hover:text-white'>Infrastructure</h3>
-                    <ul className='text-gray group-hover:text-white text-left'>
-                      <li><span className='font-bold'>Step 1:</span> Pay order/cheque/cash/transfer of down payment in favor of A/c details of the Vision Group.</li>
-                      <li><span className='font-bold'>Step 2:</span> WhatsApp your required documents at UAN# 0311-1127522</li>
-                      <li><span className='font-bold'>Step 3:</span> Your booking confirmation will be sent to you on WhatsApp within 7 days.</li>
-                      <li><span className='font-bold'>Step 4:</span> The original digital receipt will be available within 14 days.</li>
-                      <li><span className='font-bold'>Note:</span> Your original file will be ready within 30 to 45 days and sent to your place/registered address. Membership charges are also to be paid by the client at the time of booking.</li>
-                    </ul>
-                </div>
-                <div className='bg-white shadow-md py-5 px-10 hover:bg-second group text-left'>
-                    <h3 className='font-semibold text-xl group-hover:text-white text-center'>Charges to be paid at the Time of Booking</h3>
-                    <ul className='mt-10 text-gray hover:text-white'>
-                      <li>20% down payment on 5,10 Marla & 1 Kanal.</li>
-                      <li>80% charges to be paid (within 30 days)</li>
-                      <li>For the overseas block, booking amount is 10%, on confirmation 10% (in 30 days), and a 2-years monthly installment plan.</li>
-                      <li>Prices are without development charges.</li>
-                    </ul>
-                </div>
-                <div className='bg-white shadow-md py-5 px-10 hover:bg-second group'>
-                <h3 className='font-semibold text-xl group-hover:text-white text-center'>Required Documents</h3>
-                    <ul className='mt-10 text-gray hover:text-white'>
-                      <li>2 Passport size pictures of the applicant</li>
-                      <li>2 Photocopies of your CNIC/NICOP of the applicant</li>
-                      <li>2 Photocopies of your next to Kin/ Nominee ID Card</li>
-                      <li>Booking amount of the plot</li>
-                      <li>2 Photocopies of passport (for overseas clients).</li>
-                    </ul>
-                </div>                
-            </div>
-        </div>
-      </motion.section> */}
+        className='text-black mb-20'>        
+        <ImageGallery  
+          images={[
+            "/images/dayimMarketing/societies/parkView/gallery-1.JPG",
+            "/images/dayimMarketing/societies/parkView/gallery-2.JPG",
+            "/images/dayimMarketing/societies/parkView/gallery-3.JPG",            
+          ]}
+        />
+      </motion.section>
 
       {/* Footer starts */}
       <footer className=''>
