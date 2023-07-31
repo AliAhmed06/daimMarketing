@@ -30,7 +30,7 @@ function NavBar({videoBg}) {
     <div className=''>      
       <nav className={`w-full fixed top-0 left-0 z-50 ${navbar ? "bg-white " : "bg-transparent " } ${videoBg == false && 'bg-white shadow-md text-black'} ${isScroll && 'bg-white shadow-md'} `}>
         {/* Home icon */}
-        <Link href={"/"} title='Dayim Marketing' className='text-second top-[30px] left-[10px] lg:left-[40px] w-[50px] h-[50px] absolute hidden md:block cursor-pointer'><AiFillHome size={30} /></Link>
+        <Link href={"/"} title='Dayim Marketing ' className='text-second top-[30px] left-[10px] lg:left-[40px] w-[50px] h-[50px] absolute hidden md:block cursor-pointer'><AiFillHome size={30} /></Link>
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between  md:block">
