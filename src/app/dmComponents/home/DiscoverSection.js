@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 
-const DiscoverSection = ({heading, subHeading, link, linkTitle, bgImage, mapLink}) => {
+const DiscoverSection = ({heading, subHeading, link, linkTitle, bgImage, mapLink, bgVideo }) => {
   return (
     <div className="h-[400px] w-full relative
                       md:h-[500px] lg:h-[700px]">
@@ -25,11 +25,22 @@ const DiscoverSection = ({heading, subHeading, link, linkTitle, bgImage, mapLink
 
         </div>
         <div className="w-full h-full flex flex-col items-center justify-center">                        
-            <img 
-                src={bgImage} 
-                alt="" 
-                className="w-full h-full object-cover object-center hidden md:block" 
-            />                        
+            {bgImage && (
+                <img 
+                    src={bgImage} 
+                    alt="" 
+                    className="w-full h-full object-cover object-center hidden md:block" 
+                />                        
+            )}
+            {bgVideo && (
+                <video 
+                    src={bgVideo} 
+                    autoPlay 
+                    loop 
+                    muted 
+                    className='w-full h-full object-cover object-center hidden md:block' 
+                />                         
+            )}
         </div>
     </div>
   )

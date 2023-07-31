@@ -47,8 +47,9 @@ function Page() {
                 className='h-[250px] hidden md:block' 
                 alt="" 
             />
-            <h2 className='text-white font-bold  w-full text-3xl text-center mt-[-20px] 
-                            lg:text-4xl md:text-4xl  md:mt-0'>Phase 2</h2>            
+            <h2 className='text-white font-bold  w-full text-3xl text-center mt-[-50px] 
+                            lg:text-5xl md:text-4xl '>King&apos;s Town Phase 2</h2>
+                        
             <Link href="/images/dayimMarketing/societies/al-kabir/maps/kings-town-phase2.pdf" target='_blank' className='border-2 border-white py-3 px-8 text-white font-bold text-xl hover:scale-110 transition'>              
               Download Map
             </Link>

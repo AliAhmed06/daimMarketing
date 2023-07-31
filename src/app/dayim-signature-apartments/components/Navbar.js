@@ -2,6 +2,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
+import { AiFillHome } from 'react-icons/ai';
+
 
 import { usePathname } from "next/navigation";
 
@@ -25,8 +27,10 @@ function NavBar({videoBg}) {
   }, []);
   
   return (
-    <div>
+    <div className=''>      
       <nav className={`w-full fixed top-0 left-0 z-50 ${navbar ? "bg-white " : "bg-transparent " } ${videoBg == false && 'bg-white shadow-md text-black'} ${isScroll && 'bg-white shadow-md'} `}>
+        {/* Home icon */}
+        <Link href={"/"} title='Dayim Marketing' className='text-second top-[30px] left-[10px] lg:left-[40px] w-[50px] h-[50px] absolute hidden md:block cursor-pointer'><AiFillHome size={30} /></Link>
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between  md:block">
@@ -87,11 +91,11 @@ function NavBar({videoBg}) {
                     Contact Us
                   </Link>
                 </li>
-                <li className={`${navbar ? 'text-black' : isScroll ? 'text-black' : videoBg == false ? 'text-black' : 'text-white' } pb-6  uppercase text-md font-semibold hover:underline ${pathname == "/about" && "underline"} py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent`}>
+                {/* <li className={`${navbar ? 'text-black' : isScroll ? 'text-black' : videoBg == false ? 'text-black' : 'text-white' } pb-6  uppercase text-md font-semibold hover:underline ${pathname == "/about" && "underline"} py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent`}>
                   <Link href="/" onClick={() => setNavbar(!navbar)}>
                     Dayim Marketing
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

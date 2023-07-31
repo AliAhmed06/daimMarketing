@@ -36,7 +36,7 @@ function Contact() {
                       md:h-[500px] lg:h-screen'>
         <div className='absolute top-0 h-full w-full bg-black bg-opacity-50'></div>        
         <video 
-          src='/videos/dm/park-view-city-cover.mp4' 
+          src='/videos/dm/park-view-city-cover2.mp4' 
           autoPlay 
           loop 
           muted 
@@ -164,7 +164,8 @@ function Contact() {
           heading={"Park View City "}
           subHeading={"A one of its kind project, Park View City, is helmed by the Vision Group."}
           link={"/contact"}
-          bgImage={"/images/dayimMarketing/societies/parkView/img4.png"}
+          // bgImage={"/images/dayimMarketing/societies/parkView/img4.png"}
+          bgVideo={'/videos/dm/park-view-city-cover.mp4'}
           linkTitle={"Contact Us"}
           mapLink={"https://goo.gl/maps/R1S6NpfHsvM5bAcG9"}
         />

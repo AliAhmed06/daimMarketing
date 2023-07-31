@@ -44,12 +44,12 @@ function Page() {
           <div className=' w-[60%]  mx-auto flex flex-col items-center justify-center gap-5'>
             <img 
                 src="/images/dayimMarketing/societies/al-kabir/logos/kings-town.png" 
-                className='h-[250px] hidden md:block' 
+                className='h-[250px] hidden md:block ' 
                 alt="" 
             />
-            {/* <h2 className='text-white font-bold  w-full text-3xl text-center mt-10 
-                            lg:text-5xl md:text-4xl  md:mt-0'>Kings Town</h2>
-             */}
+            <h2 className='text-white font-bold  w-full text-3xl text-center mt-[-50px] 
+                            lg:text-5xl md:text-4xl '>King&apos;s Town Phase 1</h2>
+            
             <Link href="/images/dayimMarketing/societies/al-kabir/maps/kings-town-phase1.pdf" target='_blank' className='border-2 border-white py-3 px-8 text-white font-bold text-xl hover:scale-110 transition'>              
               Download Map
             </Link>

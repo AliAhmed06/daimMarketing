@@ -35,7 +35,7 @@ function Contact() {
                       md:h-[500px] lg:h-screen'>
         <div className='absolute top-0 h-full w-full bg-black bg-opacity-70'></div>        
         <video 
-          src='/videos/dm/kings-town-phase1-cover.mp4' 
+          src='/videos/dm/al-kabir-town-phase1-cover.mp4' 
           autoPlay 
           loop 
           muted 

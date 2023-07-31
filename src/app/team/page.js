@@ -94,7 +94,7 @@ function Contact() {
                   name={"Ms. Farazma Haroon Toor"} 
                   designation={"Creative Manager"}
                   mobile={"+923055111504"}
-                  email={"farazmatoor950@gmail.com"}
+                  email={"farazmatoor@gmail.com"}
                   listingsLink={"#"}
                 />
 

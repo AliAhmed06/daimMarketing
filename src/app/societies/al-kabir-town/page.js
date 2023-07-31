@@ -37,13 +37,13 @@ function Contact() {
           src='/images/dayimMarketing/societies/al-kabir//img1.jpg'           
           className='h-full w-full object-cover' 
         />  */}
-        <video 
+        {/* <video 
           src='/videos/dm/al-kabir-town-phase1-cover.mp4' 
           autoPlay 
           loop 
           muted 
           className='h-full w-full object-cover' 
-        /> 
+        />  */}
         <div className='absolute flex items-center top-0 h-full w-full px-[5%] z-10'>
           <div className=' w-[60%]  mx-auto flex flex-col items-center justify-center gap-5'>
             <img src="/images/dayimMarketing/societies/al-kabir/title1.png" alt="" />
