@@ -209,12 +209,12 @@ function Home() {
         <HomeSlider1 />
       </motion.section>
 
-      <section className='bg-bg2 bg-center bg-no-repeat bg-cover w-full flex items-center justify-center'>
+      <section className='bg-bg2 bg-center bg-no-repeat bg-cover flex items-center justify-center'>
         <motion.div
           initial="hide"
           whileInView="show"
           variants={b_t_animation}
-          className='h-full'          
+          className='bg-transparent w-full'          
         >
           <HomeImageItem />          
           

@@ -18,7 +18,7 @@ const HomeImageItem = () => {
 
   return (
     <div className="relative">
-      <img src="/images/dsa/building_bg3.jpg" alt="Your Image" useMap="#your-image-map"  />
+      <img src="/images/dsa/building_bg3.jpg" alt="Your Image" useMap="#your-image-map" className=''  />
       <map name="your-image-map">
         <area shape="rect" coords="657,145,997,222" href='/dayim-signature-apartments/residences#apartments' onMouseEnter={() => handleMouseOver('area1')} onMouseLeave={() => handleMouseOut('area1')} />
         <area shape="rect" coords="658,227,997,301" href='/dayim-signature-apartments/residences#apartments' onMouseEnter={() => handleMouseOver('area2')} onMouseLeave={() => handleMouseOut('area2')} />
