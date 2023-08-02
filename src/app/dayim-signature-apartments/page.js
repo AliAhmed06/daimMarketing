@@ -15,6 +15,7 @@ import HomeSlider4 from './components/sliders/HomeSlider4'
 import MainFooter from './components/footer/MainFooter'
 import HomeImageItem from './components/buildingImages/HomeImageItem';
 import NavBar from './components/Navbar';
+import HomeImageItem2 from './components/buildingImages/HomeImageItem2';
 
 
 
@@ -214,10 +215,10 @@ function Home() {
           initial="hide"
           whileInView="show"
           variants={b_t_animation}
-          className='bg-transparent w-full'          
+          className='bg-transparent w-full flex items-center justify-center'          
         >
-          <HomeImageItem />          
-          
+          {/* <HomeImageItem />           */}
+          <HomeImageItem2 />
         </motion.div>
       </section>
 
