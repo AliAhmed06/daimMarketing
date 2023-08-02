@@ -46,12 +46,12 @@ const HomeImageItem2 = () => {
       </map>
       <div className='hidden lg:block'>
         <div id="highlight-area1" className="absolute hidden  bg-third w-[200px] h-[70px] top-[20%] right-[15%] rounded-2xl  items-center justify-center text-white font-bold text-xl ">Available - 4</div>
-        <div id="highlight-area2" className="absolute hidden bg-third w-[200px] h-[70px] top-[20%] right-[15%] rounded-2xl  items-center justify-center text-white font-bold text-xl ">Available - 4</div>
-        <div id="highlight-area3" className="absolute hidden bg-third w-[200px] h-[70px] top-[20%] right-[15%] rounded-2xl  items-center justify-center text-white font-bold text-xl ">Available - 3</div>
-        <div id="highlight-area4" className="absolute hidden bg-third w-[200px] h-[70px] top-[20%] right-[15%] rounded-2xl  items-center justify-center text-white font-bold text-xl ">Available - 3</div>
-        <div id="highlight-area5" className="absolute hidden bg-third w-[200px] h-[70px] top-[20%] right-[15%] rounded-2xl  items-center justify-center text-white font-bold text-xl ">Available - 0</div>
-        <div id="highlight-area6" className="absolute hidden bg-third w-[200px] h-[70px] top-[20%] right-[15%] rounded-2xl  items-center justify-center text-white font-bold text-xl ">Available - 2</div>
-        <div id="highlight-area7" className="absolute hidden bg-third w-[200px] h-[70px] top-[20%] right-[15%] rounded-2xl  items-center justify-center text-white font-bold text-xl ">Available - 1</div>
+        <div id="highlight-area2" className="absolute hidden bg-third w-[200px] h-[70px] top-[31%] right-[15%] rounded-2xl  items-center justify-center text-white font-bold text-xl ">Available - 4</div>
+        <div id="highlight-area3" className="absolute hidden bg-third w-[200px] h-[70px] top-[42%] right-[15%] rounded-2xl  items-center justify-center text-white font-bold text-xl ">Available - 3</div>
+        <div id="highlight-area4" className="absolute hidden bg-third w-[200px] h-[70px] top-[53%] right-[15%] rounded-2xl  items-center justify-center text-white font-bold text-xl ">Available - 3</div>
+        <div id="highlight-area5" className="absolute hidden bg-third w-[200px] h-[70px] top-[64%] right-[15%] rounded-2xl  items-center justify-center text-white font-bold text-xl ">Available - 0</div>
+        <div id="highlight-area6" className="absolute hidden bg-third w-[200px] h-[70px] top-[75%] right-[15%] rounded-2xl  items-center justify-center text-white font-bold text-xl ">Available - 2</div>
+        <div id="highlight-area7" className="absolute hidden bg-third w-[200px] h-[70px] top-[86%] right-[15%] rounded-2xl  items-center justify-center text-white font-bold text-xl ">Available - 1</div>
       </div>
 
       {/* Add more highlight divs for additional areas */}
