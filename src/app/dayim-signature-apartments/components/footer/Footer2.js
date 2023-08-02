@@ -50,8 +50,8 @@ function Footer2() {
 
           <div className='flex flex-col space-y-5 mt-10
                           lg:py-3 lg:pl-32 lg:mt-0 '>
-            <Link href="#" className=' text-md hover:underline'>Privacy Policy</Link>            
-            <Link href="#" className=' text-md hover:underline'>Terms & Conditions</Link>
+            <Link href="/dayim-signature-apartments/terms" className=' text-md hover:underline'>Terms & Conditions</Link>            
+            {/* <Link href="#" className=' text-md hover:underline'>Terms & Conditions</Link> */}
           </div>
         </div>
 

@@ -39,7 +39,7 @@ function Contact() {
                         lg:flex-row'>
           <div className='w-[100%] px-3
                         md:px-10 lg:w-[70%]'>
-            <h3 className='text-6xl text-black font-bold'>Contact</h3>
+            <h3 className='text-6xl text-second font-bold'>Contact</h3>
             <form className='w-full mt-20'>
                 <div className='grid grid-cols-1 gap-10
                                 md:grid-cols-2'>
@@ -84,20 +84,26 @@ function Contact() {
             <p className='text-sm'>66-B, 3/F Main Commercial Sector C, Bahria Town, Lahore.</p>
             <p className='text-sm'>+92-308-511-117-6</p>
             <p className='text-sm'>+92-423-597-617-4</p>
-
+            <Link href="https://goo.gl/maps/1oTpsiotRN4JZEvC8" target='_blank' className='text-second underline hover:text-third'>view map</Link>
+            
             <h3 className='font-bold text-lg mt-5'>Al-Kabir Office:</h3>
             <p className='text-sm'>9-A, 1st/F Main Commercial, Al-Kabir Town Phase 2, Lahore.</p>
             <p className='text-sm'>+92-309-511-117-6</p>
+            <Link href="https://goo.gl/maps/2eyWmxmZH1FS8bFg8" target='_blank' className='text-second underline hover:text-third'>view map</Link>
 
             <h3 className='font-bold text-lg mt-5'>US Office:</h3>
             <p className='text-sm'>Suite # 368, 30 Lake Avenue Riverhead, NY, 11901.</p>
             <p className='text-sm'>+1(718)715-8208</p>
+            <Link href="https://goo.gl/maps/22Fung9LQ8khjRhq8" target='_blank' className='text-second underline hover:text-third'>view map</Link>
+
+            <h3 className='font-bold text-lg mt-5'>Project Site:</h3>
+            <p className='text-sm'>46-47, A Side Broadway Commercial Opposite Lake City, Lahore.</p>
+            <Link href="https://goo.gl/maps/nukZwWqvtZKfJ3y5A" target='_blank' className='text-second underline hover:text-third'>view map</Link>
 
             {/* <h3 className='font-bold text-lg mt-5'>Contact:</h3>
             <p className='text-sm'>+92-423-597-617-4</p>
             <p className='text-sm'>+92-309-511-117-6</p>
             <p className='text-sm'>+1(718)715-8208</p> */}
-            <Link href="https://goo.gl/maps/sSRVUUQSnytAGqeD7" target='_blank' className='mt-8 text-second underline hover:text-third'>view map</Link>
           </div>
         </div>        
       </section>

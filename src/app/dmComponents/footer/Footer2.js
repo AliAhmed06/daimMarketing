@@ -45,13 +45,13 @@ function Footer2() {
             <Link href="/team" className='mt-5 text-lg font-bold hover:underline'>Our Team</Link>
             <Link href="/dayim-signature-apartments" className='mt-5 text-lg font-bold hover:underline'>Projects</Link>
             <Link href="/societies/bahria-town" className='mt-5 text-lg font-bold hover:underline'>Societies</Link>
-            <Link href="/contact" className='mt-5 text-lg font-bold hover:underline'>Contact Us</Link>
           </div>
 
           <div className='flex flex-col space-y-5 mt-10
                           lg:py-3 lg:pl-32 lg:mt-0 '>
-            <Link href="#" className=' text-md hover:underline'>Privacy Policy</Link>            
-            <Link href="#" className=' text-md hover:underline'>Terms & Conditions</Link>
+            <Link href="/contact" className='mt-5 text-lg font-bold hover:underline'>Contact Us</Link>
+            {/* <Link href="#" className=' text-md hover:underline'>Privacy Policy</Link>            
+            <Link href="#" className=' text-md hover:underline'>Terms & Conditions</Link> */}
           </div>
         </div>
 
