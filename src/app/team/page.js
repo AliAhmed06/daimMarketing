@@ -56,7 +56,7 @@ function Contact() {
                 <TeamItem 
                   image={"/images/dayimMarketing/agents/FarahHafeez.jpg"}
                   name={"Ms. Farah Hafeez"} 
-                  designation={"Business Development Manager"}
+                  designation={"Branch Manager"}
                   mobile={"+923065111175"}
                   email={"farah.dayim@gmai.com"}
                   listingsLink={"#"}
