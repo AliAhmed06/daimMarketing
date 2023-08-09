@@ -48,7 +48,7 @@ function NavBar({videoBg}) {
                 >
                   {navbar ? (
                     // <Image src="/images/dsa/cross-icon.jpg" width={40} height={40} alt="logo" />
-                    <AiOutlineClose size={40} />
+                    <AiOutlineClose size={40} className='text-second' />
                   ) : (
                     // <Image
                     //   src="/images/dsa/hamburgere-icon.jpg"
@@ -57,7 +57,7 @@ function NavBar({videoBg}) {
                     //   alt="logo"
                     //   className="focus:border-none active:border-none"
                     // />
-                    <AiOutlineMenu size={40} className='text-white' />
+                    <AiOutlineMenu size={40} className='text-second' />
                   )}
                 </button>
               </div>
