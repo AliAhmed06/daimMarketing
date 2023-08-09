@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
-import { AiFillHome } from 'react-icons/ai';
+import { AiFillHome, AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
 
 import { usePathname } from "next/navigation";
@@ -45,15 +45,17 @@ function NavBar({videoBg}) {
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (
-                    <Image src="/images/dsa/cross-icon.jpg" width={40} height={40} alt="logo" />
+                    // <Image src="/images/dsa/cross-icon.jpg" width={40} height={40} alt="logo" />
+                    <AiOutlineClose size={40} />
                   ) : (
-                    <Image
-                      src="/images/dsa/hamburgere-icon.jpg"
-                      width={40}
-                      height={40}
-                      alt="logo"
-                      className="focus:border-none active:border-none"
-                    />
+                    // <Image
+                    //   src="/images/dsa/hamburgere-icon.jpg"
+                    //   width={40}
+                    //   height={40}
+                    //   alt="logo"
+                    //   className="focus:border-none active:border-none"
+                    // />
+                    <AiOutlineMenu size={40} className='text-white' />
                   )}
                 </button>
               </div>
