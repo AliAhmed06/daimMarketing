@@ -74,7 +74,7 @@ function Contact() {
                 <TeamItem 
                   image={"/images/dayimMarketing/agents/TaimoorKhan.jpg"}
                   name={"Mr. Taimoor Khan"} 
-                  designation={"Investment Advisor"}
+                  designation={"Operations Manager"}
                   mobile={"+923057780879"}
                   email={"ktaimoor242@gmail.com"}
                   listingsLink={"#"}
