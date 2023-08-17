@@ -47,7 +47,7 @@ function Contact() {
                 <TeamItem 
                   image={"/images/dayimMarketing/agents/AliZark.jpg"}
                   name={"Mr. Ali Zark Jahangir"} 
-                  designation={"Team Leader"}
+                  designation={"Sales Manager"}
                   mobile={"+923164956464"}
                   email={"ializark@gmail.com"}
                   listingsLink={"#"}
@@ -92,7 +92,7 @@ function Contact() {
                 <TeamItem 
                   image={"/images/dayimMarketing/agents/FarazmaHaroon.jpg"}
                   name={"Ms. Farazma Haroon Toor"} 
-                  designation={"Creative Manager"}
+                  designation={"Brand Manager"}
                   mobile={"+923055111504"}
                   email={"farazmatoor@gmail.com"}
                   listingsLink={"#"}
@@ -119,7 +119,7 @@ function Contact() {
                 <TeamItem 
                   image={"/images/dayimMarketing/agents/HamzaTayyab.jpg"}
                   name={"Mr. Hamza Tayyab"} 
-                  designation={"Investment Advisor"}
+                  designation={"Sales Manager"}
                   mobile={"+923078072575"}
                   email={"hamza.dayim750@gmail.com"}
                   listingsLink={"#"}

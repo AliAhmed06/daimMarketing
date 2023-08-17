@@ -48,7 +48,7 @@ export default function HomeSlider2() {
                 </SwiperSlide>
 
                 <SwiperSlide >
-                    <HomeSlider2Item image={"/images/dayimMarketing/agents/AliZark.jpg"} name={"Ali Zark Jahangir"} designation={"Team Leader"} />
+                    <HomeSlider2Item image={"/images/dayimMarketing/agents/AliZark.jpg"} name={"Ali Zark Jahangir"} designation={"Sales Manager"} />
                 </SwiperSlide>
 
                 
