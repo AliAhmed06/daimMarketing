@@ -50,6 +50,7 @@ function Contact() {
                   designation={"Sales Manager"}
                   mobile={"+923164956464"}
                   email={"ializark@gmail.com"}
+                  office={"Head Office Bahria Town"}
                   listingsLink={"#"}
                 />
 
@@ -122,6 +123,7 @@ function Contact() {
                   designation={"Sales Manager"}
                   mobile={"+923078072575"}
                   email={"hamza.dayim750@gmail.com"}
+                  office={"Al Kabir Town Office"}
                   listingsLink={"#"}
                 />
 

@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 
-const HomeSlider2Item = ({image, name, designation}) => {
+const HomeSlider2Item = ({image, name, designation, office}) => {
   return (
     <Link href={"/team"}>
         <div className="w-full h-full flex flex-col items-center justify-center">                        
@@ -15,6 +15,9 @@ const HomeSlider2Item = ({image, name, designation}) => {
             <div className='text-center'>
                 <h3 className="text-xl text-gray mt-2">{name}</h3>                       
                 <p>{designation}</p>
+                {office && (
+                    <p className='italic text-xs'>{office}</p>
+                )}
             </div>
         </div>
     </Link>

@@ -36,7 +36,7 @@ export default function HomeSlider2() {
             >        
                
                 <SwiperSlide >
-                    <HomeSlider2Item image={"/images/dayimMarketing/agents/FarahHafeez.jpg"} name={"Farah Hafeez"} designation={"Branch Manager"} />
+                    <HomeSlider2Item image={"/images/dayimMarketing/agents/FarahHafeez.jpg"} name={"Farah Hafeez"} designation={"Branch Manager"}  />
                 </SwiperSlide>
 
                 <SwiperSlide >
@@ -48,7 +48,7 @@ export default function HomeSlider2() {
                 </SwiperSlide>
 
                 <SwiperSlide >
-                    <HomeSlider2Item image={"/images/dayimMarketing/agents/AliZark.jpg"} name={"Ali Zark Jahangir"} designation={"Sales Manager"} />
+                    <HomeSlider2Item image={"/images/dayimMarketing/agents/AliZark.jpg"} name={"Ali Zark Jahangir"} designation={"Sales Manager"} office={"Head Office Bahria Town"} />
                 </SwiperSlide>
 
                 
