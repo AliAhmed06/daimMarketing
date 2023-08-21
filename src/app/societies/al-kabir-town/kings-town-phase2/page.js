@@ -176,6 +176,18 @@ function Page() {
         </div>        
       </motion.section>
 
+      <motion.section
+        initial="hide"
+        whileInView="show"
+        variants={b_t_animation}  
+        className=' bg-[#f7f7f7] py-10 '      
+      >        
+        <div className='w-[90%] mx-auto flex flex-col items-center justify-center'>
+            <h3 className='text-second font-bold text-5xl'>New Deal</h3>
+            <p className='text-lg font-semibold'>5 Marla Executive Block </p>
+            <img src="/images/dayimMarketing/societies/al-kabir/kings-town2/newDeal1.jpeg" className='h-[600px] mt-10' alt="" />
+        </div>        
+      </motion.section>
 
 
       {/* Gallery section */}
