@@ -60,24 +60,18 @@ function Contact() {
                   designation={"Branch Manager"}
                   mobile={"+923065111175"}
                   email={"farah.dayim@gmai.com"}
+                  office={"Al Kabir Town Phase 2 Branch"}
                   listingsLink={"#"}
                 />
 
-                <TeamItem 
-                  // image={"/images/dayimMarketing/agents/FarahHafeez.jpg"}
-                  name={"Mr. Abdullah Razzaq"} 
-                  designation={"Investment Advisor"}
-                  mobile={"+923364412491"}
-                  email={"abdullahrazzaq950@gmail.com"}
-                  listingsLink={"#"}
-                />
 
                 <TeamItem 
                   image={"/images/dayimMarketing/agents/TaimoorKhan.jpg"}
-                  name={"Mr. Taimoor Khan"} 
+                  name={"Mr. Taimoor Haider Khan"} 
                   designation={"Operations Manager"}
                   mobile={"+923057780879"}
-                  email={"ktaimoor242@gmail.com"}
+                  email={"taimoordayim@gmail.com"}
+                  office={"Head Office Bahria Town"}
                   listingsLink={"#"}
                 />
 

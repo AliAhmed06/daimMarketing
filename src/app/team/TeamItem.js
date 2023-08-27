@@ -12,12 +12,12 @@ const TeamItem = ({name, designation, mobile, email, listingsLink, image, office
           {office && (
             <p className='text-gray italic text-xs'>{office}</p>
           )}
-          <div className='mt-5 flex items-center justify-between w-full border-b-2 border-white py-1'>
-              <h3 className='font-semibold'>Mobile</h3>
+          <div className='mt-5 flex flex-col items-start w-full border-b-2 border-white py-1'>
+              <h3 className='font-semibold'>Mobile:</h3>
               <p>{mobile}</p>
           </div>
-          <div className='mt-2 flex items-center justify-between w-full border-b-2 border-white py-1'>
-              <h3 className='font-semibold'>Email</h3>
+          <div className='mt-2 flex flex-col items-start w-full border-b-2 border-white py-1'>
+              <h3 className='font-semibold'>Email:</h3>
               <p>{email}</p>
           </div>          
         </div>

@@ -36,7 +36,7 @@ export default function HomeSlider2() {
             >        
                
                 <SwiperSlide >
-                    <HomeSlider2Item image={"/images/dayimMarketing/agents/FarahHafeez.jpg"} name={"Farah Hafeez"} designation={"Branch Manager"}  />
+                    <HomeSlider2Item image={"/images/dayimMarketing/agents/FarahHafeez.jpg"} name={"Farah Hafeez"} designation={"Branch Manager"}  office={"Al Kabir Town Phase 2 Branch"} />
                 </SwiperSlide>
 
                 <SwiperSlide >
