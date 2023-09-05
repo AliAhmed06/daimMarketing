@@ -121,6 +121,79 @@ function Contact() {
                   listingsLink={"#"}
                 />
 
+              <TeamItem 
+                  // image={"/images/dayimMarketing/agents/HamzaTayyab.jpg"}
+                  name={"Ms. Hina Ashraf"} 
+                  designation={"Business Development Manager"}
+                  mobile={"+923232176685"}
+                  email={"hina.dayim@gmail.com"}
+                  // office={"Al Kabir Town Office"}
+                  listingsLink={"#"}
+                />
+
+                <TeamItem 
+                  image={"/images/dayimMarketing/agents/YusraAsif.jpg"}
+                  name={"Ms. Yusra Asif"} 
+                  designation={"Sales Associate"}
+                  mobile={"+923098385358"}
+                  email={"yusraasif93@gmail.com"}
+                  // office={"Al Kabir Town Office"}
+                  listingsLink={"#"}
+                />
+
+                <TeamItem 
+                  // image={"/images/dayimMarketing/agents/YusraAsif.jpg"}
+                  name={"Mr. Muneeb Rahman"} 
+                  designation={"Sales Associate"}
+                  mobile={"+923160686300"}
+                  email={"hafizmuneeb604@gmail.com"}
+                  // office={"Al Kabir Town Office"}
+                  listingsLink={"#"}
+                />
+
+                <TeamItem 
+                  image={"/images/dayimMarketing/agents/MuhammadTouseef.jpg"}
+                  name={"Mr. Muhammad Toseef"} 
+                  designation={"Sales Associate"}
+                  mobile={"+923014895234"}
+                  email={"touseefgujjar15@gmail.com"}
+                  // office={"Al Kabir Town Office"}
+                  listingsLink={"#"}
+                />
+
+                <TeamItem 
+                  image={"/images/dayimMarketing/agents/LaibaSaleem.jpg"}
+                  name={"Ms. Laiba Saleem"} 
+                  designation={"Sales Associate"}
+                  mobile={"+923357230054"}
+                  email={"laibasaleem1998@gmail.com"}
+                  // office={"Al Kabir Town Office"}
+                  listingsLink={"#"}
+                />
+
+
+                <TeamItem 
+                  image={"/images/dayimMarketing/agents/RidaNasir.jpg"}
+                  name={"Ms. Rida Nasir"} 
+                  designation={"Sales Associate"}
+                  mobile={"+923104025980"}
+                  email={"rida80190@gmail.com"}
+                  // office={"Al Kabir Town Office"}
+                  listingsLink={"#"}
+                />
+
+               <TeamItem 
+                  // image={"/images/dayimMarketing/agents/RidaNasir.jpg"}
+                  name={"Ms. Shafaq Azhar"} 
+                  designation={"Sales Associate"}
+                  mobile={"+923055555423"}
+                  email={"shafaqdayim96@gmail.com"}
+                  // office={"Al Kabir Town Office"}
+                  listingsLink={"#"}
+                />
+
+                
+
               </div>
       </section>
 
