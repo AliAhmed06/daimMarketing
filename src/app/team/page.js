@@ -141,16 +141,7 @@ function Contact() {
                   listingsLink={"#"}
                 />
 
-                <TeamItem 
-                  // image={"/images/dayimMarketing/agents/YusraAsif.jpg"}
-                  name={"Mr. Muneeb Rahman"} 
-                  designation={"Sales Associate"}
-                  mobile={"+923160686300"}
-                  email={"hafizmuneeb604@gmail.com"}
-                  // office={"Al Kabir Town Office"}
-                  listingsLink={"#"}
-                />
-
+                
                 <TeamItem 
                   image={"/images/dayimMarketing/agents/MuhammadTouseef.jpg"}
                   name={"Mr. Muhammad Toseef"} 
@@ -170,7 +161,7 @@ function Contact() {
                   // office={"Al Kabir Town Office"}
                   listingsLink={"#"}
                 /> */}
-
+                  
 
                 <TeamItem 
                   image={"/images/dayimMarketing/agents/RidaNasir.jpg"}
