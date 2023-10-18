@@ -94,7 +94,7 @@ function Contact() {
                 />
 
                 <TeamItem 
-                  // image={"/images/dayimMarketing/agents/UsmanIjaz.jpg"}
+                  image={"/images/dayimMarketing/agents/AownAbbas.jpg"}
                   name={"Mr. Aown Abbas"} 
                   designation={"Admin & Account Manager"}
                   mobile={"+923057000139"}
