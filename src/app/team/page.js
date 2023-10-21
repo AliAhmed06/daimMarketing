@@ -117,7 +117,7 @@ function Contact() {
                   designation={"Sales Manager"}
                   mobile={"+923078072575"}
                   email={"hamza.dayim750@gmail.com"}
-                  office={"Al Kabir Town Office"}
+                  office={"Al Kabir Town Phase 2 Branch"}
                   listingsLink={"#"}
                 />
 
