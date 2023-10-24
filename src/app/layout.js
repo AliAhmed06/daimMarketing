@@ -1,7 +1,10 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import StoreProvider from '@/stores/StoreProvider';
 
-const inter = Inter({ subsets: ['latin'] })
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
+
 
 export const metadata = {
   title: 'Dayim Marketing',
@@ -18,7 +21,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className='scroll-smooth'>
-      <body className={inter.className}>{children}</body>
+      <body >
+        <ToastContainer />
+        <StoreProvider>
+          {/* <Navbar /> */}
+          <div className='min-h-[500px]'>
+            {children}
+          </div>
+          {/* <Footer /> */}
+        </StoreProvider>        
+      </body>
     </html>
   )
 }
