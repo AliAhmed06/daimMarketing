@@ -56,7 +56,7 @@ const LoginPage = ({ authProviders }) => {
     <div className="min-h-screen w-full ">
       <NavBar videoBg={false} />
 
-      <div className="flex items-center justify-center min-h-[700px] mt-[-50px]">
+      <div className="flex items-center justify-center min-h-[700px] ">
         <div className="space-y-3 border border-second rounded-sm shadow-md w-[500px] flex flex-col items-center justify-center p-10">
           <h2 className="text-4xl font-bold text-second">Sign in</h2>
         <form
