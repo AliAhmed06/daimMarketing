@@ -27,7 +27,6 @@ const RegisterPage = ({authProviders}) => {
   
   const registerHandler = async (data, e) => {
     e.preventDefault();
-    console.log(data);
     try {
       setLoading(true);
       

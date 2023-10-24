@@ -22,8 +22,7 @@ const LoginPage = ({ authProviders }) => {
 
   const loginHandler = async (data, e) => {
     e.preventDefault();
-    console.log(data);
-    return;
+    
     try {
       setLoading(true);
 
@@ -38,9 +37,9 @@ const LoginPage = ({ authProviders }) => {
         }
       );
       res = await res.json();
-      console.log(res);
+      
       if (res.success === false) {
-        toast.error(res.error);
+        toast.error(res.message);
       } else {
         router.push("/admin");
       }
@@ -48,7 +47,7 @@ const LoginPage = ({ authProviders }) => {
       toast.error(error);
     } finally {
       setLoading(false);
-      // reset();
+      reset();
     }
   };
 

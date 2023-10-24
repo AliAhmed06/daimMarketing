@@ -1,17 +1,11 @@
 import React from 'react'
+import AdminLayout from './components/layouts/AdminLayout'
 
 function Home() {
   return (
-    <div className='bg-white w-full min-h-screen p-3'>
-        {/* Left SideBar */}
-        
-        <div>
-            {/* Search Bar */}
-
-
-            {/* Main Content */}
-        </div>
-    </div>
+    <AdminLayout>
+      hello
+    </AdminLayout>
   )
 }
 

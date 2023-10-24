@@ -9,7 +9,7 @@ function Residences() {
   const apartments = getResidenceByType("Apartment");
   const offices = getResidenceByType("Office");
   const shops = getResidenceByType("Shop");
-  console.log(apartments);
+  
   return (
     <div className='mt-[120px]'>
         <NavBar videoBg={false} />
