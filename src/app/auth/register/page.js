@@ -73,7 +73,7 @@ const RegisterPage = ({authProviders}) => {
                 Icon={AiOutlineUser} 
                 type={"text"} 
                 placeholder={"Enter Name"} 
-                register= {...register("name", {
+                register= {register("name", {
                   required: 'Name is required',                
                 })}
                 errorMessage={errors?.name?.message} 
