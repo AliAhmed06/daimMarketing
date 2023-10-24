@@ -38,7 +38,7 @@ function NavBar({videoBg}) {
             <div className="flex items-center justify-between  md:block">
               {/* LOGO */}
               <Link href="/">
-                <img src="/images/dayimMarketing/DayimSlogan.png" alt='' className='h-[100px] '  />
+                <img src="/images/dayimMarketing/DayimSlogan.png" alt='' className='h-[70px] md:h-[100px] '  />
               </Link>
               {/* HAMBURGER BUTTON FOR MOBILE */}
               <div className="md:hidden">
@@ -90,6 +90,7 @@ function NavBar({videoBg}) {
                   `}>
                     <Link href="/about" className='text-xs  bg-white w-full h-[50px] flex items-center px-2 hover:bg-second hover:text-white border-b border-gray'>Our Details</Link>                    
                     <Link href="/team" className='text-xs  bg-white w-full h-[50px] flex items-center px-2 hover:bg-second hover:text-white border-b border-gray'>Our Team</Link>                    
+                    <Link href="/events" className='text-xs  bg-white w-full h-[50px] flex items-center px-2 hover:bg-second hover:text-white border-b border-gray'>Events</Link>                    
                     <Link href="/contact" className='text-xs  bg-white w-full h-[50px] flex items-center px-2 hover:bg-second hover:text-white border-b border-gray'>Contact Us</Link>                    
                   </div>
                 </li>

@@ -125,7 +125,7 @@ function Contact() {
                   // image={"/images/dayimMarketing/agents/HamzaTayyab.jpg"}
                   name={"Ms. Hina Ashraf"} 
                   designation={"Business Development Manager"}
-                  mobile={"+923232176685"}
+                  mobile={"+923095111175"}
                   email={"hina.dayim@gmail.com"}
                   // office={"Al Kabir Town Office"}
                   listingsLink={"#"}
