@@ -36,6 +36,7 @@ const EventsPage = () => {
     <div className="ali">
       {urls.map((url) => (
         <iframe
+          key={url.src}
           src={url.src}
           height={url.height}
           width={500}
