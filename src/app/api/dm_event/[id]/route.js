@@ -1,43 +1,42 @@
-import db from "@/lib/db";
-import { verifyJwtToken } from "@/lib/jwt";
-import Comment from "@/models/Comment";
+// import { connect } from "@/helpers/connection";
+// import { verifyJwtToken } from "@/lib/jwt";
 
-export async function GET(req, ctx){
-    await db.connect();
+// export async function GET(req, ctx){
+//     await connect();
     
-    // blog id
-    const id = ctx.params.id;
+//     // blog id
+//     const id = ctx.params.id;
     
-    try {
-        const comments = await Comment.find({blogId: id}).populate("authorId");
+//     try {
+//         const comments = await Comment.find({blogId: id}).populate("authorId");
 
-        return new Response(JSON.stringify(comments), {status: 200})
-    } catch (error) {
-        return new Response(JSON.stringify(null), {status: 500})
-    }
-}
+//         return new Response(JSON.stringify(comments), {status: 200})
+//     } catch (error) {
+//         return new Response(JSON.stringify(null), {status: 500})
+//     }
+// }
 
-export async function DELETE(req, ctx){
-    await db.connect();
-    const id = ctx.params.id;
+// export async function DELETE(req, ctx){
+//     await db.connect();
+//     const id = ctx.params.id;
 
-    const accessToken = req.headers.get("authorization");
-    const token = accessToken.split(" ")[1];
-    const decodedToken = verifyJwtToken(token);
-    if(!accessToken || !decodedToken){
-        return new Response(JSON.stringify({error: "unauthorized (wrong or expired token)"}), {status: 403})
-    }
+//     const accessToken = req.headers.get("authorization");
+//     const token = accessToken.split(" ")[1];
+//     const decodedToken = verifyJwtToken(token);
+//     if(!accessToken || !decodedToken){
+//         return new Response(JSON.stringify({error: "unauthorized (wrong or expired token)"}), {status: 403})
+//     }
 
-    try {
-        const comment = await Comment.findById(id).populate("authorId");
-        if(comment?.authorId?._id.toString() !== decodedToken._id.toString()){
-            return new Response(JSON.stringify({msg: "Only Author can delete the blog (from comment)"}), {status: 401})    
-        }
-        await Comment.findByIdAndDelete(id);
-        return new Response({msg: "comment deleted successfully"}, {status: 200})
-    } catch (error) {
-        return new Response(JSON.stringify(null), {status: 500})
-    }
-}
+//     try {
+//         const comment = await Comment.findById(id).populate("authorId");
+//         if(comment?.authorId?._id.toString() !== decodedToken._id.toString()){
+//             return new Response(JSON.stringify({msg: "Only Author can delete the blog (from comment)"}), {status: 401})    
+//         }
+//         await Comment.findByIdAndDelete(id);
+//         return new Response({msg: "comment deleted successfully"}, {status: 200})
+//     } catch (error) {
+//         return new Response(JSON.stringify(null), {status: 500})
+//     }
+// }
 
 
