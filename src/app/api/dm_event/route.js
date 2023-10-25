@@ -1,5 +1,6 @@
 import { connect } from "@/helpers/connection";
-import { verifyJwtToken } from "@/lib/jwt";
+import { verifyJwtToken } from "@/helpers/jwt";
+
 import DmEvent from "@/models/dmEventsModel";
 
 export async function POST(req){
