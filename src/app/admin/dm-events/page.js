@@ -9,7 +9,7 @@ const getAllEvents = async () => {
   let res = await fetch(`${process.env.DOMAIN_NAME}/api/dm_event`, {
     cache: "no-store",
   });
-  // res = await res.json();
+  res = await res.json();
   return res.events;
 };
 

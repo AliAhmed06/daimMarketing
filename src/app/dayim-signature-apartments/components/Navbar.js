@@ -88,6 +88,11 @@ function NavBar({videoBg}) {
                     Experiences
                   </Link>
                 </li>
+                <li className={`${navbar ? 'text-black' : isScroll ? 'text-black' : videoBg == false ? 'text-black' : 'text-white' } pb-6 uppercase text-md font-semibold hover:underline ${pathname == "/experiences" && "underline"} py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent`}>
+                  <Link href="/dayim-signature-apartments/events" onClick={() => setNavbar(!navbar)}>
+                    Events
+                  </Link>
+                </li>
                 <li className={`${navbar ? 'text-black' : isScroll ? 'text-black' : videoBg == false ? 'text-black' : 'text-white' } pb-6 uppercase text-md font-semibold hover:underline ${pathname == "/contact" && "underline"} py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent`}>
                   <Link href="/dayim-signature-apartments/contact" onClick={() => setNavbar(!navbar)}>
                     Contact Us
