@@ -1,22 +1,13 @@
 import mongoose from "mongoose";
 
 const dmEventSchema = new mongoose.Schema({
-    username: {
+    eventUrl: {
         type: String,
-        required: [true, "Please Provide a username"],
+        required: [true, "Please Provide a url"],
         unique: true
-    },
-    email: {
-        type: String,
-        required: [true, "Please Provide an email"],
-        unique: true
-    },
-    password: {
-        type: String,
-        required: [true, "Please Provide a password"],        
-    }
+    },    
 }, )
 
-const DmEvent = mongoose.models.dm_events || mongoose.model("dm_events", dmEventSchema);
+const DmEvent = mongoose.models.dmEvents || mongoose.model("dmEvents", dmEventSchema);
 
 export default DmEvent;
