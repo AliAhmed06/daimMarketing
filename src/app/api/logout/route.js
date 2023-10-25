@@ -14,7 +14,8 @@ export async function GET(){
         //     expires: new Date(0)
         // })
 
-        cookies().delete('token')
+        // cookies().delete('token')
+        cookies().set('token', '', { expires: Date.now() - 86400 })
 
 
         return response;
