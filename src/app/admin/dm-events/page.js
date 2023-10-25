@@ -1,7 +1,9 @@
 import React from "react";
 import AdminLayout from "../components/layouts/AdminLayout";
 import Link from "next/link";
-import TableRowItem from "./tableRowItem";
+import TableRowItem from "./TableRowItem";
+
+
 
 const getAllEvents = async () => {
   let res = await fetch(`${process.env.DOMAIN_NAME}/api/dm_event`, {
