@@ -260,3 +260,5 @@ function Sidebar() {
 }
 
 export default Sidebar;
+
+export const dynamic = "force-dynamic"
