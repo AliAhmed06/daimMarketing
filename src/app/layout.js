@@ -5,6 +5,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 
+export const revalidate = 0;
 
 export const metadata = {
   title: 'Dayim Marketing',
