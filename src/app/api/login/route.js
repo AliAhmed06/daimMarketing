@@ -1,4 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
+import { cookies } from 'next/headers'
+
 import bcryptjs from 'bcryptjs'
 import jwt from "jsonwebtoken";
 
@@ -40,7 +42,7 @@ export async function POST(NextRequest){
         }
 
         // create token
-        const token = await jwt.sign(tokenData, process.env.SECRET, {expiresIn: '1d'});
+        const token = jwt.sign(tokenData, process.env.SECRET, {expiresIn: '1d'});
         
         // set the token into users cookie so that we can use it for further verifications
         // creating the response
@@ -49,9 +51,17 @@ export async function POST(NextRequest){
             success: true,
         })
         // setting the cookie
-        response.cookies.set("token", token, {
-            httpOnly: true,
-        })
+        // response.cookies.set("token", token, {
+        //     httpOnly: true,
+        // })
+
+        cookies().set({
+            name: 'token',
+            value: token,
+            httpOnly: true,            
+          })
+
+
 
 
         // now return the response
