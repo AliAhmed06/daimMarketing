@@ -38,7 +38,7 @@ const DmEventsPage = async () => {
                   </tr>
                 </thead>
                 <tbody>
-                  {events.map((event) => (
+                  {events?.map((event) => (
                     <TableRowItem key={event._id} event={event} />
                   ))}
                 </tbody>
