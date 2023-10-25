@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const userSchema = new mongoose.Schema({
+const dmEventSchema = new mongoose.Schema({
     username: {
         type: String,
         required: [true, "Please Provide a username"],
@@ -17,6 +17,6 @@ const userSchema = new mongoose.Schema({
     }
 }, )
 
-const User = mongoose.models.users || mongoose.model("users", userSchema);
+const DmEvent = mongoose.models.dm_events || mongoose.model("dm_events", dmEventSchema);
 
-export default User;
+export default DmEvent;

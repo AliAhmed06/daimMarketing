@@ -15,7 +15,7 @@ import { useRouter } from "next/navigation";
 function Sidebar() {
   const router = useRouter();
   
-  let isTab = useMediaQuery({ query: "(max-width: 768px)" });
+  let isTab = useMediaQuery({ query: "(max-width: 821px)" });
 
   const [isOpen, setIsOpen] = useState(isTab ? false : true);
 
@@ -118,7 +118,7 @@ function Sidebar() {
     <div className="">
       <div
         onClick={() => setIsOpen(false)}
-        className={`md:hidden fixed inset-0 max-h-screen z-[998] bg-black/50 ${
+        className={`lg:hidden fixed inset-0 max-h-screen z-[998] bg-black/50 ${
           isOpen ? "block" : "hidden"
         }`}
       ></div>
@@ -128,7 +128,7 @@ function Sidebar() {
         variants={Sidebar_animation}
         animate={isOpen ? "open" : "closed"}
         className="bg-white text-gray-500 shadow-xl z-[999] w-[16rem] max-w-[16rem] h-screen overflow-hidden fixed 
-                      md:relative"
+                      lg:relative"
       >
         {/* Logo */}
         <div className="flex items-center gap-2.5 font-medium border-b border-slate-300 py-3 mx-2">
@@ -149,58 +149,38 @@ function Sidebar() {
           >
             {/* With Submenu */}
             {/* mobile view mostly shows submenus */}
-            {(isOpen || isTab) && (
+            {/* {(isOpen || isTab) && (
               <div className="">
                 <div className="flex flex-col gap-1">
                   <Submenu data={menu1} />
                 </div>
               </div>
-            )}
+            )} */}
 
             <li>
               <Link
-                href="/admin/allotment"
+                href="/admin/dm-events"
                 className={`link ${
                   pathname == "/admin/allotment" ? "active" : ""
                 } `}
               >
                 <img src="/images/admin/icons/sidebar1.svg" alt="" />
-                {isOpen && <span>Allotment</span>}
+                {isOpen && <span>DM Events</span>}
               </Link>
             </li>
+
             <li>
               <Link
-                href="/admin/payment_plan"
+                href="/admin/dsa-events"
                 className={`link ${
-                  pathname == "/admin/payment_plan" ? "active" : ""
-                } `}
-              >
-                <img src="/images/admin/icons/sidebar2.svg" alt="" />
-                {isOpen && <span>Payment Plan</span>}
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/admin/invoice"
-                className={`link ${
-                  pathname == "/admin/invoice" ? "active" : ""
+                  pathname == "/admin/allotment" ? "active" : ""
                 } `}
               >
                 <img src="/images/admin/icons/sidebar3.svg" alt="" />
-                {isOpen && <span>User Management</span>}
+                {isOpen && <span>DSA Events</span>}
               </Link>
             </li>
-            <li>
-              <Link
-                href="/admin/chats"
-                className={`link ${
-                  pathname == "/admin/chats" ? "active" : ""
-                } `}
-              >
-                <img src="/images/admin/icons/sidebar4.svg" alt="" />
-                {isOpen && <span>Chats</span>}
-              </Link>
-            </li>
+            
 
             {(isOpen || isTab) && (
               <li>
@@ -272,7 +252,7 @@ function Sidebar() {
         </motion.div>
       </motion.div>
 
-      <div className="m-3 md:hidden" onClick={() => setIsOpen(true)}>
+      <div className="m-3 lg:hidden" onClick={() => setIsOpen(true)}>
         <MdMenu size={25} />
       </div>
     </div>
