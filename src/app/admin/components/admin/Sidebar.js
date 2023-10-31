@@ -11,10 +11,12 @@ import Submenu from "./Submenu";
 
 import { useMediaQuery } from "react-responsive";
 import { useRouter } from "next/navigation";
+import useLoaderStore from "@/stores/loaderStore";
 
 function Sidebar() {
+  const setLoading = useLoaderStore((state) => state.setLoading);
   const router = useRouter();
-  
+
   let isTab = useMediaQuery({ query: "(max-width: 821px)" });
 
   const [isOpen, setIsOpen] = useState(isTab ? false : true);
@@ -25,24 +27,49 @@ function Sidebar() {
   const pathname = usePathname();
 
   const logoutHandler = async () => {
+    // try {
+    //   let res = await fetch(
+    //     `${process.env.NEXT_PUBLIC_DOMAIN_NAME}/api/logout`,
+    //     {
+    //       headers: {
+    //         "Content-type": "application/json",
+    //       },
+    //       method: "GET",
+    //     }
+    //   );
+    //   res = await res.json();
+    //   if (res.success === false) {
+    //     console.log(res.error);
+    //   } else {
+    //     router.push("/auth/login");
+    //   }
+    // } catch (error) {
+    //   console.log(error);
+    // }
+
     try {
+      setLoading(true);
+
       let res = await fetch(
         `${process.env.NEXT_PUBLIC_DOMAIN_NAME}/api/logout`,
         {
           headers: {
             "Content-type": "application/json",
           },
-          method: "GET",
+          method: "POST",
         }
       );
       res = await res.json();
+
       if (res.success === false) {
-        console.log(res.error);
+        toast.error(res.message);
       } else {
         router.push("/auth/login");
       }
     } catch (error) {
-      console.log(error);
+      toast.error(error);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -180,7 +207,6 @@ function Sidebar() {
                 {isOpen && <span>DSA Events</span>}
               </Link>
             </li>
-            
 
             {(isOpen || isTab) && (
               <li>
@@ -260,4 +286,3 @@ function Sidebar() {
 }
 
 export default Sidebar;
-
