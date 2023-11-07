@@ -13,7 +13,7 @@ const residences = [
   {
     id: 2,
     sold: "yes",
-    purchased_by: "Muhammad Sadiq",
+    purchased_by: "Muhammad Ashfaq",
     title: "Deluxe Studio",
     size: "353",
     floor: "2nd Floor",
@@ -24,7 +24,7 @@ const residences = [
   {
     id: 3,
     sold: "yes",
-    purchased_by: "Muhammad Sadiq",
+    purchased_by: "Muhammad Ashraf",
     title: "Executive One Bed",
     size: "559",
     floor: "2nd Floor",
@@ -45,8 +45,8 @@ const residences = [
   },
   {
     id: 5,
-    sold: "no",
-    purchased_by: "",
+    sold: "yes",
+    purchased_by: "Jehad Afzal Khan",
     title: "Deluxe One Bed",
     size: "531",
     floor: "3rd Floor",
@@ -56,8 +56,8 @@ const residences = [
   },
   {
     id: 6,
-    sold: "no",
-    purchased_by: "",
+    sold: "yes",
+    purchased_by: "Muhammad Saeed",
     title: "Deluxe Studio",
     size: "353",
     floor: "3rd Floor",
@@ -265,8 +265,8 @@ const residences = [
   },
   {
     id: 25,
-    sold: "no",
-    purchased_by: "",
+    sold: "yes",
+    purchased_by: "Muhammad Ashfaq",
     title: "Executive Shop",
     size: "905",
     floor: "Lower Ground Floor",
