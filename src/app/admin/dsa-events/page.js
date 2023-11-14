@@ -3,13 +3,11 @@ import AdminLayout from "../components/layouts/AdminLayout";
 import Link from "next/link";
 import TableRowItem from "./TableRowItem";
 
-
-
 const getAllEvents = async () => {
   let res = await fetch(`${process.env.DOMAIN_NAME}/api/dsa_event`, {
     cache: "no-store",
   });
-  if(res){
+  if (res) {
     res = await res.json();
     return res.events;
   }
@@ -37,6 +35,7 @@ const DsaEventsPage = async () => {
               <table className="w-full border border-gray ">
                 <thead className="bg-gray ">
                   <tr>
+                    <th className="text-start p-3">Event Id</th>
                     <th className="text-start p-3">Event Url</th>
                     <th className="text-start p-3">Actions</th>
                   </tr>
