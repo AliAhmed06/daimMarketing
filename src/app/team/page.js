@@ -125,7 +125,7 @@ function Contact() {
             listingsLink={"#"}
           />
 
-          <TeamItem
+          {/* <TeamItem
             image={"/images/dayimMarketing/agents/YusraAsif.jpg"}
             name={"Ms. Yusra Asif"}
             designation={"Sales Associate"}
@@ -133,7 +133,7 @@ function Contact() {
             email={"yusraasif93@gmail.com"}
             // office={"Al Kabir Town Office"}
             listingsLink={"#"}
-          />
+          /> */}
 
           <TeamItem
             image={"/images/dayimMarketing/agents/MuhammadTouseef.jpg"}
