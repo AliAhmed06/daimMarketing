@@ -26,7 +26,7 @@ function Contact() {
     <div>
       <NavBar videoBg={false} />
 
-      <section className="my-[50px] mt-[150px] px-5 md:px-20 ">
+      <section className="my-[50px] mt-[150px] px-10 md:px-32 ">
         <h2 className="text-center font-bold text-4xl my-7">
           Terms and Conditions
         </h2>
