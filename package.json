@@ -23,6 +23,7 @@
     "react-dom": "18.2.0",
     "react-hook-form": "^7.47.0",
     "react-icons": "^4.8.0",
+    "react-medium-image-zoom": "^5.1.10",
     "react-photo-sphere-viewer": "^3.3.5-psv5.1.4",
     "react-responsive": "^9.0.2",
     "react-spinners": "^0.13.8",

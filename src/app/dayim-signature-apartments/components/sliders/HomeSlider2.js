@@ -4,13 +4,15 @@ import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import {Autoplay, Navigation, Pagination } from "swiper";
+import { Autoplay, Navigation, Pagination } from "swiper";
 
 export default function HomeSlider2() {
   return (
-    <div className="h-[200px] w-full bg-white hidden
-                    lg:block">
-      <Swiper        
+    <div
+      className="h-[200px] w-full bg-white hidden
+                    lg:block"
+    >
+      <Swiper
         slidesPerView={3}
         spaceBetween={30}
         autoplay={{
@@ -24,18 +26,32 @@ export default function HomeSlider2() {
           "--swiper-pagination-bullet-inactive-opacity": "1",
         }}
       >
-        <SwiperSlide className="text-second pt-10 relative text-center">            
-            <p className="text-7xl font-bold">DSA <span className="text-xl absolute top-0">Modern Living</span> </p>
+        <SwiperSlide className="text-second pt-10 relative text-center">
+          <p className="text-7xl font-bold">
+            DSA <span className="text-xl absolute top-0">Modern Living</span>{" "}
+          </p>
         </SwiperSlide>
-        <SwiperSlide className="text-second flex pt-10 relative text-center">            
-            <p className="text-7xl font-bold">Shop/Office <span className="text-xl absolute top-0">Commercial</span> </p>            
+        <SwiperSlide className="text-second flex pt-10 relative text-center">
+          <p className="text-7xl font-bold">
+            Shop/Office{" "}
+            <span className="text-xl absolute top-0">Commercial</span>{" "}
+          </p>
         </SwiperSlide>
-        <SwiperSlide className="text-second flex pt-10 relative text-center">            
-            <p className="text-7xl font-bold">Studio  <span className="text-xl absolute top-0">Apartments</span> </p>                        
+        <SwiperSlide className="text-second flex pt-10 relative text-center">
+          <p className="text-7xl font-bold">
+            Studio <span className="text-xl absolute top-0">Apartments</span>{" "}
+          </p>
         </SwiperSlide>
-        <SwiperSlide className="text-second pt-10 relative ">            
-            <p className="text-7xl font-bold">One Bed <span className="text-xl absolute top-0 ">Apartments</span> </p>
-        </SwiperSlide>       
+        <SwiperSlide className="text-second pt-10 relative ">
+          <p className="text-7xl font-bold">
+            One Bed <span className="text-xl absolute top-0 ">Apartments</span>{" "}
+          </p>
+        </SwiperSlide>
+        <SwiperSlide className="text-second pt-10 relative ">
+          <p className="text-7xl font-bold">
+            Two Bed <span className="text-xl absolute top-0 ">Apartments</span>{" "}
+          </p>
+        </SwiperSlide>
       </Swiper>
     </div>
   );

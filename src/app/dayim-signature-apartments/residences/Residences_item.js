@@ -1,4 +1,7 @@
+"use client";
 import React from "react";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 function Residences_item({
   id,
@@ -13,19 +16,24 @@ function Residences_item({
 }) {
   return (
     <div className=" p-5 flex flex-col items-center justify-center  border border-second h-[400px]">
-      <img src={image} alt="" className="h-[200px] w-[150px] object-contain" />
-
+      <Zoom>
+        <img
+          src={image}
+          alt=""
+          className="h-[200px] w-[150px] object-contain"
+        />
+      </Zoom>
       <div className="w-full mt-5">
         {sold == "no" ? (
           <span className=" text-white text-sm font-bold p-1 rounded-md bg-second">
             AVAILABLE
           </span>
         ) : (
-          <div className="flex items-center justify-between">
+          <div className="flex items-end justify-between">
             <span className=" text-white text-sm font-bold p-1 rounded-md bg-red">
               SOLD
             </span>
-            <div>
+            <div className="flex flex-col">
               <h3 className="text-xs font-bold">Purchased By</h3>
               <span className=" text-white text-sm font-bold p-1 rounded-md bg-red">
                 {purchased_by}
