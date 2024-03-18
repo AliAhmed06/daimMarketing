@@ -145,8 +145,8 @@ const residences = [
   },
   {
     id: 14,
-    sold: "no",
-    purchased_by: "",
+    sold: "yes",
+    purchased_by: "Faryad Ali",
     title: "",
     size: "310",
     floor: "1st Floor",
@@ -156,8 +156,8 @@ const residences = [
   },
   {
     id: 15,
-    sold: "no",
-    purchased_by: "",
+    sold: "yes",
+    purchased_by: "Faryad Ali",
     title: "",
     size: "330",
     floor: "1st Floor",
