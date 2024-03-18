@@ -51,18 +51,16 @@ export default function VRSLider1() {
           slidesPerView={1}
           spaceBetween={40}
           className="h-full w-full bg-transparent"
-          //   pagination={true}
-          //   modules={[Pagination]}
-          style={
-            {
-              // "--swiper-pagination-color": "#FFBA08",
-              // "--swiper-pagination-top": "-10px",
-            }
-          }
+          navigation={true}
+          modules={[Navigation]}
+          style={{
+            "--swiper-navigation-color": "#FFBA08",
+            // "--swiper-pagination-top": "-10px",
+          }}
         >
           {residence_types.map((item) => (
             <SwiperSlide key={item.id}>
-              <div className=" mx-auto h-[100%] lg:h-[70%] w-full flex flex-col items-center justify-center">
+              <div className=" mx-auto h-[100%]  lg:h-[60%] w-full flex flex-col items-center justify-center">
                 <img
                   src="/images/dsa/vr-icon.svg"
                   className="absolute  object-contain h-[30px]  "
@@ -71,8 +69,13 @@ export default function VRSLider1() {
                   href={item.link}
                   className="inline-block h-full w-full relative"
                 >
-                  <Image
+                  {/* <Image
                     fill={true}
+                    src={item.image}
+                    alt=""
+                    className="w-[100%] h-[100%] object-cover"
+                  /> */}
+                  <img
                     src={item.image}
                     alt=""
                     className="w-[100%] h-[100%] object-cover"
