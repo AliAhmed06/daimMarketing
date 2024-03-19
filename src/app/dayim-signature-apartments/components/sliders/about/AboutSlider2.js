@@ -63,7 +63,7 @@ export default function AboutSlider2() {
           <SwiperSlide>
             <div className="w-[100%] h-full">
               <img
-                src="/images/dsa/elevation-side-view.jpg"
+                src="/images/dsa/elevation-side-view.JPG"
                 alt=""
                 className="w-[100%] h-[100%] object-cover"
               />

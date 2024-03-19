@@ -60,7 +60,7 @@ export default function HomeSlider4() {
           <SwiperSlide>
             <div className="w-[100%]">
               <img
-                src="/images/dsa/elevation-side-view.jpg"
+                src="/images/dsa/elevation-side-view.JPG"
                 alt=""
                 className="w-[100%] h-[500px] object-cover"
               />

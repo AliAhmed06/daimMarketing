@@ -185,7 +185,7 @@ function Home() {
                         md:px-[120px] md:h-[650px]"
         >
           <img
-            src="/images/dsa/elevation-side-view.jpg"
+            src="/images/dsa/elevation-side-view.JPG"
             className="w-full h-full shadow-xl object-cover"
             alt=""
           />
