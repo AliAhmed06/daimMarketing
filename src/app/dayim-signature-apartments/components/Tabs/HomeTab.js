@@ -89,7 +89,7 @@ export default function HomeTab() {
             image="/images/dsa/tabs/LowerGround.png"
             size="183"
             availableUnits="#"
-            freeUnits="2 Shops/Offices Available"
+            freeUnits="6 Shops/Offices Available"
           />
         </Tab.Panel>
         <Tab.Panel>
@@ -97,7 +97,7 @@ export default function HomeTab() {
             image="/images/dsa/tabs/GroundFloor.png"
             size="662"
             availableUnits="#"
-            freeUnits="1 Shop/Office Available"
+            freeUnits="2 Shop/Office Available"
           />
         </Tab.Panel>
         <Tab.Panel>
@@ -105,7 +105,7 @@ export default function HomeTab() {
             image="/images/dsa/tabs/FirstFloor.png"
             size="260"
             availableUnits="#"
-            freeUnits="2 Shops/Offices Available"
+            freeUnits="5 Shops/Offices Available"
           />
         </Tab.Panel>
         <Tab.Panel>
@@ -113,7 +113,7 @@ export default function HomeTab() {
             image="/images/dsa/tabs/2nd-4th-Floor.png"
             size="353"
             availableUnits="#"
-            freeUnits="15 Apartments Available"
+            freeUnits="9 Apartments Available"
           />
         </Tab.Panel>
         <Tab.Panel>
@@ -121,7 +121,7 @@ export default function HomeTab() {
             image="/images/dsa/tabs/5th-6th-Floor.png"
             size="353"
             availableUnits="#"
-            freeUnits="15 Apartments Available"
+            freeUnits="6 Apartments Available"
           />
         </Tab.Panel>
       </Tab.Panels>

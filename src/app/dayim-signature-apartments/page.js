@@ -182,21 +182,21 @@ function Home() {
           whileInView="show"
           variants={b_t_animation}
           className="h-[500px]  px-[20px]
-                        md:px-[120px] md:h-[650px] "
+                        md:px-[120px] md:h-[650px]"
         >
-          {/* <img 
-            src="/images/elevation-side-view.JPG" 
-            className='w-full h-full shadow-xl object-cover' 
-            alt="" 
-          /> */}
+          <img
+            src="/images/dsa/elevation-side-view.jpg"
+            className="w-full h-full shadow-xl object-cover"
+            alt=""
+          />
 
-          <video
+          {/* <video
             src="/videos/dsa/bg-video.mp4"
             autoPlay
             loop
             muted
-            className="w-full h-full shadow-xl object-cover"
-          />
+            className="w-full h-full shadow-xl object-fit"
+          /> */}
         </motion.div>
         <div>
           <motion.div
