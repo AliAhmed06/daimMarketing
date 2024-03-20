@@ -31,14 +31,16 @@ function Residences_item({
         ) : (
           <div className="flex items-end justify-between">
             <span className=" text-white text-sm font-bold p-1 rounded-md bg-red">
-              SOLD
+              {purchased_by !== "" ? "SOLD" : "Reserved"}
             </span>
-            <div className="flex flex-col">
-              <h3 className="text-xs font-bold">Purchased By</h3>
-              <span className=" text-white text-sm font-bold p-1 rounded-md bg-red">
-                {purchased_by}
-              </span>
-            </div>
+            {purchased_by !== "" && (
+              <div className="flex flex-col">
+                <h3 className="text-xs font-bold">Purchased By</h3>
+                <span className=" text-white text-sm font-bold p-1 rounded-md bg-red">
+                  {purchased_by}
+                </span>
+              </div>
+            )}
           </div>
         )}
         <h3 className="font-bold text-lg mt-3">{title}</h3>
