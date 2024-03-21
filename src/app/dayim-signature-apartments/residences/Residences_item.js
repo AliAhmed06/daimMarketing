@@ -30,8 +30,12 @@ function Residences_item({
           </span>
         ) : (
           <div className="flex items-end justify-between">
-            <span className=" text-white text-sm font-bold p-1 rounded-md bg-red">
-              {purchased_by !== "" ? "SOLD" : "Reserved"}
+            <span
+              className={`text-white text-sm font-bold p-1 rounded-md ${
+                purchased_by === "" ? "bg-first" : "bg-red"
+              } `}
+            >
+              {purchased_by === "" ? "RESERVED" : "SOLD"}
             </span>
             {purchased_by !== "" && (
               <div className="flex flex-col">

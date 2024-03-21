@@ -189,7 +189,7 @@ const HomeImageItem2 = () => {
           id="highlight-area7"
           className="absolute hidden bg-third w-[200px] h-[60px] top-[75%] right-[15%] rounded-2xl  items-center justify-center text-white font-bold text-xl "
         >
-          Available - 8
+          Available - 2
         </div>
       </div>
 

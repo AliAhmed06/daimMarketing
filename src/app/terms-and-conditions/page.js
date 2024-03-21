@@ -88,8 +88,8 @@ function Contact() {
             the notice/letter.
           </li>
           <li>
-            The projects construction is supposed to be completed within 18
-            months. These 18 months will be reckoned according to the
+            The projects construction is supposed to be completed within 24
+            months. These 24 months will be reckoned according to the
             installment schedule.
           </li>
           <li>

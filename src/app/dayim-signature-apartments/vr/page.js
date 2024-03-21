@@ -99,7 +99,7 @@ function VR() {
 
       {/* Vr Modal/slider (will be visibile on button click) */}
       <div
-        className={`z-10 absolute top-0 h-screen w-[95%] ${
+        className={`z-10 absolute top-0 h-screen  w-[95%] ${
           showVrModal ? "flex" : "hidden"
         } transition flex-col items-center justify-center  
                         lg:w-[70%]`}

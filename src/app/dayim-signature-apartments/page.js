@@ -42,7 +42,7 @@ function Home() {
       >
         <div className="absolute top-0 h-full w-full bg-[rgba(0,0,0,0.5)]"></div>
         <video
-          src="/videos/dsa/building_clip2.mp4"
+          src="/videos/dsa/building_clip3.mp4"
           autoPlay
           loop
           muted
