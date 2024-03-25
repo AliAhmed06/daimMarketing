@@ -36,7 +36,7 @@ function About() {
       >
         <div className="absolute top-0 h-full w-full bg-[rgba(0,0,0,0.5)]"></div>
         <video
-          src="/videos/dsa/building_clip3.mp4"
+          src="/videos/dsa/building_clip3_2.mp4"
           autoPlay
           loop
           muted
@@ -288,12 +288,12 @@ function About() {
               className="w-[90%] text-lg text-gray font-semibold 
                           lg:w-[60%]"
             >
-              The Studio and One Bedroom Apartments offered by DAYIM SIGNATURE
-              APARTMENT are designed to be spacious and contemporary, while
-              still maintaining traditional values of living. The separate
-              kitchen and lounge areas add to the luxurious feel of the
-              apartments, and the attention to detail in the design is sure to
-              impress.
+              The Studio, One Bedroom, and Two Bedroom Apartments offered by
+              DAYIM SIGNATURE APARTMENT are designed to be spacious and
+              contemporary, while still maintaining traditional values of
+              living. The separate kitchen and lounge areas add to the luxurious
+              feel of the apartments, and the attention to detail in the design
+              is sure to impress.
             </p>
             <Link
               href="/dayim-signature-apartments/residences"

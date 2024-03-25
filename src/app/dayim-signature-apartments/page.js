@@ -42,7 +42,7 @@ function Home() {
       >
         <div className="absolute top-0 h-full w-full bg-[rgba(0,0,0,0.5)]"></div>
         <video
-          src="/videos/dsa/building_clip3.mp4"
+          src="/videos/dsa/building_clip3_2.mp4"
           autoPlay
           loop
           muted
@@ -216,12 +216,12 @@ function Home() {
               to cater to the urbanities’ modern lifestyle, complemented with
               traditional values of living.
               <br />
-              The exquisite studio and one bedroom apartment of DAYIM SIGNATURE
-              APARTMENT, come with a separate kitchen, lounge that are designed
-              to exude luxurious sophistication. There is an easy instalment
-              plan for these apartments, which will help you secure these ideal
-              accommodations where you can create new beginnings for you and
-              your loved ones.
+              The exquisite studio, one bedroom, and two bedroom apartments of
+              DAYIM SIGNATURE APARTMENT, come with a separate kitchen, lounge
+              that are designed to exude luxurious sophistication. There is an
+              easy instalment plan for these apartments, which will help you
+              secure these ideal accommodations where you can create new
+              beginnings for you and your loved ones.
             </p>
             <Link
               href="/payment_plans/dsa_payment_plan.pdf"

@@ -313,7 +313,7 @@ const residences = [
   {
     id: 27,
     sold: "yes",
-    purchased_by: "jehad Khan",
+    purchased_by: "Jehad Khan",
     title: "One Bed Executive",
     size: "593",
     floor: "3rd Floor",
