@@ -2,6 +2,7 @@
 import React from "react";
 import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
+import { useRouter } from "next/navigation";
 
 function Residences_item({
   id,
@@ -14,8 +15,12 @@ function Residences_item({
   floor,
   purchased_by,
 }) {
+  const router = useRouter();
+  function bookNowHandler() {
+    router.push("https://wa.me/923085111176");
+  }
   return (
-    <div className=" p-5 flex flex-col items-center justify-center  border border-second h-[400px]">
+    <div className=" p-5 flex flex-col items-center justify-center  border border-second h-[400px] relative">
       <Zoom>
         <img
           src={image}
@@ -49,10 +54,18 @@ function Residences_item({
         )}
         <h3 className="font-bold text-lg mt-3">{title}</h3>
         <h3 className="font-bold text-sm">{floor}</h3>
-        <div className="flex items-center justify-between w-full text-second font-bold">
+        <div className="flex items-center justify-between w-full text-second font-bold mb-5">
           <span className="">{type + " # " + number}</span>
           <span>{size + " Sq.Ft."}</span>
         </div>
+        {sold === "no" && (
+          <button
+            onClick={bookNowHandler}
+            className="bg-[#008000] text-white py-1 px-3 rounded-md absolute bottom-2"
+          >
+            BOOK NOW
+          </button>
+        )}
       </div>
     </div>
   );

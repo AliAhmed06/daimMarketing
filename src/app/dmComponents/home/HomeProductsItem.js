@@ -1,18 +1,19 @@
-import Link from 'next/link'
-import React from 'react'
+import Link from "next/link";
+import React from "react";
 
-const HomeProductsItem = ({houseImg}) => {
+const HomeProductsItem = ({ houseImg, type }) => {
   return (
-    <div>
-        <Link href={"/contact"}>
-            <img 
-                src={houseImg} 
-                alt="" 
-                className='h-[400px]   rounded-md'
-            />
-        </Link>
+    <div className="flex flex-col gap-3">
+      <h4 className="text-second font-bold text-lg">{type}</h4>
+      <Link href={"/dayim-signature-apartments/residences"}>
+        <img
+          src={houseImg}
+          alt=""
+          className="h-[350px]   rounded-md object-cover"
+        />
+      </Link>
     </div>
-  )
-}
+  );
+};
 
-export default HomeProductsItem
+export default HomeProductsItem;
