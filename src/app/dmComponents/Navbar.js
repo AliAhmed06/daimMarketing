@@ -226,6 +226,12 @@ function NavBar({ videoBg }) {
                   `}
                   >
                     <Link
+                      href="/societies/al-kabir-town"
+                      className="text-xs  bg-white w-full h-[50px] flex items-center px-2 hover:bg-second hover:text-white border-b border-gray"
+                    >
+                      Al-Kabir Developers
+                    </Link>
+                    <Link
                       href="/societies/bahria-town"
                       className="text-xs  bg-white w-full h-[50px] flex items-center px-2 hover:bg-second hover:text-white border-b border-gray"
                     >
@@ -236,12 +242,6 @@ function NavBar({ videoBg }) {
                       className="text-xs  bg-white w-full h-[50px] flex items-center px-2 hover:bg-second hover:text-white border-b border-gray"
                     >
                       Park View City
-                    </Link>
-                    <Link
-                      href="/societies/al-kabir-town"
-                      className="text-xs  bg-white w-full h-[50px] flex items-center px-2 hover:bg-second hover:text-white border-b border-gray"
-                    >
-                      Al-Kabir Developers
                     </Link>
                   </div>
                 </li>

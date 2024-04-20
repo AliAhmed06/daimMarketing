@@ -20,7 +20,7 @@ function Residences_item({
     router.push("https://wa.me/923085111176");
   }
   return (
-    <div className=" p-5 flex flex-col items-center justify-center  border border-second h-[400px] relative">
+    <div className=" p-5 flex flex-col items-center justify-center  border border-second relative">
       <Zoom>
         <img
           src={image}
@@ -30,9 +30,18 @@ function Residences_item({
       </Zoom>
       <div className="w-full mt-5">
         {sold == "no" ? (
-          <span className=" text-white text-sm font-bold p-1 rounded-md bg-second">
-            AVAILABLE
-          </span>
+          <div className="flex items-end justify-between">
+            <span className=" text-white text-sm font-bold p-1 rounded-md bg-second">
+              AVAILABLE
+            </span>
+
+            <button
+              onClick={bookNowHandler}
+              className="bg-[#008000] text-white p-1 text-sm rounded-md "
+            >
+              BOOK NOW
+            </button>
+          </div>
         ) : (
           <div className="flex items-end justify-between">
             <span
@@ -54,18 +63,10 @@ function Residences_item({
         )}
         <h3 className="font-bold text-lg mt-3">{title}</h3>
         <h3 className="font-bold text-sm">{floor}</h3>
-        <div className="flex items-center justify-between w-full text-second font-bold mb-5">
+        <div className="flex items-center justify-between w-full text-second font-bold">
           <span className="">{type + " # " + number}</span>
           <span>{size + " Sq.Ft."}</span>
         </div>
-        {sold === "no" && (
-          <button
-            onClick={bookNowHandler}
-            className="bg-[#008000] text-white py-1 px-3 rounded-md absolute bottom-2"
-          >
-            BOOK NOW
-          </button>
-        )}
       </div>
     </div>
   );

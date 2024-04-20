@@ -223,13 +223,22 @@ function Home() {
               secure these ideal accommodations where you can create new
               beginnings for you and your loved ones.
             </p>
-            <Link
-              href="/payment_plans/dsa_payment_plan.pdf"
-              target="_blank"
-              className="flex items-center justify-center border-2 border-gray py-3 w-[250px] my-5 hover:scale-110 transition"
-            >
-              <span className=" text-xl font-bold ">View Payment Plan</span>
-            </Link>
+            <div className="flex w-full items-center justify-between">
+              <Link
+                href="/payment_plans/dsa_payment_plan.pdf"
+                target="_blank"
+                className="flex items-center justify-center border-2 border-gray py-3 w-[250px] my-5 hover:scale-110 transition"
+              >
+                <span className=" text-xl font-bold ">View Payment Plan</span>
+              </Link>
+              <Link
+                href="/payment_plans/catalogue.pdf"
+                target="_blank"
+                className="flex items-center justify-center border-2 border-gray py-3 w-[250px] my-5 hover:scale-110 transition"
+              >
+                <span className=" text-xl font-bold ">Catalogue</span>
+              </Link>
+            </div>
           </motion.div>
           <motion.div
             initial="hide"

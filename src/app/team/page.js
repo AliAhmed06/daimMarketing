@@ -52,7 +52,7 @@ function Contact() {
           <TeamItem
             image={"/images/dayimMarketing/agents/FarahHafeez.jpg"}
             name={"Ms. Farah Hafeez"}
-            designation={"Branch Manager"}
+            designation={"Senior Sales Associate"}
             mobile={"+923065111175"}
             email={"farah.dayim@gmail.com"}
             office={"Al Kabir Town Phase 2 Branch"}
@@ -84,15 +84,6 @@ function Contact() {
             designation={"Brand Manager"}
             mobile={"+923055111504"}
             email={"farazmatoor@gmail.com"}
-            listingsLink={"#"}
-          />
-
-          <TeamItem
-            image={"/images/dayimMarketing/agents/AownAbbas.jpg"}
-            name={"Mr. Aown Abbas"}
-            designation={"Admin & Account Manager"}
-            mobile={"+923057000139"}
-            email={"aowniub@gmail.com"}
             listingsLink={"#"}
           />
 
@@ -154,16 +145,6 @@ function Contact() {
                   // office={"Al Kabir Town Office"}
                   listingsLink={"#"}
                 /> */}
-
-          <TeamItem
-            image={"/images/dayimMarketing/agents/RidaNasir.jpg"}
-            name={"Ms. Rida Nasir"}
-            designation={"Sales Associate"}
-            mobile={"+923104025980"}
-            email={"rida80190@gmail.com"}
-            // office={"Al Kabir Town Office"}
-            listingsLink={"#"}
-          />
 
           <TeamItem
             // image={"/images/dayimMarketing/agents/RidaNasir.jpg"}

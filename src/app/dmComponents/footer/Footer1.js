@@ -10,6 +10,7 @@ import { FaFacebookF, FaInstagram, FaLinkedin } from "react-icons/fa";
 import FooterSlider1 from "./FooterSlider1";
 import FooterSlider2 from "./FooterSlider2";
 import { AiFillYoutube } from "react-icons/ai";
+import Image from "next/image";
 
 function Footer1() {
   const b_t_animation = {
@@ -48,12 +49,21 @@ function Footer1() {
           className="w-[100%] text-gray  text-lg text-justify
                             lg:w-[50%] md:pr-[200px]"
         >
-          <p>
-            <span className="text-second">DAYIM DEVELOPER</span> is a team of
-            specialists - engineers, architects, project managers, technicians
-            and other experts, all of whom share a common goal: a positive and
-            responsible development of the city that takes into account the
-            wellbeing of its people and the environment.
+          <p className="relative">
+            <Link href="/" className="text-second">
+              <Image
+                src={"/images/dayimMarketing/dayim-developer3.png"}
+                height={100}
+                width={100}
+                alt=""
+                className="absolute top-[-50px] left-[-25px]"
+              ></Image>
+              <span className="pl-14">DAYIM DEVELOPER </span>
+            </Link>
+            is a team of specialistsss - engineers, architects, project
+            managers, technicians and other experts, all of whom share a common
+            goal: a positive and responsible development of the city that takes
+            into account the wellbeing of its people and the environment.
           </p>
           <div
             className="flex flex-col gap-5 items-center mt-10
