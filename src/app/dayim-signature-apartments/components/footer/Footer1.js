@@ -39,26 +39,26 @@ function Footer1() {
         className="flex flex-col justify-center gap-10 border-b border-gray py-20 p-5
                             lg:flex-row lg:gap-0 md:p-20"
       >
-        <h3
+        <div
           className="w-[100%] text-6xl font-bold 
-                            lg:w-[50%] lg:text-center text-second"
+                            lg:w-[50%] text-left lg:text-center text-second flex flex-col items-start lg:items-center    gap-5 "
         >
-          Developer
-        </h3>
+          <h3 className="">Developer</h3>
+          <Image
+            src={"/images/dayimMarketing/dayim-developer3.png"}
+            height={150}
+            width={150}
+            alt=""
+            className=" "
+          ></Image>
+        </div>
         <div
           className="w-[100%] text-gray  text-lg text-justify
                             lg:w-[50%] md:pr-[200px]"
         >
           <p className="relative">
             <Link href="/" className="text-second">
-              <Image
-                src={"/images/dayimMarketing/dayim-developer3.png"}
-                height={100}
-                width={100}
-                alt=""
-                className="absolute top-[-50px] left-[-25px]"
-              ></Image>
-              <span className="pl-14">DAYIM DEVELOPER </span>
+              <span className="">DAYIM DEVELOPER </span>
             </Link>
             is a team of specialistsss - engineers, architects, project
             managers, technicians and other experts, all of whom share a common

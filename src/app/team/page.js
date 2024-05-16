@@ -55,7 +55,7 @@ function Contact() {
             designation={"Senior Sales Associate"}
             mobile={"+923065111175"}
             email={"farah.dayim@gmail.com"}
-            office={"Al Kabir Town Phase 2 Branch"}
+            // office={"Al Kabir Town Phase 2 Branch"}
             listingsLink={"#"}
           />
 
