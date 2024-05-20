@@ -86,24 +86,24 @@ export default function HomeTab() {
       <Tab.Panels>
         <Tab.Panel>
           <HomeTabItem
-            image="/images/dsa/tabs/LowerGround.png"
-            size="183"
+            image="/images/dsa/tabs/lower_ground_floor.png"
+            size="202"
             availableUnits="#"
             freeUnits="6 Shops/Offices Available"
           />
         </Tab.Panel>
         <Tab.Panel>
           <HomeTabItem
-            image="/images/dsa/tabs/GroundFloor.png"
-            size="662"
+            image="/images/dsa/tabs/ground_floor.png"
+            size="683"
             availableUnits="#"
             freeUnits="2 Shop/Office Available"
           />
         </Tab.Panel>
         <Tab.Panel>
           <HomeTabItem
-            image="/images/dsa/tabs/FirstFloor.png"
-            size="260"
+            image="/images/dsa/tabs/first_floor.png"
+            size="284"
             availableUnits="#"
             freeUnits="5 Shops/Offices Available"
           />

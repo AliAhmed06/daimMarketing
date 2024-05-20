@@ -8,7 +8,7 @@ const residences = [
     floor: "Lower Ground Floor",
     number: "1",
     type: "Shop",
-    image: "/images/dsa/residences/lowerGround/LowerGround(Shop01).png",
+    image: "/images/dsa/residences/lowerGround/lg-01.jpg",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const residences = [
     floor: "Lower Ground Floor",
     number: "2",
     type: "Shop",
-    image: "/images/dsa/residences/lowerGround/LowerGround(Shop02).png",
+    image: "/images/dsa/residences/lowerGround/lg-02.jpg",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const residences = [
     floor: "Lower Ground Floor",
     number: "3",
     type: "Shop",
-    image: "/images/dsa/residences/lowerGround/LowerGround(Shop03).png",
+    image: "/images/dsa/residences/lowerGround/lg-03.jpg",
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ const residences = [
     floor: "Lower Ground Floor",
     number: "4",
     type: "Shop",
-    image: "/images/dsa/residences/lowerGround/LowerGround(Shop04).png",
+    image: "/images/dsa/residences/lowerGround/lg-04.jpg",
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ const residences = [
     floor: "Lower Ground Floor",
     number: "5",
     type: "Shop",
-    image: "/images/dsa/residences/lowerGround/LowerGround(Shop05).png",
+    image: "/images/dsa/residences/lowerGround/lg-05.jpg",
   },
   {
     id: 6,
@@ -63,7 +63,7 @@ const residences = [
     floor: "Lower Ground Floor",
     number: "6",
     type: "Shop",
-    image: "/images/dsa/residences/lowerGround/LowerGround(Shop06).png",
+    image: "/images/dsa/residences/lowerGround/lg-06.jpg",
   },
   {
     id: 7,
@@ -74,7 +74,7 @@ const residences = [
     floor: "Lower Ground Floor",
     number: "7",
     type: "Shop",
-    image: "/images/dsa/residences/lowerGround/LowerGround(Shop07).png",
+    image: "/images/dsa/residences/lowerGround/lg-07.jpg",
   },
   {
     id: 8,
@@ -85,7 +85,7 @@ const residences = [
     floor: "Lower Ground Floor",
     number: "8",
     type: "Shop",
-    image: "/images/dsa/residences/lowerGround/LowerGround(Shop08).png",
+    image: "/images/dsa/residences/lowerGround/lg-08.jpg",
   },
   {
     id: 9,
@@ -96,7 +96,7 @@ const residences = [
     floor: "Ground Floor",
     number: "1",
     type: "Office",
-    image: "/images/dsa/residences/ground/GroundFloor(Office01).png",
+    image: "/images/dsa/residences/ground/off-01.jpg",
   },
   {
     id: 10,
@@ -107,7 +107,7 @@ const residences = [
     floor: "Ground Floor",
     number: "2",
     type: "Office",
-    image: "/images/dsa/residences/ground/GroundFloor(Office02).png",
+    image: "/images/dsa/residences/ground/off-02.jpg",
   },
   {
     id: 11,
@@ -118,7 +118,7 @@ const residences = [
     floor: "Ground Floor",
     number: "3",
     type: "Office",
-    image: "/images/dsa/residences/ground/GroundFloor(Office03).png",
+    image: "/images/dsa/residences/ground/off-03.jpg",
   },
 
   {
@@ -130,7 +130,7 @@ const residences = [
     floor: "1st Floor",
     number: "1",
     type: "Shop",
-    image: "/images/dsa/residences/first/FirstFloor(Shop01).png",
+    image: "/images/dsa/residences/first/ff-01.jpg",
   },
   {
     id: 13,
@@ -141,7 +141,7 @@ const residences = [
     floor: "1st Floor",
     number: "2",
     type: "Shop",
-    image: "/images/dsa/residences/first/FirstFloor(Shop02).png",
+    image: "/images/dsa/residences/first/ff-02.jpg",
   },
   {
     id: 14,
@@ -152,18 +152,18 @@ const residences = [
     floor: "1st Floor",
     number: "3",
     type: "Shop",
-    image: "/images/dsa/residences/first/FirstFloor(Shop03).png",
+    image: "/images/dsa/residences/first/ff-03.jpg",
   },
   {
     id: 15,
     sold: "yes",
-    purchased_by: "Zain Saleem",
+    purchased_by: "",
     title: "",
     size: "330",
     floor: "1st Floor",
     number: "4",
     type: "Shop",
-    image: "/images/dsa/residences/first/FirstFloor(Shop04).png",
+    image: "/images/dsa/residences/first/ff-04.jpg",
   },
   {
     id: 16,
@@ -174,7 +174,7 @@ const residences = [
     floor: "1st Floor",
     number: "5",
     type: "Shop",
-    image: "/images/dsa/residences/first/FirstFloor(Shop05).png",
+    image: "/images/dsa/residences/first/ff-05.jpg",
   },
   {
     id: 17,
@@ -185,7 +185,7 @@ const residences = [
     floor: "1st Floor",
     number: "6",
     type: "Shop",
-    image: "/images/dsa/residences/first/FirstFloor(Shop06).png",
+    image: "/images/dsa/residences/first/ff-06.jpg",
   },
   {
     id: 18,
@@ -196,7 +196,7 @@ const residences = [
     floor: "1st Floor",
     number: "7",
     type: "Shop",
-    image: "/images/dsa/residences/first/FirstFloor(Shop07).png",
+    image: "/images/dsa/residences/first/ff-07.jpg",
   },
 
   {
