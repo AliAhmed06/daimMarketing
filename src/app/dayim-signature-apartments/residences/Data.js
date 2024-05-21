@@ -34,7 +34,7 @@ const residences = [
   },
   {
     id: 4,
-    sold: "no",
+    sold: "yes",
     purchased_by: "",
     title: "",
     size: "315",
@@ -157,7 +157,7 @@ const residences = [
   {
     id: 15,
     sold: "yes",
-    purchased_by: "",
+    purchased_by: "Zain Saleem",
     title: "",
     size: "330",
     floor: "1st Floor",

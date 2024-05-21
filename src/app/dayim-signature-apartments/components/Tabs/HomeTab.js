@@ -111,7 +111,7 @@ export default function HomeTab() {
         <Tab.Panel>
           <HomeTabItem
             image="/images/dsa/tabs/2nd-4th-Floor.png"
-            size="350"
+            size="360"
             availableUnits="#"
             freeUnits="9 Apartments Available"
           />
@@ -119,7 +119,7 @@ export default function HomeTab() {
         <Tab.Panel>
           <HomeTabItem
             image="/images/dsa/tabs/5th-6th-Floor.png"
-            size="350"
+            size="360"
             availableUnits="#"
             freeUnits="6 Apartments Available"
           />
