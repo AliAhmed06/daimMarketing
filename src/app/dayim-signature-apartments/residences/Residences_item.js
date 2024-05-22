@@ -3,6 +3,7 @@ import React from "react";
 import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 function Residences_item({
   id,
@@ -66,6 +67,14 @@ function Residences_item({
         <div className="flex items-center justify-between w-full text-second font-bold">
           <span className="">{type + " # " + number}</span>
           <span>{size + " Sq.Ft."}</span>
+        </div>
+        <div className="self-end">
+          <Link
+            href={`/dayim-signature-apartments/contact?floor=${floor}&inventory_name=${type}&inventory_number=${number}`}
+            className="bg-[#008000] text-white py-1 px-3 text-sm rounded-md mt-3 inline-block"
+          >
+            Contact
+          </Link>
         </div>
       </div>
     </div>
