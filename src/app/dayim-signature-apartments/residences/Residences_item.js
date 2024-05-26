@@ -68,13 +68,17 @@ function Residences_item({
           <span className="">{type + " # " + number}</span>
           <span>{size + " Sq.Ft."}</span>
         </div>
-        <div className="self-end">
-          <Link
-            href={`/dayim-signature-apartments/contact?floor=${floor}&inventory_name=${type}&inventory_number=${number}`}
-            className="bg-[#008000] text-white py-1 px-3 text-sm rounded-md mt-3 inline-block"
-          >
-            Contact
-          </Link>
+        <div className={`self-end `}>
+          {sold === "no" ? (
+            <Link
+              href={`/dayim-signature-apartments/contact?floor=${floor}&inventory_name=${type}&inventory_number=${number}`}
+              className={`bg-[#008000] text-white py-1 px-3 text-sm rounded-md mt-3 inline-block`}
+            >
+              Contact
+            </Link>
+          ) : (
+            <div className={`py-1 px-3 mt-3 `}></div>
+          )}
         </div>
       </div>
     </div>
