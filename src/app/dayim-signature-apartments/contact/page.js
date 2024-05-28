@@ -67,7 +67,7 @@ function Contact() {
     try {
       setLoading(true);
       const response = await axios.post(
-        "http://localhost/dayimBackend/public/api/contact",
+        process.env.NEXT_PUBLIC_DSA_CONTACT_API,
         {
           name,
           email,
