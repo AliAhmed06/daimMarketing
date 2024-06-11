@@ -34,7 +34,7 @@ const residences = [
   },
   {
     id: 4,
-    sold: "yes",
+    sold: "no",
     purchased_by: "",
     title: "",
     size: "315",
@@ -279,8 +279,8 @@ const residences = [
   },
   {
     id: 26,
-    sold: "no",
-    purchased_by: "",
+    sold: "yes",
+    purchased_by: "Inam Ul Haq",
     title: "One Bed Executive",
     size: "573",
     floor: "3rd Floor",
@@ -358,8 +358,8 @@ const residences = [
   },
   {
     id: 33,
-    sold: "no",
-    purchased_by: "",
+    sold: "yes",
+    purchased_by: "M. Sohail Khan",
     title: "One Bed Executive",
     size: "595",
     floor: "4th Floor",
@@ -533,4 +533,10 @@ export function getResidenceByType(type) {
 
 export function getResidenceByFloor(floor) {
   return residences.filter((item) => item.floor === floor);
+}
+
+// for showing the details on homepage image
+export function getAvailableResidencesByFloor(floor) {
+  return residences.filter((item) => item.floor === floor && item.sold === "no")
+    .length;
 }
