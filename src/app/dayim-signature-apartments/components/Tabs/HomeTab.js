@@ -86,7 +86,7 @@ export default function HomeTab() {
       <Tab.Panels>
         <Tab.Panel>
           <HomeTabItem
-            image="/images/dsa/tabs/lower_ground_floor.png"
+            image="/images/dsa/tabs/lower_ground_floor2.jpeg"
             size="202"
             availableUnits="#"
             freeUnits="6 Shops/Offices Available"

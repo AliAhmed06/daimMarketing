@@ -63,7 +63,7 @@ const residences = [
     floor: "Lower Ground Floor",
     number: "6",
     type: "Shop",
-    image: "/images/dsa/residences/lowerGround/lg-06.jpg",
+    image: "/images/dsa/residences/lowerGround/lg-06-2.png",
   },
   {
     id: 7,
