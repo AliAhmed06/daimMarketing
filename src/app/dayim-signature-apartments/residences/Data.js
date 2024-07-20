@@ -347,8 +347,8 @@ const residences = [
   },
   {
     id: 32,
-    sold: "no",
-    purchased_by: "",
+    sold: "yes",
+    purchased_by: "Aziz ur Rehman",
     title: "One Bed Executive",
     size: "573",
     floor: "4th Floor",
