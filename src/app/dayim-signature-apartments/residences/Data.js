@@ -268,7 +268,7 @@ const residences = [
 
   {
     id: 25,
-    sold: "no",
+    sold: "yes",
     purchased_by: "",
     title: "One Bed Deluxe",
     size: "625",
@@ -313,7 +313,7 @@ const residences = [
   },
   {
     id: 29,
-    sold: "no",
+    sold: "yes",
     purchased_by: "",
     title: "Studio Deluxe",
     size: "410",
