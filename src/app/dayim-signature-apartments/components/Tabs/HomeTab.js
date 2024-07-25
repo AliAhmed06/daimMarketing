@@ -2,8 +2,18 @@
 import { Fragment } from "react";
 import { Tab } from "@headlessui/react";
 import HomeTabItem from "./HomeTabItem";
+import { getAvailableResidencesByFloor } from "../../residences/Data";
 
 export default function HomeTab() {
+  const lowerGroundFloorAvailable =
+    getAvailableResidencesByFloor("Lower Ground Floor");
+  const groundFloorAvailable = getAvailableResidencesByFloor("Ground Floor");
+  const firstFloorAvailable = getAvailableResidencesByFloor("1st Floor");
+  const secondFloorAvailable = getAvailableResidencesByFloor("2nd Floor");
+  const thirdFloorAvailable = getAvailableResidencesByFloor("3rd Floor");
+  const fourthFloorAvailable = getAvailableResidencesByFloor("4th Floor");
+  const fifthFloorAvailable = getAvailableResidencesByFloor("5th Floor");
+  const sixthFloorAvailable = getAvailableResidencesByFloor("6th Floor");
   return (
     <Tab.Group>
       <Tab.List className="text-center text-xl px-10">
@@ -89,7 +99,7 @@ export default function HomeTab() {
             image="/images/dsa/tabs/lower_ground_floor2.jpeg"
             size="202"
             availableUnits="#"
-            freeUnits="6 Shops/Offices Available"
+            freeUnits={`${lowerGroundFloorAvailable} Shops/Offices Available`}
           />
         </Tab.Panel>
         <Tab.Panel>
@@ -97,7 +107,7 @@ export default function HomeTab() {
             image="/images/dsa/tabs/ground_floor.png"
             size="683"
             availableUnits="#"
-            freeUnits="2 Shop/Office Available"
+            freeUnits={`${groundFloorAvailable} Shops/Offices Available`}
           />
         </Tab.Panel>
         <Tab.Panel>
@@ -105,7 +115,7 @@ export default function HomeTab() {
             image="/images/dsa/tabs/first_floor.png"
             size="284"
             availableUnits="#"
-            freeUnits="5 Shops/Offices Available"
+            freeUnits={`${firstFloorAvailable} Shops/Offices Available`}
           />
         </Tab.Panel>
         <Tab.Panel>
@@ -113,7 +123,9 @@ export default function HomeTab() {
             image="/images/dsa/tabs/2nd-4th-Floor.png"
             size="360"
             availableUnits="#"
-            freeUnits="9 Apartments Available"
+            freeUnits={`${
+              secondFloorAvailable + thirdFloorAvailable + fourthFloorAvailable
+            } Apartments Available`}
           />
         </Tab.Panel>
         <Tab.Panel>
@@ -121,7 +133,9 @@ export default function HomeTab() {
             image="/images/dsa/tabs/5th-6th-Floor.png"
             size="360"
             availableUnits="#"
-            freeUnits="6 Apartments Available"
+            freeUnits={`${
+              fifthFloorAvailable + sixthFloorAvailable
+            } Apartments Available`}
           />
         </Tab.Panel>
       </Tab.Panels>
