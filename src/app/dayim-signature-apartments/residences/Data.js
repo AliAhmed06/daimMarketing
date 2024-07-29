@@ -123,8 +123,8 @@ const residences = [
 
   {
     id: 12,
-    sold: "no",
-    purchased_by: "",
+    sold: "yes",
+    purchased_by: "Zeeshan Yousaf",
     title: "",
     size: "284",
     floor: "1st Floor",
