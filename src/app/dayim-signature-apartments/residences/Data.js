@@ -460,8 +460,8 @@ const residences = [
 
   {
     id: 42,
-    sold: "no",
-    purchased_by: "",
+    sold: "yes",
+    purchased_by: "Sarfaraz Ahmad",
     title: "Two Bed Executive",
     size: "982",
     floor: "6th Floor",
