@@ -35,7 +35,7 @@ const residences = [
   {
     id: 4,
     sold: "yes",
-    purchased_by: "",
+    purchased_by: "Sahil Yashib",
     title: "",
     size: "315",
     floor: "Lower Ground Floor",
@@ -436,8 +436,8 @@ const residences = [
   },
   {
     id: 40,
-    sold: "no",
-    purchased_by: "",
+    sold: "yes",
+    purchased_by: "Muhammad Altaf",
     title: "Studio Deluxe",
     size: "410",
     floor: "5th Floor",
