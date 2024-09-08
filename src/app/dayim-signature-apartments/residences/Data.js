@@ -100,8 +100,8 @@ const residences = [
   },
   {
     id: 10,
-    sold: "no",
-    purchased_by: "",
+    sold: "yes",
+    purchased_by: "Zahir ul Haq",
     title: "",
     size: "734",
     floor: "Ground Floor",
@@ -245,7 +245,7 @@ const residences = [
   },
   {
     id: 23,
-    sold: "no",
+    sold: "yes",
     purchased_by: "",
     title: "Studio Deluxe",
     size: "410",
@@ -313,7 +313,7 @@ const residences = [
   },
   {
     id: 29,
-    sold: "no",
+    sold: "yes",
     purchased_by: "",
     title: "Studio Deluxe",
     size: "410",
