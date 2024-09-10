@@ -59,7 +59,7 @@ const residences = [
     sold: "no",
     purchased_by: "",
     title: "",
-    size: "445",
+    size: "360",
     floor: "Lower Ground Floor",
     number: "6",
     type: "Shop",
@@ -268,8 +268,8 @@ const residences = [
 
   {
     id: 25,
-    sold: "no",
-    purchased_by: "",
+    sold: "noyes",
+    purchased_by: "Muhammad Bilal Javed",
     title: "One Bed Deluxe",
     size: "625",
     floor: "3rd Floor",
@@ -425,7 +425,7 @@ const residences = [
   },
   {
     id: 39,
-    sold: "yes",
+    sold: "no",
     purchased_by: "",
     title: "One Bed Executive",
     size: "573",
