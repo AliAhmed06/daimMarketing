@@ -187,6 +187,12 @@ function NavBar({ videoBg }) {
                     >
                       Dayim Signature Apartments
                     </Link>
+                    <Link
+                      href="/dayim-living"
+                      className="text-xs  bg-white w-full h-[50px] flex items-center px-2 hover:bg-second hover:text-white border-b border-gray"
+                    >
+                      Dayim Living
+                    </Link>
                   </div>
                 </li>
 
