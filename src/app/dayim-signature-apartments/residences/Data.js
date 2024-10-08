@@ -67,8 +67,8 @@ const residences = [
   },
   {
     id: 7,
-    sold: "no",
-    purchased_by: "",
+    sold: "yes",
+    purchased_by: "Usman Liaqat",
     title: "",
     size: "454",
     floor: "Lower Ground Floor",
@@ -89,8 +89,8 @@ const residences = [
   },
   {
     id: 9,
-    sold: "no",
-    purchased_by: "",
+    sold: "yes",
+    purchased_by: "Alishba Hania",
     title: "",
     size: "683",
     floor: "Ground Floor",
