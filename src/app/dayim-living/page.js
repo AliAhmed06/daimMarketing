@@ -37,10 +37,10 @@ function Home() {
       <NavBar videoBg={false} />
 
       {/* Showing coming soon */}
-      <div className="h-[600px] font-bold text-3xl flex items-center justify-center">
+      {/* <div className="h-[600px] font-bold text-3xl flex items-center justify-center">
         Coming Soon
-      </div>
-      {/* <div
+      </div> */}
+      <div
         className="h-[400px] w-full relative overflow-hidden
                       md:h-[500px] lg:h-screen"
       >
@@ -94,7 +94,6 @@ function Home() {
           </div>
         </div>
 
-        
         <div
           className="absolute bottom-0 left-0 w-full hidden
                         lg:block "
@@ -147,9 +146,9 @@ function Home() {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
 
-      {/* <section
+      <section
         id="section2"
         className="h-[300px] bg-white flex items-center justify-center
                           lg:h-[500px]"
@@ -170,14 +169,14 @@ function Home() {
             className="text-second text-2xl w-[90%] font-semibold leading-normal drop-shadow-md  
                         lg:text-4xl lg:w-[60%] lg:ml-[-180px] lg:text-justify"
           >
-            DAYIM SIGNATURE APARTMENT is the best residential project in
-            Pakistan. It combines modern lifestyle and urban dynamics with the
-            views of nature.
+            DAYIM LIVING is the best residential project in Pakistan. It
+            combines modern lifestyle and urban dynamics with the views of
+            nature.
           </p>
         </motion.div>
-      </section> */}
+      </section>
 
-      {/* <section
+      <section
         className="p-5 grid grid-cols-1 bg-bg2 bg-center bg-no-repeat bg-cover gap-20 
                           lg:grid-cols-2"
       >
@@ -193,8 +192,6 @@ function Home() {
             className="w-full h-full shadow-xl object-cover"
             alt=""
           />
-
-          
         </motion.div>
         <div>
           <motion.div
@@ -205,21 +202,21 @@ function Home() {
                           lg:items-start"
           >
             <p className="w-[90%] text-lg text-gray font-semibold ">
-              DAYIM SIGNATURE APARTMENT is a high-end luxury apartment, being
-              developed by DAYIM MARKETING. Given its location in one of the
-              central neighborhoods of Lahore, the residents of this project
-              will be surrounded by all the main attractions of the city. <br />
-              DAYIM SIGNATURE APARTMENT is an LDA - approved project provides
-              contemporary, elegant and spacious living spaces that are designed
-              to cater to the urbanities’ modern lifestyle, complemented with
-              traditional values of living.
+              DAYIM LIVING is a high-end luxury apartment, being developed by
+              DAYIM MARKETING. Given its location in one of the central
+              neighborhoods of Lahore, the residents of this project will be
+              surrounded by all the main attractions of the city. <br />
+              DAYIM LIVING is an LDA - approved project provides contemporary,
+              elegant and spacious living spaces that are designed to cater to
+              the urbanities’ modern lifestyle, complemented with traditional
+              values of living.
               <br />
               The exquisite studio, one bedroom, and two bedroom apartments of
-              DAYIM SIGNATURE APARTMENT, come with a separate kitchen, lounge
-              that are designed to exude luxurious sophistication. There is an
-              easy instalment plan for these apartments, which will help you
-              secure these ideal accommodations where you can create new
-              beginnings for you and your loved ones.
+              DAYIM LIVING, come with a separate kitchen, lounge that are
+              designed to exude luxurious sophistication. There is an easy
+              instalment plan for these apartments, which will help you secure
+              these ideal accommodations where you can create new beginnings for
+              you and your loved ones.
             </p>
             <div className="flex w-full items-center justify-between">
               <Link
@@ -248,29 +245,29 @@ function Home() {
             <img src="/images/dsa/34.jpg" alt="" />
           </motion.div>
         </div>
-      </section> */}
+      </section>
 
-      {/* <motion.section
+      <motion.section
         initial="hide"
         whileInView="show"
         variants={b_t_animation}
         className="w-full p-5 bg-bg1 bg-center bg-no-repeat bg-cover"
       >
         <HomeSlider1 />
-      </motion.section> */}
+      </motion.section>
 
-      {/* <section className="bg-bg2 bg-center bg-no-repeat bg-cover flex items-center justify-center">
+      <section className="bg-bg2 bg-center bg-no-repeat bg-cover flex items-center justify-center">
         <motion.div
           initial="hide"
           whileInView="show"
           variants={b_t_animation}
           className="bg-transparent w-full flex items-center justify-center"
-        >          
+        >
           <HomeImageItem2 />
         </motion.div>
-      </section> */}
+      </section>
 
-      {/* <motion.section
+      <motion.section
         initial="hide"
         whileInView="show"
         variants={b_t_animation}
@@ -284,25 +281,25 @@ function Home() {
           Choose the right apartment for your needs, taste, and possibilities.
         </p>
         <HomeTab />
-      </motion.section> */}
+      </motion.section>
 
-      {/* <motion.section
+      <motion.section
         initial="hide"
         whileInView="show"
         variants={b_t_animation}
       >
         <HomeSlider2 />
-      </motion.section> */}
+      </motion.section>
 
-      {/* <motion.section
+      <motion.section
         initial="hide"
         whileInView="show"
         variants={b_t_animation}
       >
         <HomeSlider3 />
-      </motion.section> */}
+      </motion.section>
 
-      {/* <motion.section
+      <motion.section
         initial="hide"
         whileInView="show"
         variants={b_t_animation}
@@ -360,9 +357,9 @@ function Home() {
             <HomeSlider4 />
           </div>
         </div>
-      </motion.section> */}
+      </motion.section>
 
-      {/* <motion.section
+      <motion.section
         initial="hide"
         whileInView="show"
         variants={b_t_animation}
@@ -435,7 +432,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </motion.section> */}
+      </motion.section>
 
       <footer>
         <MainFooter />
