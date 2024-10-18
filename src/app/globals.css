@@ -2,36 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-    @font-face {
-      font-family: 'Tangerine';
-      src: url('/fonts/TangerineBold.woff2') format('woff2');
-      font-weight: 700;
-      font-display: swap;
-      font-style: normal;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body{
-      background: white;
-    }
-
-    h1{
-      @apply text-xl font-medium capitalize;
-    }
+@layer base {
+  @font-face {
+    font-family: "Tangerine";
+    src: url("/fonts/TangerineBold.woff2") format("woff2");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
   }
 
-.link{
-  @apply p-2.5 flex rounded-md gap-6 items-center cursor-default duration-300 font-medium md:cursor-pointer 
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: white;
+  }
+
+  h1 {
+    @apply text-xl font-medium capitalize;
+  }
 }
 
-.active{
-  @apply bg-[#DFE0E2] text-[#100DB1] font-bold
+.link {
+  @apply p-2.5 flex rounded-md gap-6 items-center cursor-default duration-300 font-medium md:cursor-pointer;
 }
 
+.active {
+  @apply bg-[#DFE0E2] text-[#100DB1] font-bold;
+}
 
 /* swiper 1 starts */
 
