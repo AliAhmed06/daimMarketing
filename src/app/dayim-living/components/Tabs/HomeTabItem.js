@@ -14,7 +14,11 @@ function HomeTabItem({ image, size, availableUnits, freeUnits }) {
                       md:h-[500px]"
       >
         <Zoom>
-          <img src={image} alt="" className="h-full w-full object-contain" />
+          <img
+            src={image}
+            alt=""
+            className="h-[350px] md:h-[500px] w-full object-contain"
+          />
         </Zoom>
       </div>
       <div

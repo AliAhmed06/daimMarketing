@@ -16,6 +16,9 @@ import MainFooter from "./components/footer/MainFooter";
 import HomeImageItem from "./components/buildingImages/HomeImageItem";
 import NavBar from "./components/Navbar";
 import HomeImageItem2 from "./components/buildingImages/HomeImageItem2";
+import HomeImageItemDL from "./components/buildingImages/HomeImageItemDL";
+import HomeTabDL from "./components/Tabs/HomeTabDL";
+import HomeSlider4DL from "./components/sliders/HomeSlider4DL";
 
 function Home() {
   const b_t_animation = {
@@ -69,7 +72,7 @@ function Home() {
                             md:gap-20 md:mt-10"
             >
               <div className="hidden md:block">
-                <h3 className="text-white font-bold text-2xl">Explore DSA</h3>
+                <h3 className="text-white font-bold text-2xl">Explore</h3>
                 <Link
                   href="/dayim-signature-apartments#section2"
                   className="text-gray font-semibold text-lg hover:text-white "
@@ -188,7 +191,7 @@ function Home() {
                         md:px-[120px] md:h-[650px]"
         >
           <img
-            src="/images/dsa/elevation-side-view.JPG"
+            src="/images/dayim_living/f1.jpeg"
             className="w-full h-full shadow-xl object-cover"
             alt=""
           />
@@ -242,19 +245,19 @@ function Home() {
             className="mt-32 hidden w-[90%]
                           lg:inline-block"
           >
-            <img src="/images/dsa/34.jpg" alt="" />
+            <img src="/images/dayim_living/f2.jpeg" alt="" />
           </motion.div>
         </div>
       </section>
 
-      <motion.section
+      {/* <motion.section
         initial="hide"
         whileInView="show"
         variants={b_t_animation}
         className="w-full p-5 bg-bg1 bg-center bg-no-repeat bg-cover"
       >
         <HomeSlider1 />
-      </motion.section>
+      </motion.section> */}
 
       <section className="bg-bg2 bg-center bg-no-repeat bg-cover flex items-center justify-center">
         <motion.div
@@ -263,7 +266,7 @@ function Home() {
           variants={b_t_animation}
           className="bg-transparent w-full flex items-center justify-center"
         >
-          <HomeImageItem2 />
+          <HomeImageItemDL />
         </motion.div>
       </section>
 
@@ -280,16 +283,16 @@ function Home() {
         >
           Choose the right apartment for your needs, taste, and possibilities.
         </p>
-        <HomeTab />
+        <HomeTabDL />
       </motion.section>
 
-      <motion.section
+      {/* <motion.section
         initial="hide"
         whileInView="show"
         variants={b_t_animation}
       >
         <HomeSlider2 />
-      </motion.section>
+      </motion.section> */}
 
       <motion.section
         initial="hide"
@@ -354,7 +357,7 @@ function Home() {
             className=" w-[100%] py-10
                           lg:w-[65%] lg:pl-[80px] lg:py-0"
           >
-            <HomeSlider4 />
+            <HomeSlider4DL />
           </div>
         </div>
       </motion.section>
