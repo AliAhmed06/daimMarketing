@@ -103,7 +103,7 @@ function NavBar({ videoBg }) {
                       setProjectCaret(false);
                       setSocietiesCaret(false);
                     }}
-                    className={`flex items-center justify-center gap-2 cursor-pointer`}
+                    className={`flex items-center justify-center gap-2 cursor-pointer md:text-[10px] lg:text-[15px] whitespace-nowrap`}
                   >
                     <span>About Us</span>
                     <AiFillCaretDown
@@ -165,7 +165,7 @@ function NavBar({ videoBg }) {
                       setSocietiesCaret(false);
                       setAboutCaret(false);
                     }}
-                    className={`flex items-center justify-center gap-2 cursor-pointer`}
+                    className={`flex items-center justify-center gap-2 cursor-pointer md:text-[10px] lg:text-[15px] whitespace-nowrap`}
                   >
                     <span>Projects</span>
                     <AiFillCaretDown
@@ -215,7 +215,7 @@ function NavBar({ videoBg }) {
                       setProjectCaret(false);
                       setAboutCaret(false);
                     }}
-                    className={`flex items-center justify-center gap-2 cursor-pointer`}
+                    className={`flex items-center justify-center gap-2 cursor-pointer md:text-[10px] lg:text-[15px] whitespace-nowrap`}
                   >
                     <span>Societies</span>
                     <AiFillCaretDown
