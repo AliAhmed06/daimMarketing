@@ -22,9 +22,9 @@ function Residences() {
   }
 
   const residences = data || [];
-
+  console.log(residences);
   function getResidenceByFloor(floorName) {
-    return residences.filter((residence) => residence.floor === floorName);
+    return residences?.filter((residence) => residence.floor === floorName);
   }
 
   const lowerGroundFloor = getResidenceByFloor("Lower Ground");
@@ -35,8 +35,6 @@ function Residences() {
   const fourthFloor = getResidenceByFloor("4th");
   const fifthFloor = getResidenceByFloor("5th");
   const sixthFloor = getResidenceByFloor("6th");
-
-  console.log(residences);
 
   return (
     <div className="mt-[120px]">
