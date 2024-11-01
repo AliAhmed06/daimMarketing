@@ -23,8 +23,6 @@ function Residences() {
   const fifthFloor = getResidenceByFloor("5th Floor");
   const sixthFloor = getResidenceByFloor("6th Floor");
 
-  // console.log(lowerGround);
-
   return (
     <div className="mt-[120px]">
       <NavBar videoBg={false} />
