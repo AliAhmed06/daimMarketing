@@ -2,19 +2,33 @@
 
 import React, { useEffect, useState } from "react";
 import { getAvailableResidencesByFloor } from "../../residences/Data";
+import useSWR from "swr";
+import { GET_ALL_PROPERTIES_API } from "@/lib/apiEndPoints";
+const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
 const HomeImageItemDL = () => {
-  const lowerGroundFloorAvailable =
-    getAvailableResidencesByFloor("Lower Ground Floor");
-  const groundFloorAvailable = getAvailableResidencesByFloor("Ground Floor");
-  const firstFloorAvailable = getAvailableResidencesByFloor("1st Floor");
-  const secondFloorAvailable = getAvailableResidencesByFloor("2nd Floor");
-  const thirdFloorAvailable = getAvailableResidencesByFloor("3rd Floor");
-  const fourthFloorAvailable = getAvailableResidencesByFloor("4th Floor");
-  const fifthFloorAvailable = getAvailableResidencesByFloor("5th Floor");
-  const sixthFloorAvailable = getAvailableResidencesByFloor("6th Floor");
+  const { data, error, isLoading } = useSWR(GET_ALL_PROPERTIES_API, fetcher);
+  if (error) {
+    return <h2>failed to load</h2>;
+  }
 
-  console.log(firstFloorAvailable);
+  const residences = data?.filter((item) => item.name === "DSA") || [];
+  console.log(residences);
+  function getAvailableResidencesByFloor(floor) {
+    return residences.filter(
+      (item) => item.floor === floor && item.sold == "No"
+    ).length;
+  }
+
+  const lowerGroundFloorAvailable =
+    getAvailableResidencesByFloor("Lower Ground");
+  const groundFloorAvailable = getAvailableResidencesByFloor("Ground");
+  const firstFloorAvailable = getAvailableResidencesByFloor("1st");
+  const secondFloorAvailable = getAvailableResidencesByFloor("2nd");
+  const thirdFloorAvailable = getAvailableResidencesByFloor("3rd");
+  const fourthFloorAvailable = getAvailableResidencesByFloor("4th");
+  const fifthFloorAvailable = getAvailableResidencesByFloor("5th");
+  const sixthFloorAvailable = getAvailableResidencesByFloor("6th");
 
   const handleMouseOver = (id) => {
     const highlightArea = document.getElementById(`highlight-${id}`);

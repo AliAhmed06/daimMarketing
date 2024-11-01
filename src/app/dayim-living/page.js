@@ -205,25 +205,19 @@ function Home() {
                           lg:items-start"
           >
             <p className="w-[90%] text-lg text-gray font-semibold ">
-              DAYIM LIVING is a high-end luxury apartment, being developed by
-              DAYIM MARKETING. Given its location in one of the central
-              neighborhoods of Lahore, the residents of this project will be
-              surrounded by all the main attractions of the city. <br />
-              DAYIM LIVING is an LDA - approved project provides contemporary,
-              elegant and spacious living spaces that are designed to cater to
-              the urbanities’ modern lifestyle, complemented with traditional
-              values of living.
-              <br />
-              The exquisite studio, one bedroom, and two bedroom apartments of
-              DAYIM LIVING, come with a separate kitchen, lounge that are
-              designed to exude luxurious sophistication. There is an easy
-              instalment plan for these apartments, which will help you secure
-              these ideal accommodations where you can create new beginnings for
-              you and your loved ones.
+              Welcome to Dayim Living Apartments, developed by DAYIM MARKETING
+              in the heart of Lahore. This LDA-approved project offers modern,
+              spacious studio apartments designed for urban dwellers, featuring
+              separate kitchens and lounges that exude luxurious sophistication.
+              Residents will enjoy a prime location with easy access to the
+              citys main attractions, all while experiencing a harmonious blend
+              of contemporary design and traditional values. With flexible
+              installment plans available, securing your ideal home and creating
+              new beginnings for you and your loved ones has never been easier.
             </p>
             <div className="flex w-full items-center justify-between">
               <Link
-                href="/payment_plans/payment-plan3.pdf"
+                href="/payment_plans/DL/plan1.pdf"
                 target="_blank"
                 className="flex items-center justify-center border-2 border-gray py-3 w-[250px] my-5 hover:scale-110 transition"
               >

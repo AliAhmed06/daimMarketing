@@ -5,14 +5,20 @@ import Link from "next/link";
 import LoginForm from "./LoginForm";
 import { getCookie, setCookie } from "cookies-next";
 import { useEffect } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 
 const LoginPage = () => {
   const router = useRouter();
+  const searchParams = useSearchParams();
+
   useEffect(() => {
     const user = getCookie("logged-in-user");
     if (user) {
-      router.push("/dayim-signature-apartments/residences2");
+      if (searchParams.get("name") == "dsa") {
+        router.push("/dayim-signature-apartments/residences");
+      } else {
+        router.push("/dayim-living");
+      }
     }
   }, []);
   return (

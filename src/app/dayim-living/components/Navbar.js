@@ -50,7 +50,7 @@ function NavBar({ videoBg }) {
               {/* LOGO */}
               <Link href="/dayim-signature-apartments">
                 <img
-                  src="/images/dsa/dsa_logo_goldenn.png"
+                  src="/images/dayim_living/logo.png"
                   alt=""
                   className="h-[100px] "
                 />
@@ -118,7 +118,27 @@ function NavBar({ videoBg }) {
                     pathname == "/residences" && "underline"
                   } py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent`}
                 >
-                  <Link href="#" onClick={() => setNavbar(!navbar)}>
+                  <Link href="/dayim-living" onClick={() => setNavbar(!navbar)}>
+                    Home
+                  </Link>
+                </li>
+                <li
+                  className={`${
+                    navbar
+                      ? "text-black"
+                      : isScroll
+                      ? "text-black"
+                      : videoBg == false
+                      ? "text-black"
+                      : "text-white"
+                  } pb-6 uppercase text-md font-semibold hover:underline ${
+                    pathname == "/residences" && "underline"
+                  } py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent`}
+                >
+                  <Link
+                    href="/dayim-living/residences"
+                    onClick={() => setNavbar(!navbar)}
+                  >
                     Residences
                   </Link>
                 </li>
@@ -153,7 +173,10 @@ function NavBar({ videoBg }) {
                     pathname == "/contact" && "underline"
                   } py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent`}
                 >
-                  <Link href="#" onClick={() => setNavbar(!navbar)}>
+                  <Link
+                    href="/dayim-living/contact"
+                    onClick={() => setNavbar(!navbar)}
+                  >
                     Contact Us
                   </Link>
                 </li>

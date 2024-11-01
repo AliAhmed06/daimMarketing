@@ -2,7 +2,7 @@
 import { Fragment } from "react";
 import { Tab } from "@headlessui/react";
 import HomeTabItem from "./HomeTabItem";
-import { getAvailableResidencesByFloor } from "../../residences/Data";
+import { getAvailableResidencesByFloor } from "../../residences_old/Data";
 
 export default function HomeTab() {
   const lowerGroundFloorAvailable =
