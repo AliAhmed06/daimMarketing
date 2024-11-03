@@ -32,24 +32,22 @@ const AddDsaEvent = () => {
           },
           method: "POST",
           body: JSON.stringify({
-            eventUrl: eventUrl
+            eventUrl: eventUrl,
           }),
         }
       );
       res = await res.json();
-      console.log(res);
-      // console.log(res);
       if (res.success === false) {
         toast.error(res.error);
       } else {
         toast.success(res.message);
-        router.push("/admin/dsa-events");        
+        router.push("/admin/dsa-events");
       }
     } catch (error) {
     } finally {
       setLoading(false);
       setEventUrl("");
-    }    
+    }
   };
 
   return (

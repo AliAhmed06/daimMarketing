@@ -19,7 +19,7 @@ import { useState } from "react";
 import { LOGIN_USER_API } from "@/lib/apiEndPoints";
 import { toast } from "react-toastify";
 import { getCookie, setCookie } from "cookies-next";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 
 const formSchema = z.object({
   cnic: z
@@ -36,7 +36,6 @@ const formSchema = z.object({
 function LoginForm() {
   const [loading, setLoading] = useState(false);
   // 1. Define your form.
-  // console.log(getCookie("logged-in-user"));
   const form = useForm({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -46,6 +45,7 @@ function LoginForm() {
   });
 
   const router = useRouter();
+  const searchParams = useSearchParams();
 
   // 2. Define a submit handler.
   async function onSubmit(values) {
@@ -64,7 +64,8 @@ function LoginForm() {
       if (response.status === 200) {
         toast.success(res.message);
         setCookie("logged-in-user", res.user);
-        router.push("/dayim-signature-apartments/residences2");
+
+        router.push("/");
       } else {
         toast.error(res.message);
       }

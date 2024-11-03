@@ -14,8 +14,6 @@ const HomeImageItem2 = () => {
   const fifthFloorAvailable = getAvailableResidencesByFloor("5th Floor");
   const sixthFloorAvailable = getAvailableResidencesByFloor("6th Floor");
 
-  console.log(firstFloorAvailable);
-
   const handleMouseOver = (id) => {
     const highlightArea = document.getElementById(`highlight-${id}`);
     highlightArea.classList.remove("hidden");

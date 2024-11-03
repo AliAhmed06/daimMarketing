@@ -27,26 +27,6 @@ function Sidebar() {
   const pathname = usePathname();
 
   const logoutHandler = async () => {
-    // try {
-    //   let res = await fetch(
-    //     `${process.env.NEXT_PUBLIC_DOMAIN_NAME}/api/logout`,
-    //     {
-    //       headers: {
-    //         "Content-type": "application/json",
-    //       },
-    //       method: "GET",
-    //     }
-    //   );
-    //   res = await res.json();
-    //   if (res.success === false) {
-    //     console.log(res.error);
-    //   } else {
-    //     router.push("/auth/login");
-    //   }
-    // } catch (error) {
-    //   console.log(error);
-    // }
-
     try {
       setLoading(true);
 

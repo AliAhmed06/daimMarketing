@@ -17,7 +17,7 @@ const LoginPage = () => {
       if (searchParams.get("name") == "dsa") {
         router.push("/dayim-signature-apartments/residences");
       } else {
-        router.push("/dayim-living");
+        router.push("/dayim-living/residences");
       }
     }
   }, []);

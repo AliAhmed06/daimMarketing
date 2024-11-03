@@ -4,7 +4,6 @@ import useLoaderStore from "@/stores/loaderStore";
 import { useRouter } from "next/navigation";
 import { toast } from "react-toastify";
 
-
 const TableRowItem = ({ event }) => {
   const router = useRouter();
   const setLoading = useLoaderStore((state) => state.setLoading);
@@ -19,12 +18,10 @@ const TableRowItem = ({ event }) => {
           headers: {
             "Content-type": "application/json",
           },
-          method: "DELETE",          
+          method: "DELETE",
         }
       );
       res = await res.json();
-      // console.log(res);
-      // console.log(res);
       if (res.success === false) {
         toast.error(res.error);
       } else {
@@ -42,7 +39,10 @@ const TableRowItem = ({ event }) => {
       <td className="p-2">{event?.eventUrl}</td>
       <td className="p-2">
         {" "}
-        <button className="text-red cursor-pointer" onClick={() => deleteHandler(event?._id)}>
+        <button
+          className="text-red cursor-pointer"
+          onClick={() => deleteHandler(event?._id)}
+        >
           Delete
         </button>{" "}
       </td>

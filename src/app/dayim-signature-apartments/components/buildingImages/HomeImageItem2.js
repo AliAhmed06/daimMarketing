@@ -11,7 +11,6 @@ const HomeImageItem2 = () => {
   }
 
   const residences = data?.filter((item) => item.name === "DSA") || [];
-  console.log(residences);
   function getAvailableResidencesByFloor(floor) {
     return residences.filter(
       (item) => item.floor === floor && item.sold == "No"
@@ -27,8 +26,6 @@ const HomeImageItem2 = () => {
   const fourthFloorAvailable = getAvailableResidencesByFloor("4th");
   const fifthFloorAvailable = getAvailableResidencesByFloor("5th");
   const sixthFloorAvailable = getAvailableResidencesByFloor("6th");
-
-  console.log(firstFloorAvailable);
 
   const handleMouseOver = (id) => {
     const highlightArea = document.getElementById(`highlight-${id}`);

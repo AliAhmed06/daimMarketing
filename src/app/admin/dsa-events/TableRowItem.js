@@ -22,8 +22,6 @@ const TableRowItem = ({ event }) => {
         }
       );
       res = await res.json();
-      // console.log(res);
-      // console.log(res);
       if (res.success === false) {
         toast.error(res.error);
       } else {

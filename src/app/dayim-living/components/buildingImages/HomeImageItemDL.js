@@ -13,7 +13,6 @@ const HomeImageItemDL = () => {
   }
 
   const residences = data?.filter((item) => item.name === "DSA") || [];
-  console.log(residences);
   function getAvailableResidencesByFloor(floor) {
     return residences.filter(
       (item) => item.floor === floor && item.sold == "No"

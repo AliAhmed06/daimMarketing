@@ -84,7 +84,6 @@ function Contact() {
         toast.error("Something went Wrong");
       }
     } catch (error) {
-      console.error(error);
       toast.error("Something went Wrong");
     } finally {
       setLoading(false);

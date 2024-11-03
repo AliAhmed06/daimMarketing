@@ -39,7 +39,6 @@ const EventsPage = () => {
     getAllEvents();
   }, []);
 
-  // console.log(events);
   return (
     <div>
       <NavBar videoBg={false} />

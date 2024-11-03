@@ -16,13 +16,11 @@ const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
 function Residences() {
   const { data, error, isLoading } = useSWR(GET_ALL_PROPERTIES_API, fetcher);
-  // console.log(data);
   if (error) {
     return <h2>failed to load</h2>;
   }
 
   const residences = data?.filter((item) => item.name === "DSA") || [];
-  // console.log(residences);
   function getResidenceByFloor(floorName) {
     return residences?.filter((residence) => residence.floor === floorName);
   }

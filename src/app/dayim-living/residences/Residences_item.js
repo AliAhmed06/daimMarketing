@@ -98,8 +98,6 @@ function Residences_item({
         formData.append("payment", type);
         formData.append("user_id", user?.id);
 
-        // console.log(file);
-
         const response = await fetch(User_Payment_API, {
           method: "POST",
           headers: {
