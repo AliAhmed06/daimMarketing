@@ -48,14 +48,18 @@ function Home() {
                       md:h-[500px] lg:h-screen"
       >
         <div className="absolute top-0 h-full w-full bg-[rgba(0,0,0,0.5)]"></div>
-        <video
+        {/* <video
           src="/videos/dsa/building_clip3_2.mp4"
           autoPlay
           loop
           muted
           className="h-full w-full object-cover"
+        /> */}
+        <img
+          src="/images/dayim_living/f1.jpeg"
+          alt=""
+          className="h-full w-full object-top"
         />
-
         <div
           className="absolute flex items-center top-0 h-full w-full px-[5%] z-10
                         md:pl-[15%]"
@@ -172,9 +176,8 @@ function Home() {
             className="text-second text-2xl w-[90%] font-semibold leading-normal drop-shadow-md  
                         lg:text-4xl lg:w-[60%] lg:ml-[-180px] lg:text-justify"
           >
-            DAYIM LIVING is the best residential project in Pakistan. It
-            combines modern lifestyle and urban dynamics with the views of
-            nature.
+            DAYIM LIVING is the best residential project in Lahore. It combines
+            modern lifestyle and urban dynamics with the views of nature.
           </p>
         </motion.div>
       </section>
@@ -214,6 +217,16 @@ function Home() {
               of contemporary design and traditional values. With flexible
               installment plans available, securing your ideal home and creating
               new beginnings for you and your loved ones has never been easier.
+              <br />
+              Dayim Living offers one of the best return on investments (ROI) in
+              the real estate market. Known for its strategic locations, premium
+              amenities, and quality construction, Dayim Living attracts both
+              investors and residents, ensuring high demand and strong property
+              appreciation. The project is designed to maximize profitability,
+              whether through rental income or long-term value growth. Dayim
+              Marketing’s expertise in market insights and project management
+              further enhances the ROI, making Dayim Living a top choice for
+              those seeking reliable and lucrative real estate investments
             </p>
             <div className="flex w-full items-center justify-between">
               <Link
@@ -385,8 +398,8 @@ function Home() {
 
             <div className="flex flex-col items-center justify-center gap-2">
               <img src="/images/dsa/fl3.PNG" className="h-[130px]" />
-              <h3 className="font-bold text-xl">RoofTop CAFE</h3>
-              <p className="text-center">RoofTop CAFE & BBQ For Residents</p>
+              <h3 className="font-bold text-xl">Wifi Services</h3>
+              <p className="text-center">Wifi Services For Residents</p>
             </div>
 
             <div className="flex flex-col items-center justify-center gap-2">

@@ -3,17 +3,23 @@ import { Fragment } from "react";
 import { Tab } from "@headlessui/react";
 import HomeTabItem from "./HomeTabItem";
 import { getAvailableResidencesByFloor } from "../../residences/Data";
+import useSWR from "swr";
+import { GET_ALL_PROPERTIES_API } from "@/lib/apiEndPoints";
+
+const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
 export default function HomeTabDL() {
-  const lowerGroundFloorAvailable =
-    getAvailableResidencesByFloor("Lower Ground Floor");
-  const groundFloorAvailable = getAvailableResidencesByFloor("Ground Floor");
-  const firstFloorAvailable = getAvailableResidencesByFloor("1st Floor");
-  const secondFloorAvailable = getAvailableResidencesByFloor("2nd Floor");
-  const thirdFloorAvailable = getAvailableResidencesByFloor("3rd Floor");
-  const fourthFloorAvailable = getAvailableResidencesByFloor("4th Floor");
-  const fifthFloorAvailable = getAvailableResidencesByFloor("5th Floor");
-  const sixthFloorAvailable = getAvailableResidencesByFloor("6th Floor");
+  const { data, error, isLoading } = useSWR(GET_ALL_PROPERTIES_API, fetcher);
+  if (error) {
+    return <h2>failed to load</h2>;
+  }
+  const residences = data?.filter((item) => item.name === "Dayim Living") || [];
+  function getAvailableResidences() {
+    return residences.filter((item) => item.sold == "No").length;
+  }
+
+  const availableUnits = getAvailableResidences();
+
   return (
     <Tab.Group>
       <Tab.List className="text-center text-xl px-10">
@@ -37,9 +43,9 @@ export default function HomeTabDL() {
         <Tab.Panel>
           <HomeTabItem
             image="/images/dayim_living/floor_plan.png"
-            size="202"
+            size="295"
             availableUnits="#"
-            freeUnits={`${lowerGroundFloorAvailable} Shops/Offices Available`}
+            freeUnits={`${availableUnits} Apartments Available`}
           />
         </Tab.Panel>
       </Tab.Panels>

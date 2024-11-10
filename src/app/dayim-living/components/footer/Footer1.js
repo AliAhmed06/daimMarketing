@@ -158,10 +158,10 @@ function Footer1() {
             className="text-2xl font-bold
                                 md:text-4xl hover:scale-110 transition"
           >
-            Would you like to live in Dayim Signature Apartments?
+            Would you like to live in Dayim Living Apartments?
           </h3>
           <Link
-            href="/dayim-signature-apartments/contact"
+            href="/dayim-living/contact"
             className="mt-10 py-4 px-8 border-2 border-white hover:scale-110 transition"
           >
             I&apos;m interested

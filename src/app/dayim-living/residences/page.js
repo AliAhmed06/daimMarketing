@@ -25,14 +25,11 @@ function Residences() {
     return residences?.filter((residence) => residence.floor === floorName);
   }
 
-  const lowerGroundFloor = getResidenceByFloor("Lower Ground");
-  const groundFloor = getResidenceByFloor("Ground");
   const firstFloor = getResidenceByFloor("1st");
   const secondFloor = getResidenceByFloor("2nd");
   const thirdFloor = getResidenceByFloor("3rd");
   const fourthFloor = getResidenceByFloor("4th");
   const fifthFloor = getResidenceByFloor("5th");
-  const sixthFloor = getResidenceByFloor("6th");
 
   return (
     <div className="mt-[120px]">
@@ -47,52 +44,6 @@ function Residences() {
           className="py-5 px-10
                        lg:px-32"
         >
-          <h3 className="font-bold text-second text-4xl mt-10" id="shops">
-            Lower Ground Floor
-          </h3>
-          <div
-            className="py-5 grid grid-cols-1 gap-5
-                        md:grid-cols-2 lg:grid-cols-4 "
-          >
-            {lowerGroundFloor.map((i) => (
-              <Residences_item
-                key={i.id}
-                id={i.id}
-                sold={i.sold}
-                title={i.title}
-                number={i.number}
-                type={i.type}
-                size={i.size}
-                image={i.image}
-                floor={i.floor}
-                purchased_by={i.purchased_by}
-              />
-            ))}
-          </div>
-
-          <h3 className="font-bold text-second text-4xl mt-10" id="shops">
-            Ground Floor
-          </h3>
-          <div
-            className="py-5 grid grid-cols-1 gap-5
-                        md:grid-cols-2 lg:grid-cols-4 "
-          >
-            {groundFloor.map((i) => (
-              <Residences_item
-                key={i.id}
-                id={i.id}
-                sold={i.sold}
-                title={i.title}
-                number={i.number}
-                type={i.type}
-                size={i.size}
-                image={i.image}
-                floor={i.floor}
-                purchased_by={i.purchased_by}
-              />
-            ))}
-          </div>
-
           <h3 className="font-bold text-second text-4xl mt-10" id="shops">
             First Floor
           </h3>
