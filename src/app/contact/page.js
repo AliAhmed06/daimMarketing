@@ -119,10 +119,9 @@ function Contact() {
           >
             <h3 className="font-bold text-lg">Head Office:</h3>
             <p className="text-sm">
-              66-B, 3/F Main Commercial Sector C, Bahria Town, Lahore.
+              9-A, 1st/F Main Commercial, Al-Kabir Town Phase 2, Lahore
             </p>
             <p className="text-sm">+92-308-511-117-6</p>
-            <p className="text-sm">+92-423-597-617-4</p>
             <Link
               href="https://goo.gl/maps/1oTpsiotRN4JZEvC8"
               target="_blank"
@@ -158,11 +157,27 @@ function Contact() {
             </Link>
 
             <h3 className="font-bold text-lg mt-5">Project Site:</h3>
+            <span className="text-sm font-bold">
+              (Dayim Signature Apartments)
+            </span>
             <p className="text-sm">
               45-46-47, A Side Broadway Commercial Opposite Lake City, Lahore.
             </p>
             <Link
               href="https://goo.gl/maps/nukZwWqvtZKfJ3y5A"
+              target="_blank"
+              className="text-second underline hover:text-third"
+            >
+              view map
+            </Link>
+
+            <span className="text-sm font-bold">(Dayim Living)</span>
+            <p className="text-sm">
+              Plot 22 Block C, Commercial Area Al-Kabir Town, Raiwind Rd, Phase
+              2 Lahore.
+            </p>
+            <Link
+              href="https://maps.app.goo.gl/nxKu3u7UPPhV6iJQA"
               target="_blank"
               className="text-second underline hover:text-third"
             >

@@ -52,7 +52,7 @@ function NavBar({ videoBg }) {
                 <img
                   src="/images/dayim_living/logo.png"
                   alt=""
-                  className="h-[70px] pl-5 "
+                  className="h-[70px] pl-14 "
                 />
               </Link>
               {/* HAMBURGER BUTTON FOR MOBILE */}

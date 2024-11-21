@@ -191,7 +191,7 @@ const ContactInfo = () => (
   <div className="w-[90%] bg-fifth p-16 flex flex-col font-semibold text-lg lg:w-[30%]">
     <h3 className="font-bold text-lg">Head Office:</h3>
     <p className="text-sm">
-      66-B, 3/F Main Commercial Sector C, Bahria Town, Lahore.
+      9-A, 1st/F Main Commercial, Al-Kabir Town Phase 2, Lahore
     </p>
     <p className="text-sm">+92-308-511-117-6</p>
     <p className="text-sm">+92-423-597-617-4</p>
@@ -209,16 +209,6 @@ const ContactInfo = () => (
     <p className="text-sm">+92-309-511-117-6</p>
     <Link
       href="https://goo.gl/maps/2eyWmxmZH1FS8bFg8"
-      target="_blank"
-      className="text-second underline hover:text-third"
-    >
-      view map
-    </Link>
-    <h3 className="font-bold text-lg mt-5">US Office:</h3>
-    <p className="text-sm">Suite # 368, 30 Lake Avenue Riverhead, NY, 11901.</p>
-    <p className="text-sm">+1(718)715-8208</p>
-    <Link
-      href="https://goo.gl/maps/22Fung9LQ8khjRhq8"
       target="_blank"
       className="text-second underline hover:text-third"
     >

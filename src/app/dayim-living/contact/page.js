@@ -191,10 +191,9 @@ const ContactInfo = () => (
   <div className="w-[90%] bg-fifth p-16 flex flex-col font-semibold text-lg lg:w-[30%]">
     <h3 className="font-bold text-lg">Head Office:</h3>
     <p className="text-sm">
-      Plot 22 Block C, Commercial Area Al-Kabir Town, Raiwind Rd, Phase 2
-      Lahore, 54000
+      9-A, 1st/F Main Commercial, Al-Kabir Town Phase 2, Lahore
     </p>
-    <p className="text-sm">+92-309-511-117-6</p>
+    <p className="text-sm">+92-308-5111176</p>
     <Link
       href="https://goo.gl/maps/2eyWmxmZH1FS8bFg8"
       target="_blank"
@@ -204,7 +203,8 @@ const ContactInfo = () => (
     </Link>
     <h3 className="font-bold text-lg mt-5">Project Site:</h3>
     <p className="text-sm">
-      45-46-47, A Side Broadway Commercial Opposite Lake City, Lahore.
+      Plot 22 Block C, Commercial Area Al-Kabir Town, Raiwind Rd, Phase 2
+      Lahore.
     </p>
     <Link
       href="https://goo.gl/maps/nukZwWqvtZKfJ3y5A"
