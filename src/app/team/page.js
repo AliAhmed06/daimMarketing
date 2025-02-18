@@ -30,14 +30,14 @@ function Contact() {
       <section className="my-[50px] mt-[150px] ">
         <h2 className="text-center font-bold text-4xl my-7">Our Team</h2>
         <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-7">
-          <TeamItem
+          {/* <TeamItem
             image={"/images/dayimMarketing/agents/AghaUsmanAhmed.jpg"}
             name={"Mr. Agha Usman Ahmed"}
             designation={"Social Media Head/Host"}
             mobile={"+923028460544"}
             email={"usmanahmad1105@gmail.com"}
             listingsLink={"#"}
-          />
+          /> */}
 
           <TeamItem
             image={"/images/dayimMarketing/agents/AliZark.jpg"}
@@ -146,15 +146,15 @@ function Contact() {
                   listingsLink={"#"}
                 /> */}
 
-          <TeamItem
-            // image={"/images/dayimMarketing/agents/RidaNasir.jpg"}
+          {/* <TeamItem
+            image={"/images/dayimMarketing/agents/RidaNasir.jpg"}
             name={"Ms. Shafaq Azhar"}
             designation={"Sales Associate"}
             mobile={"+923055555423"}
             email={"shafaqdayim96@gmail.com"}
-            // office={"Al Kabir Town Office"}
+            office={"Al Kabir Town Office"}
             listingsLink={"#"}
-          />
+          /> */}
         </div>
       </section>
 

@@ -52,13 +52,13 @@ export default function HomeSlider2() {
             />
           </SwiperSlide>
 
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <HomeSlider2Item
               image={"/images/dayimMarketing/agents/AghaUsmanAhmed.jpg"}
               name={"Agha Usman Ahmed"}
               designation={"Social Media Head/Host"}
             />
-          </SwiperSlide>
+          </SwiperSlide> */}
 
           <SwiperSlide>
             <HomeSlider2Item

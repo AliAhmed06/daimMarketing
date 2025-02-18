@@ -34,7 +34,52 @@ export default function HomeTabDL() {
                 }
               `}
             >
+              Ground Floor
+            </button>
+          )}
+        </Tab>
+        <Tab as={Fragment} className="outline-none h-full mt-2 w-[220px] pb-5 ">
+          {({ selected }) => (
+            <button
+              className={`
+                border-b-2 ${
+                  selected
+                    ? "text-second  border-second "
+                    : "bg-white text-black border-gray"
+                }
+              `}
+            >
               1st to 5th Floor
+            </button>
+          )}
+        </Tab>
+        <Tab as={Fragment} className="outline-none h-full mt-2 w-[220px] pb-5 ">
+          {({ selected }) => (
+            <button
+              className={`
+                border-b-2 ${
+                  selected
+                    ? "text-second  border-second "
+                    : "bg-white text-black border-gray"
+                }
+              `}
+            >
+              Single Plan Office
+            </button>
+          )}
+        </Tab>
+        <Tab as={Fragment} className="outline-none h-full mt-2 w-[220px] pb-5 ">
+          {({ selected }) => (
+            <button
+              className={`
+                border-b-2 ${
+                  selected
+                    ? "text-second  border-second "
+                    : "bg-white text-black border-gray"
+                }
+              `}
+            >
+              Single Plan Apartment
             </button>
           )}
         </Tab>
@@ -46,6 +91,30 @@ export default function HomeTabDL() {
             size="295"
             availableUnits="#"
             freeUnits={`${availableUnits} Apartments Available`}
+          />
+        </Tab.Panel>
+        <Tab.Panel>
+          <HomeTabItem
+            image="/images/dayim_living/floor_plan.png"
+            size="295"
+            availableUnits="#"
+            freeUnits={`${availableUnits} Apartments Available`}
+          />
+        </Tab.Panel>
+        <Tab.Panel>
+          <HomeTabItem
+            image="/images/dayim_living/single-plan-office.png"
+            size="295"
+            availableUnits="#"
+            freeUnits={``}
+          />
+        </Tab.Panel>
+        <Tab.Panel>
+          <HomeTabItem
+            image="/images/dayim_living/Single-plan-apartment.png"
+            size="295"
+            availableUnits="#"
+            freeUnits={``}
           />
         </Tab.Panel>
       </Tab.Panels>
