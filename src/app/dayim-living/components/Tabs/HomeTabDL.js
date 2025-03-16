@@ -14,11 +14,17 @@ export default function HomeTabDL() {
     return <h2>failed to load</h2>;
   }
   const residences = data?.filter((item) => item.name === "Dayim Living") || [];
-  function getAvailableResidences() {
-    return residences.filter((item) => item.sold == "No").length;
-  }
 
-  const availableUnits = getAvailableResidences();
+  const availableUnits = residences.filter((item) => item.sold == "No").length;
+  const availableUnitsGround = residences.filter(
+    (item) => item.sold == "No" && item.floor === "Ground"
+  ).length;
+  const availableUnitsOthers = residences.filter(
+    (item) => item.sold == "No" && item.floor !== "Ground"
+  ).length;
+
+  console.log(availableUnitsGround);
+  console.log(availableUnitsOthers);
 
   return (
     <Tab.Group>
@@ -53,68 +59,22 @@ export default function HomeTabDL() {
             </button>
           )}
         </Tab>
-        <Tab as={Fragment} className="outline-none h-full mt-2 w-[220px] pb-5 ">
-          {({ selected }) => (
-            <button
-              className={`
-                border-b-2 ${
-                  selected
-                    ? "text-second  border-second "
-                    : "bg-white text-black border-gray"
-                }
-              `}
-            >
-              Single Plan Office
-            </button>
-          )}
-        </Tab>
-        <Tab as={Fragment} className="outline-none h-full mt-2 w-[220px] pb-5 ">
-          {({ selected }) => (
-            <button
-              className={`
-                border-b-2 ${
-                  selected
-                    ? "text-second  border-second "
-                    : "bg-white text-black border-gray"
-                }
-              `}
-            >
-              Single Plan Apartment
-            </button>
-          )}
-        </Tab>
       </Tab.List>
       <Tab.Panels>
         <Tab.Panel>
           <HomeTabItem
-            image="/images/dayim_living/floor_plan.png"
-            size="295"
-            availableUnits="#"
-            freeUnits={`${availableUnits} Apartments Available`}
-          />
-        </Tab.Panel>
-        <Tab.Panel>
-          <HomeTabItem
-            image="/images/dayim_living/floor_plan.png"
-            size="295"
-            availableUnits="#"
-            freeUnits={`${availableUnits} Apartments Available`}
-          />
-        </Tab.Panel>
-        <Tab.Panel>
-          <HomeTabItem
             image="/images/dayim_living/single-plan-office.png"
-            size="295"
+            size="784"
             availableUnits="#"
-            freeUnits={``}
+            freeUnits={`${availableUnitsGround} Offices Available`}
           />
         </Tab.Panel>
         <Tab.Panel>
           <HomeTabItem
             image="/images/dayim_living/Single-plan-apartment.png"
-            size="295"
+            size="268"
             availableUnits="#"
-            freeUnits={``}
+            freeUnits={`${availableUnitsOthers} Apartments Available`}
           />
         </Tab.Panel>
       </Tab.Panels>

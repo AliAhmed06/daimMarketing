@@ -14,8 +14,8 @@ import "swiper/css/navigation";
 // import required modules
 import { Pagination, Navigation } from "swiper";
 import Link from "next/link";
-import residence_types from "@/app/dayim-signature-apartments/vr/Data";
 import Image from "next/image";
+import residence_types from "@/app/dayim-living/vr/Data";
 
 export default function VRSLider1() {
   const [myIndex, setMyIndex] = useState(0);

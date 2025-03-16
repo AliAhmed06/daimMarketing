@@ -50,7 +50,7 @@ export default function HomeSlider4DL() {
           <SwiperSlide>
             <div className="w-[100%] h-full">
               <img
-                src="/images/dayim_living/f1.jpeg"
+                src="/images/dayim_living/img5.jpg"
                 alt=""
                 className="w-[100%] h-[500px] object-cover"
               />
@@ -60,7 +60,7 @@ export default function HomeSlider4DL() {
           <SwiperSlide>
             <div className="w-[100%]">
               <img
-                src="/images/dayim_living/f2.jpeg"
+                src="/images/dayim_living/img3.jpg"
                 alt=""
                 className="w-[100%] h-[500px] object-cover"
               />
@@ -70,7 +70,7 @@ export default function HomeSlider4DL() {
           <SwiperSlide>
             <div className="w-[100%]">
               <img
-                src="/images/dayim_living/f3.jpeg"
+                src="/images/dayim_living/img4.jpg"
                 alt=""
                 className="w-[100%] h-[500px] object-cover"
               />

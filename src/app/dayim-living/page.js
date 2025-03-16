@@ -55,10 +55,12 @@ function Home() {
           muted
           className="h-full w-full object-cover"
         /> */}
-        <img
-          src="/images/dayim_living/f1.jpeg"
-          alt=""
-          className="h-full w-full object-top"
+        <video
+          src="/videos/dl/video1.mp4"
+          autoPlay
+          loop
+          muted
+          className="h-full w-full object-cover"
         />
         <div
           className="absolute flex items-center top-0 h-full w-full px-[5%] z-10
@@ -194,7 +196,7 @@ function Home() {
                         md:px-[120px] md:h-[650px]"
         >
           <img
-            src="/images/dayim_living/f1.jpeg"
+            src="/images/dayim_living/img1.jpg"
             className="w-full h-full shadow-xl object-cover"
             alt=""
           />
@@ -224,13 +226,14 @@ function Home() {
               investors and residents, ensuring high demand and strong property
               appreciation. The project is designed to maximize profitability,
               whether through rental income or long-term value growth. Dayim
-              Marketing’s expertise in market insights and project management
-              further enhances the ROI, making Dayim Living a top choice for
-              those seeking reliable and lucrative real estate investments
+              Marketing&apos;s expertise in market insights and project
+              management further enhances the ROI, making Dayim Living a top
+              choice for those seeking reliable and lucrative real estate
+              investments
             </p>
             <div className="flex w-full items-center justify-between">
               <Link
-                href="/payment_plans/DL/plan2.pdf"
+                href="/payment_plans/DL/plan3.pdf"
                 target="_blank"
                 className="flex items-center justify-center border-2 border-gray py-3 w-[250px] my-5 hover:scale-110 transition"
               >
@@ -252,7 +255,7 @@ function Home() {
             className="mt-32 hidden w-[90%]
                           lg:inline-block"
           >
-            <img src="/images/dayim_living/f2.jpeg" alt="" />
+            <img src="/images/dayim_living/img2.jpg" alt="" />
           </motion.div>
         </div>
       </section>
