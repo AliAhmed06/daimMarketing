@@ -106,15 +106,15 @@ function Contact() {
             listingsLink={"#"}
           />
 
-          <TeamItem
-            // image={"/images/dayimMarketing/agents/HamzaTayyab.jpg"}
+          {/* <TeamItem
+            image={"/images/dayimMarketing/agents/HamzaTayyab.jpg"}
             name={"Ms. Hina Ashraf"}
             designation={"Business Development Manager"}
             mobile={"+923095111175"}
             email={"hina.dayim@gmail.com"}
-            // office={"Al Kabir Town Office"}
+            office={"Al Kabir Town Office"}
             listingsLink={"#"}
-          />
+          /> */}
 
           {/* <TeamItem
             image={"/images/dayimMarketing/agents/YusraAsif.jpg"}
