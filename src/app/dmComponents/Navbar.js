@@ -243,12 +243,12 @@ function NavBar({ videoBg }) {
                     >
                       Bahria Town
                     </Link>
-                    <Link
+                    {/* <Link
                       href="/societies/park-view-city"
                       className="text-xs  bg-white w-full h-[50px] flex items-center px-2 hover:bg-second hover:text-white border-b border-gray"
                     >
                       Park View City
-                    </Link>
+                    </Link> */}
                   </div>
                 </li>
 

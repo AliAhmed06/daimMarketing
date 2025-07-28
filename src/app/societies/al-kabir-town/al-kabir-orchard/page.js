@@ -5,7 +5,7 @@ import MainFooter from "@/app/dmComponents/footer/MainFooter";
 import { motion } from "framer-motion";
 
 import Link from "next/link";
-import AmenitiesItem from "../../park-view-city/AmenitiesItem";
+import AmenitiesItem from "../../park-view-city2/AmenitiesItem";
 import TextSlider from "@/app/dmComponents/sliders/TextSlider";
 import BoxItem from "@/app/dmComponents/BoxItem";
 import ImageGallery from "@/app/dmComponents/ImageGallery";
